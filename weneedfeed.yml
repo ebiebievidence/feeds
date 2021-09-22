@@ -1,0 +1,11 @@
+pages:
+  - id: ietfdrafts
+    title: IETF Internet Drafts
+    description: IETF Internet Drafts
+    url: https://datatracker.ietf.org/doc/recent
+    item_selector: //*[@id="content"]/table/tbody[2]/tr
+    item_description_selector: 'b'
+    item_link_selector: 'a'
+    item_time_selector: 'td[3]/span/a'
+    item_title_selector: 'td.doc a:nth-child(1)'
+
