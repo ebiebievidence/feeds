@@ -15,8 +15,10 @@ jobs:
       - uses: actions/checkout@v2
       - name: cat /etc/ssl/openssl.cnf
         run: cat /etc/ssl/openssl.cnf
-      - name: Downgrade SECLEVEL
-        run: sudo sed -i 's/DEFAULT@SECLEVEL=2/DEFAULT@SECLEVEL=1/' /etc/ssl/openssl.cnf
+      - name: Overwrite openssl.cnf
+        run: sudo cp .github/misc/openssl.cnf /etc/ssl/openssl.cnf
+      - name: Apply openssl.cnf
+        run: echo 'OPENSSL_CONF=/etc/ssl/openssl.cnf' >> $GITHUB_ENV
       - uses: r7kamura/weneedfeed-action@v3
         with:
           base_url: https://ebiebievidence.github.io/feeds
