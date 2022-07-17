@@ -26,12 +26,4 @@ pages:
     item_link_selector: dd > p > a
     item_time_selector: .date
     item_title_selector: dd > p > a
-  - id: artscape
-    title: artscape
-    description: artscape
-    url: https://artscape.jp/exhibition/pickup/index.html
-    item_selector: "#tokyo + div .exhiInfo"
-    item_description_selector: .headH3D
-    item_link_selector: .headH3D a
-    item_time_selector: .exhiDate
-    item_title_selector: .headH3D
+ 
