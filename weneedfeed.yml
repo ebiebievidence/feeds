@@ -4,10 +4,10 @@ pages:
     description: IETF Internet Drafts
     url: https://datatracker.ietf.org/doc/recent
     item_selector: //*[@id="content"]/table/tbody[2]/tr
-    item_description_selector: '.status'
-    item_link_selector: 'a'
-    item_time_selector: 'td[3]/span'
-    item_title_selector: 'b'
+    item_description_selector: ".status"
+    item_link_selector: "a"
+    item_time_selector: "td[3]/span"
+    item_title_selector: "b"
   - id: syrup16g
     title: syrup16g
     description: syrup16g news
@@ -17,3 +17,21 @@ pages:
     item_link_selector: dd > p > a
     item_time_selector: .date
     item_title_selector: dd > p > a
+  - id: pitb
+    title: People in the box
+    description: PITB news
+    url: https://skream.jp/news/p/people_in_the_box/
+    item_selector: /html/body/div[6]/div[1]/div/dl
+    item_description_selector: dd > p > a
+    item_link_selector: dd > p > a
+    item_time_selector: .date
+    item_title_selector: dd > p > a
+  - id: artscape
+    title: artscape
+    description: artscape
+    url: https://artscape.jp/exhibition/pickup/index.html
+    item_selector: "#tokyo + div .exhiInfo"
+    item_description_selector: .headH3D
+    item_link_selector: .headH3D a
+    item_time_selector: .exhiDate
+    item_title_selector: .headH3D
