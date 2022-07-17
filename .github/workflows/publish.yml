@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Downgrade SECLEVEL
+        run: sed -i 's/DEFAULT@SECLEVEL=2/DEFAULT@SECLEVEL=1/' /etc/ssl/openssl.cnf
       - uses: r7kamura/weneedfeed-action@v3
         with:
           base_url: https://ebiebievidence.github.io/feeds
