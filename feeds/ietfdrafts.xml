@@ -7,11 +7,279 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Wed, 10 Aug 2022 02:13:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Aug 2022 02:23:35 +0000</lastBuildDate>
     
     <item>
-      <title><![CDATA[MPLS Post-Stack Extension Header]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-song-mpls-extension-header/</link>
+      <title><![CDATA[The Use of maxLength in the RPKI]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-sidrops-rpkimaxlen/</link>
+      
+      <description><![CDATA[
+    
+        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-sidrops-rpkimaxlen">
+<a href="/doc/draft-ietf-sidrops-rpkimaxlen/ballotpopup/872852/" data-bs-toggle="modal" data-bs-target="#modal-872852" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-yes"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-872852" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl"><div class="modal-content"></div></div></div>
+</div>
+    
+    
+        
+            IESG Evaluation
+        
+        
+        
+        <span class="badge bg-warning" title="In state for 15 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 15</span>
+        
+            <br>
+            IESG telechat: 2022-08-11
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Best Current Practice
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="RTGDIR Last Call review of draft-ietf-sidrops-rpkimaxlen-12: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-rpkimaxlen-11-rtgdir-lc-lindem-2022-07-13/">
+                        rtgdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-sidrops-rpkimaxlen-12: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-rpkimaxlen-12-secdir-lc-turner-2022-08-09/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART Last Call review of draft-ietf-sidrops-rpkimaxlen-11: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-rpkimaxlen-11-artart-lc-mahoney-2022-07-20/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-sidrops-rpkimaxlen-11: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-rpkimaxlen-11-genart-lc-even-2022-07-13/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2022-07-20" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-sidrops-rpkimaxlen/reviewrequest/16096/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/warren@kumari.net">Warren "Ace" Kumari</a> <a href="mailto:warren%40kumari.net" aria-label="Compose email to warren@kumari.net." title="Compose email to warren@kumari.net.">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-sidrops-rpkimaxlen">
+<a href="/doc/draft-ietf-sidrops-rpkimaxlen/ballotpopup/872852/" data-bs-toggle="modal" data-bs-target="#modal-872852" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-yes"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-872852" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl"><div class="modal-content"></div></div></div>
+</div>
+    
+    
+        
+            IESG Evaluation
+        
+        
+        
+        <span class="badge bg-warning" title="In state for 15 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 15</span>
+        
+            <br>
+            IESG telechat: 2022-08-11
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Best Current Practice
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="RTGDIR Last Call review of draft-ietf-sidrops-rpkimaxlen-12: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-rpkimaxlen-11-rtgdir-lc-lindem-2022-07-13/">
+                        rtgdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-sidrops-rpkimaxlen-12: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-rpkimaxlen-12-secdir-lc-turner-2022-08-09/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART Last Call review of draft-ietf-sidrops-rpkimaxlen-11: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-rpkimaxlen-11-artart-lc-mahoney-2022-07-20/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-sidrops-rpkimaxlen-11: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-rpkimaxlen-11-genart-lc-even-2022-07-13/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2022-07-20" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-sidrops-rpkimaxlen/reviewrequest/16096/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/warren@kumari.net">Warren "Ace" Kumari</a> <a href="mailto:warren%40kumari.net" aria-label="Compose email to warren@kumari.net." title="Compose email to warren@kumari.net.">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-sidrops-rpkimaxlen/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[A Framework and Requirements for Energy Aware Control Planes]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-retana-rtgwg-eacp/</link>
       
       <description><![CDATA[
     
@@ -55,13 +323,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-song-mpls-extension-header/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-retana-rtgwg-eacp/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Canonical Format for RFCs]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-hoffman-rfc7990-updates/</link>
+      <title><![CDATA[EdDSA value for IPSECKEY]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-moskowitz-ipsecme-ipseckey-eddsa/</link>
       
       <description><![CDATA[
     
@@ -105,63 +373,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-hoffman-rfc7990-updates/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-moskowitz-ipsecme-ipseckey-eddsa/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[RFC Format Framework As Implemented]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-hoffman-rfc-format-framework-as-implemented/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-hoffman-rfc-format-framework-as-implemented/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Verifiable Random Functions (VRFs)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-irtf-cfrg-vrf/</link>
+      <title><![CDATA[Internet X.509 Public Key Infrastructure -- HTTP Transfer for the Certificate Management Protocol (CMP)]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-lamps-rfc6712bis/</link>
       
       <description><![CDATA[
     
@@ -179,7 +397,131 @@
         
             <br>
             
-                IRSG Review
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lamps-rfc6712bis/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Internet X.509 Public Key Infrastructure Certificate Management Protocol (CMP)]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-lamps-rfc4210bis/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lamps-rfc4210bis/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[IAB workshop report: Measuring Network Quality for End-Users]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-iab-mnqeu-report/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Active IAB Document
                 
                     :
                 
@@ -208,7 +550,7 @@
         
             <br>
             
-                IRSG Review
+                Active IAB Document
                 
                     :
                 
@@ -221,13 +563,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-irtf-cfrg-vrf/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-iab-mnqeu-report/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[YANG Data Model for IS-IS Segment Routing]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-isis-sr-yang/</link>
+      <title><![CDATA[OAuth 2.0 Demonstrating Proof-of-Possession at the Application Layer (DPoP)]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-oauth-dpop/</link>
       
       <description><![CDATA[
     
@@ -245,15 +587,16 @@
         
             <br>
             
-                WG Document
-                
-                    :
+                Waiting for WG Chair Go-Ahead
                 
             
         
-        Proposed Standard
         
         
+        
+        
+            <br>
+            <span title='Part of oauth milestone: Submit "OAuth 2.0 Proof-of-Posession at the Application Layer" to IESG' class="milestone">Jan 2022</span>
         
         
     
@@ -274,76 +617,27 @@
         
             <br>
             
-                WG Document
-                
-                    :
+                Waiting for WG Chair Go-Ahead
                 
             
         
-        Proposed Standard
         
         
+        
+        
+            <br>
+            <span title='Part of oauth milestone: Submit "OAuth 2.0 Proof-of-Posession at the Application Layer" to IESG' class="milestone">Jan 2022</span>
         
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-isis-sr-yang/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-oauth-dpop/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[IP Flow Information Export (IPFIX) Information Elements Extension for Forwarding Exceptions]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-mvmd-opsawg-ipfix-fwd-exceptions/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-mvmd-opsawg-ipfix-fwd-exceptions/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[A Concise Binary Object Representation (CBOR)-based Serialization Format for the Software Updates for Internet of Things (SUIT) Manifest]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-suit-manifest/</link>
+      <title><![CDATA[BGP Classful Transport Planes]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-classful-transport-planes/</link>
       
       <description><![CDATA[
     
@@ -399,13 +693,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-suit-manifest/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-classful-transport-planes/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Profiles for Traffic Engineering (TE) Topology Data Model and Applicability to non-TE Use Cases]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-busi-teas-te-topology-profiles/</link>
+      <title><![CDATA[EVPN BUM Using BIER]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-bier-evpn/</link>
       
       <description><![CDATA[
     
@@ -420,6 +714,12 @@
         
             
         
+        
+            <br>
+            
+                WG Document
+                
+            
         
         
         
@@ -442,55 +742,11 @@
             
         
         
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-busi-teas-te-topology-profiles/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[System-defined Configuration]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ma-netmod-with-system/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
+            <br>
             
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
+                WG Document
+                
             
-        
         
         
         
@@ -499,13 +755,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ma-netmod-with-system/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-bier-evpn/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[JMAP for Quotas]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-jmap-quotas/</link>
+      <title><![CDATA[Considerations for Assigning a new Recommended DiffServ Codepoint (DSCP)]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-tsvwg-dscp-considerations/</link>
       
       <description><![CDATA[
     
@@ -525,16 +781,14 @@
             
                 In WG Last Call
                 
-                    :
-                
             
         
-        Proposed Standard
+        
         
         
         
             <br>
-            <span title="Part of jmap milestone: Submit JMAP Quotas document to the IESG" class="milestone">Aug 2022</span>
+            <span title='Part of tsvwg milestone: Submit "Considerations for Assigning a new Recommended DSCP" as an Informational RFC' class="milestone">Dec 2022</span>
         
         
     
@@ -557,21 +811,19 @@
             
                 In WG Last Call
                 
-                    :
-                
             
         
-        Proposed Standard
+        
         
         
         
             <br>
-            <span title="Part of jmap milestone: Submit JMAP Quotas document to the IESG" class="milestone">Aug 2022</span>
+            <span title='Part of tsvwg milestone: Submit "Considerations for Assigning a new Recommended DSCP" as an Informational RFC' class="milestone">Dec 2022</span>
         
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-jmap-quotas/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-tsvwg-dscp-considerations/</guid>
       
     </item>
     
