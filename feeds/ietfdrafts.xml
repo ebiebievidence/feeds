@@ -7,667 +7,11 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Fri, 16 Dec 2022 01:45:14 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Dec 2022 01:45:04 +0000</lastBuildDate>
     
     <item>
-      <title><![CDATA[Oblivious HTTP]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-ohai-ohttp/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            Waiting for AD Go-Ahead::AD Followup
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-ohai-ohttp-05: Has Nits" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ohai-ohttp-05-secdir-lc-melnikov-2022-12-08/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR Last Call review of draft-ietf-ohai-ohttp-05: Has Nits" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ohai-ohttp-05-opsdir-lc-wu-2022-12-12/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART Last Call review of draft-ietf-ohai-ohttp-05: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ohai-ohttp-05-artart-lc-turner-2022-11-29/">
-                        artart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART Last Call review of draft-ietf-ohai-ohttp-05: Almost Ready" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ohai-ohttp-05-tsvart-lc-rose-2022-12-08/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2022-12-09" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-ohai-ohttp/reviewrequest/16811/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/francesca.palombini@ericsson.com">Francesca Palombini</a> <a href="mailto:francesca.palombini%40ericsson.com" aria-label="Compose email to francesca.palombini@ericsson.com." title="Compose email to francesca.palombini@ericsson.com.">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            Waiting for AD Go-Ahead::AD Followup
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-ohai-ohttp-05: Has Nits" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ohai-ohttp-05-secdir-lc-melnikov-2022-12-08/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR Last Call review of draft-ietf-ohai-ohttp-05: Has Nits" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ohai-ohttp-05-opsdir-lc-wu-2022-12-12/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART Last Call review of draft-ietf-ohai-ohttp-05: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ohai-ohttp-05-artart-lc-turner-2022-11-29/">
-                        artart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART Last Call review of draft-ietf-ohai-ohttp-05: Almost Ready" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ohai-ohttp-05-tsvart-lc-rose-2022-12-08/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2022-12-09" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-ohai-ohttp/reviewrequest/16811/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/francesca.palombini@ericsson.com">Francesca Palombini</a> <a href="mailto:francesca.palombini%40ericsson.com" aria-label="Compose email to francesca.palombini@ericsson.com." title="Compose email to francesca.palombini@ericsson.com.">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-ohai-ohttp/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[pretty Easy privacy (pEp): Key Reset]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-pep-keyreset/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-pep-keyreset/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[ACME Integrations]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-acme-integrations/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            AD Evaluation::AD Followup
-        
-        
-        
-        <span class="badge rounded-pill bg-danger" title="In state for 47 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 47</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Informational
-        
-        
-        
-            <br>
-            <span title="Part of acme milestone: ACME integration with with EST, BRSKI and TEAP use cases submitted to IESG" class="milestone">Apr 2021</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/rdd@cert.org">Roman Danyliw</a> <a href="mailto:rdd%40cert.org" aria-label="Compose email to rdd@cert.org." title="Compose email to rdd@cert.org.">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 47 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 47</span>
-            
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            AD Evaluation::AD Followup
-        
-        
-        
-        <span class="badge rounded-pill bg-danger" title="In state for 47 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 47</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Informational
-        
-        
-        
-            <br>
-            <span title="Part of acme milestone: ACME integration with with EST, BRSKI and TEAP use cases submitted to IESG" class="milestone">Apr 2021</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/rdd@cert.org">Roman Danyliw</a> <a href="mailto:rdd%40cert.org" aria-label="Compose email to rdd@cert.org." title="Compose email to rdd@cert.org.">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 47 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 47</span>
-            
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-acme-integrations/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[SCHC over Sigfox LPWAN]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-lpwan-schc-over-sigfox/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            In Last Call (ends 2022-12-20)
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="IOTDIR Last Call review of draft-ietf-lpwan-schc-over-sigfox-16: Almost Ready" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lpwan-schc-over-sigfox-16-iotdir-lc-sarikaya-2022-12-13/">
-                        iotdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2022-12-20" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lpwan-schc-over-sigfox/reviewrequest/16846/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2022-12-20" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lpwan-schc-over-sigfox/reviewrequest/16894/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2022-12-20" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lpwan-schc-over-sigfox/reviewrequest/16881/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2022-12-20" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lpwan-schc-over-sigfox/reviewrequest/16868/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2022-12-20" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lpwan-schc-over-sigfox/reviewrequest/16844/">
-                        intdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2022-12-20" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lpwan-schc-over-sigfox/reviewrequest/16855/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of lpwan milestone: Produce a Standards Track document for SCHC over SigFox" class="milestone">Oct 2021</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/evyncke@cisco.com">Éric Vyncke</a> <a href="mailto:evyncke%40cisco.com" aria-label="Compose email to evyncke@cisco.com." title="Compose email to evyncke@cisco.com.">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            In Last Call (ends 2022-12-20)
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="IOTDIR Last Call review of draft-ietf-lpwan-schc-over-sigfox-16: Almost Ready" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lpwan-schc-over-sigfox-16-iotdir-lc-sarikaya-2022-12-13/">
-                        iotdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2022-12-20" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lpwan-schc-over-sigfox/reviewrequest/16846/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2022-12-20" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lpwan-schc-over-sigfox/reviewrequest/16894/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2022-12-20" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lpwan-schc-over-sigfox/reviewrequest/16881/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2022-12-20" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lpwan-schc-over-sigfox/reviewrequest/16868/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2022-12-20" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lpwan-schc-over-sigfox/reviewrequest/16844/">
-                        intdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2022-12-20" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lpwan-schc-over-sigfox/reviewrequest/16855/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of lpwan milestone: Produce a Standards Track document for SCHC over SigFox" class="milestone">Oct 2021</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/evyncke@cisco.com">Éric Vyncke</a> <a href="mailto:evyncke%40cisco.com" aria-label="Compose email to evyncke@cisco.com." title="Compose email to evyncke@cisco.com.">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lpwan-schc-over-sigfox/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Comcast ISP Low Latency Deployment Design Recommendations]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-livingood-low-latency-deployment/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-livingood-low-latency-deployment/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[RTP Payload Format for Visual Volumetric Video-based Coding (V3C)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-avtcore-rtp-v3c/</link>
+      <title><![CDATA[Pub-Sub Profile for Authentication and Authorization for Constrained Environments (ACE)]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-ace-pubsub-profile/</link>
       
       <description><![CDATA[
     
@@ -692,6 +36,9 @@
         
         
         
+        
+            <br>
+            <span title="Part of ace milestone: Submission to the IESG of Pub-Sub Profile for Authentication and Authorization for Constrained Environments (ACE)" class="milestone">Jul 2021</span>
         
         
     
@@ -720,25 +67,26 @@
         
         
         
+            <br>
+            <span title="Part of ace milestone: Submission to the IESG of Pub-Sub Profile for Authentication and Authorization for Constrained Environments (ACE)" class="milestone">Jul 2021</span>
+        
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-avtcore-rtp-v3c/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-ace-pubsub-profile/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[QUIC Version 2]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-quic-v2/</link>
+      <title><![CDATA[Nominating Committee Eligibility]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-elegy-rfc8989bis/</link>
       
       <description><![CDATA[
     
     
         
-            RFC Ed Queue
+            Publication Requested
         
-        
-            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-quic-v2">EDIT</a>
         
         
         
@@ -755,76 +103,9 @@
                 
             
         
-        Proposed Standard
+        Best Current Practice
         
         
-            <br>
-            Reviews:
-            
-                
-                    <span title="DNSDIR Last Call review of draft-ietf-quic-v2-05: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-quic-v2-05-dnsdir-lc-cunat-2022-10-12/">
-                        dnsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR Last Call review of draft-ietf-quic-v2-05: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-quic-v2-05-opsdir-lc-wu-2022-10-12/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART Last Call review of draft-ietf-quic-v2-05: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-quic-v2-05-artart-lc-gruessing-2022-10-09/">
-                        artart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-quic-v2-05: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-quic-v2-05-secdir-lc-rose-2022-10-04/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-quic-v2-05: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-quic-v2-05-genart-lc-halpern-2022-09-29/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of quic milestone: QUIC Version 2 to IESG" class="milestone"></span>
         
         
     
@@ -833,10 +114,8 @@
     
     
         
-            RFC Ed Queue
+            Publication Requested
         
-        
-            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-quic-v2">EDIT</a>
         
         
         
@@ -853,105 +132,46 @@
                 
             
         
+        Best Current Practice
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-elegy-rfc8989bis/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[OAuth 2.0 Step-up Authentication Challenge Protocol]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-oauth-step-up-authn-challenge/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Waiting for WG Chair Go-Ahead
+                
+                    :
+                
+            
+        
         Proposed Standard
         
         
-            <br>
-            Reviews:
-            
-                
-                    <span title="DNSDIR Last Call review of draft-ietf-quic-v2-05: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-quic-v2-05-dnsdir-lc-cunat-2022-10-12/">
-                        dnsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR Last Call review of draft-ietf-quic-v2-05: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-quic-v2-05-opsdir-lc-wu-2022-10-12/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART Last Call review of draft-ietf-quic-v2-05: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-quic-v2-05-artart-lc-gruessing-2022-10-09/">
-                        artart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-quic-v2-05: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-quic-v2-05-secdir-lc-rose-2022-10-04/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-quic-v2-05: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-quic-v2-05-genart-lc-halpern-2022-09-29/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of quic milestone: QUIC Version 2 to IESG" class="milestone"></span>
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-quic-v2/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[PCEP Extensions to support BFD parameters]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-fizgeer-pcep-bfd-parameters/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
         
         
     
@@ -970,86 +190,28 @@
             
         
         
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-fizgeer-pcep-bfd-parameters/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[A Survey of Worldwide Censorship Techniques]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-irtf-pearg-censorship/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
             <br>
             
-                Waiting for IRTF Chair
+                Waiting for WG Chair Go-Ahead
                 
                     :
                 
             
         
-        Informational
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Waiting for IRTF Chair
-                
-                    :
-                
-            
-        
-        Informational
+        Proposed Standard
         
         
         
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-irtf-pearg-censorship/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-oauth-step-up-authn-challenge/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Hybrid Two-Step Performance Measurement Method]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-mirsky-ippm-hybrid-two-step/</link>
+      <title><![CDATA[pretty Easy privacy (pEp): Privacy by Default]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-pep-general/</link>
       
       <description><![CDATA[
     
@@ -1093,7 +255,329 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-mirsky-ippm-hybrid-two-step/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-pep-general/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[pretty Easy privacy (pEp): Email Formats and Protocols]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-pep-email/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-pep-email/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[PEM file format for ECH]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-farrell-tls-pemesni/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-farrell-tls-pemesni/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Redacted Fields in the Registration Data Access Protocol (RDAP) Response]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-regext-rdap-redacted/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+        
+            <br>
+            <span title='Part of regext milestone: Submit for publication "Redacted Fields in the Registration Data Access Protocol (RDAP) Response"' class="milestone">May 2022</span>
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+        
+            <br>
+            <span title='Part of regext milestone: Submit for publication "Redacted Fields in the Registration Data Access Protocol (RDAP) Response"' class="milestone">May 2022</span>
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-regext-rdap-redacted/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[pretty Easy privacy (pEp): Contact and Channel Authentication through Handshake]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-pep-handshake/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-pep-handshake/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[pretty Easy privacy (pEp): Mapping of Privacy Rating]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-pep-rating/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-pep-rating/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[IANA Registration of Trustword Lists: Guide, Template and IANA Considerations]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-pep-trustwords/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-pep-trustwords/</guid>
       
     </item>
     
