@@ -7,7 +7,563 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Sat, 24 Dec 2022 01:41:12 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Dec 2022 01:51:31 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[Content Delivery Network Interconnection (CDNI) Footprint Types: Subdivision Code and Footprint Union]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-cdni-additional-footprint-types/</link>
+      
+      <description><![CDATA[
+    
+        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-cdni-additional-footprint-types">
+<a href="/doc/draft-ietf-cdni-additional-footprint-types/ballotpopup/895627/" data-bs-toggle="modal" data-bs-target="#modal-895627" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-895627" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+    
+        
+            IESG Evaluation
+        
+        
+        
+        
+        
+            <br>
+            IESG telechat: 2023-01-05
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="INTDIR Telechat review of draft-ietf-cdni-additional-footprint-types-05: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-cdni-additional-footprint-types-05-intdir-telechat-haberman-2022-12-15/">
+                        intdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-cdni-additional-footprint-types-05: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-cdni-additional-footprint-types-05-secdir-lc-migault-2022-12-10/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Last Call review of draft-ietf-cdni-additional-footprint-types-04: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-cdni-additional-footprint-types-04-opsdir-lc-dodge-2022-12-04/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Last Call review of draft-ietf-cdni-additional-footprint-types-04: Has Issues" class="badge rounded-pill bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-cdni-additional-footprint-types-04-opsdir-lc-dhody-2022-12-03/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-cdni-additional-footprint-types-04: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-cdni-additional-footprint-types-04-genart-lc-schinazi-2022-12-01/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART Last Call review of draft-ietf-cdni-additional-footprint-types-04: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-cdni-additional-footprint-types-04-artart-lc-smyslov-2022-12-05/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of cdni milestone: Submit specification of CDNI Footprint Type Extensions to IESG as Proposed Standard" class="milestone">Sep 2022</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/francesca.palombini@ericsson.com">Francesca Palombini</a> <a href="mailto:francesca.palombini%40ericsson.com" aria-label="Compose email to francesca.palombini@ericsson.com." title="Compose email to francesca.palombini@ericsson.com.">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-cdni-additional-footprint-types">
+<a href="/doc/draft-ietf-cdni-additional-footprint-types/ballotpopup/895627/" data-bs-toggle="modal" data-bs-target="#modal-895627" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-895627" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+    
+        
+            IESG Evaluation
+        
+        
+        
+        
+        
+            <br>
+            IESG telechat: 2023-01-05
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="INTDIR Telechat review of draft-ietf-cdni-additional-footprint-types-05: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-cdni-additional-footprint-types-05-intdir-telechat-haberman-2022-12-15/">
+                        intdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-cdni-additional-footprint-types-05: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-cdni-additional-footprint-types-05-secdir-lc-migault-2022-12-10/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Last Call review of draft-ietf-cdni-additional-footprint-types-04: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-cdni-additional-footprint-types-04-opsdir-lc-dodge-2022-12-04/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Last Call review of draft-ietf-cdni-additional-footprint-types-04: Has Issues" class="badge rounded-pill bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-cdni-additional-footprint-types-04-opsdir-lc-dhody-2022-12-03/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-cdni-additional-footprint-types-04: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-cdni-additional-footprint-types-04-genart-lc-schinazi-2022-12-01/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART Last Call review of draft-ietf-cdni-additional-footprint-types-04: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-cdni-additional-footprint-types-04-artart-lc-smyslov-2022-12-05/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of cdni milestone: Submit specification of CDNI Footprint Type Extensions to IESG as Proposed Standard" class="milestone">Sep 2022</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/francesca.palombini@ericsson.com">Francesca Palombini</a> <a href="mailto:francesca.palombini%40ericsson.com" aria-label="Compose email to francesca.palombini@ericsson.com." title="Compose email to francesca.palombini@ericsson.com.">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-cdni-additional-footprint-types/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Signal Degrade Indication in Segment Routing over MPLS Network]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-han-mpls-sdi-sr/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-han-mpls-sdi-sr/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Signal Degrade Indication in BFD]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-hwy-bfd-sdi/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-hwy-bfd-sdi/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[YANG Data Model for FlexE Management]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-ccamp-flexe-yang-cm/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-ccamp-flexe-yang-cm/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Inband Flow Learning Framework]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-hwy-opsawg-ifl-framework/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-hwy-opsawg-ifl-framework/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[DetNet Enhanced Data Plane]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-yzz-detnet-enhanced-data-plane/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-yzz-detnet-enhanced-data-plane/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[remoteStorage]]></title>
@@ -207,7 +763,7 @@
         
         
         
-        <span class="badge rounded-pill bg-danger" title="In state for 142 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 142</span>
+        <span class="badge rounded-pill bg-danger" title="In state for 143 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 143</span>
         
         
             
@@ -246,7 +802,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/aretana.ietf@gmail.com">Alvaro Retana</a> <a href="mailto:aretana.ietf%40gmail.com" aria-label="Compose email to aretana.ietf@gmail.com." title="Compose email to aretana.ietf@gmail.com.">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 241 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 241</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 242 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 242</span>
             
         
     
@@ -259,7 +815,7 @@
         
         
         
-        <span class="badge rounded-pill bg-danger" title="In state for 142 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 142</span>
+        <span class="badge rounded-pill bg-danger" title="In state for 143 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 143</span>
         
         
             
@@ -298,7 +854,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/aretana.ietf@gmail.com">Alvaro Retana</a> <a href="mailto:aretana.ietf%40gmail.com" aria-label="Compose email to aretana.ietf@gmail.com." title="Compose email to aretana.ietf@gmail.com.">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 241 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 241</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 242 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 242</span>
             
         
     
@@ -354,386 +910,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-wu-ietf-sfc-scheduling-implementation-report/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[IANA Registration of Trustword Lists: Guide, Template and IANA Considerations]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-pep-trustwords/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-pep-trustwords/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Resource Public Key Infrastructure (RPKI) Repository Requirements]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-sidrops-prefer-rrdp/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-sidrops-prefer-rrdp/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Topology Independent Fast Reroute using Segment Routing]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-rtgwg-segment-routing-ti-lfa/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-            <br>
-            Review:
-            
-                
-                    <span title="RTGDIR Early review of draft-bashandy-rtgwg-segment-routing-ti-lfa-00: Has Issues" class="badge rounded-pill bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-bashandy-rtgwg-segment-routing-ti-lfa-00-rtgdir-early-bryant-2017-05-31/">
-                        rtgdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-            <br>
-            Review:
-            
-                
-                    <span title="RTGDIR Early review of draft-bashandy-rtgwg-segment-routing-ti-lfa-00: Has Issues" class="badge rounded-pill bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-bashandy-rtgwg-segment-routing-ti-lfa-00-rtgdir-early-bryant-2017-05-31/">
-                        rtgdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-rtgwg-segment-routing-ti-lfa/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Deterministic Networking (DetNet) Controller Plane - VPFC Planning Scheme Based on VPFP in Large-scale Deterministic Network]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-guo-detnet-vpfc-planning/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-guo-detnet-vpfc-planning/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Attacks on the Constrained Application Protocol (CoAP)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-core-attacks-on-coap/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-core-attacks-on-coap/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Structured Field Values for HTTP]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-httpbis-sfbis/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-httpbis-sfbis/</guid>
       
     </item>
     
