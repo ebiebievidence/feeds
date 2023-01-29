@@ -7,7 +7,481 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Sat, 28 Jan 2023 01:53:39 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jan 2023 01:57:06 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[Multiplexing Scheme Updates for QUIC]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-avtcore-rfc7983bis/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            Waiting for Writeup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-avtcore-rfc7983bis-07: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-avtcore-rfc7983bis-07-secdir-lc-salz-2023-01-10/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART Last Call review of draft-ietf-avtcore-rfc7983bis-07: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-avtcore-rfc7983bis-07-artart-lc-blanchet-2023-01-09/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="TSVART Last Call review of draft-ietf-avtcore-rfc7983bis-07: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-avtcore-rfc7983bis-07-tsvart-lc-nishida-2023-01-15/">
+                        tsvart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-avtcore-rfc7983bis-07: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-avtcore-rfc7983bis-07-genart-lc-shirazipour-2023-01-13/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Last Call review of draft-ietf-avtcore-rfc7983bis-07: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-avtcore-rfc7983bis-07-opsdir-lc-romascanu-2023-01-13/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/superuser@gmail.com">Murray Kucherawy</a> <a href="mailto:superuser%40gmail.com" aria-label="Compose email to superuser@gmail.com." title="Compose email to superuser@gmail.com.">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            Waiting for Writeup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-avtcore-rfc7983bis-07: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-avtcore-rfc7983bis-07-secdir-lc-salz-2023-01-10/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART Last Call review of draft-ietf-avtcore-rfc7983bis-07: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-avtcore-rfc7983bis-07-artart-lc-blanchet-2023-01-09/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="TSVART Last Call review of draft-ietf-avtcore-rfc7983bis-07: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-avtcore-rfc7983bis-07-tsvart-lc-nishida-2023-01-15/">
+                        tsvart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-avtcore-rfc7983bis-07: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-avtcore-rfc7983bis-07-genart-lc-shirazipour-2023-01-13/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Last Call review of draft-ietf-avtcore-rfc7983bis-07: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-avtcore-rfc7983bis-07-opsdir-lc-romascanu-2023-01-13/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/superuser@gmail.com">Murray Kucherawy</a> <a href="mailto:superuser%40gmail.com" aria-label="Compose email to superuser@gmail.com." title="Compose email to superuser@gmail.com.">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-avtcore-rfc7983bis/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[lispers.net LISP NAT-Traversal Implementation Report]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-farinacci-lisp-lispers-net-nat/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submission Received
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submission Received
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-farinacci-lisp-lispers-net-nat/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[COSE Key and JSON Web Key Representation for Key Encapsulation Mechanism (KEM) of Hybrid Public Key Encryption (HPKE)]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ajitomi-cose-cose-key-jwk-hpke-kem/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ajitomi-cose-cose-key-jwk-hpke-kem/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[A Larger Internet Key Exchange version 2 (IKEv2) Payload]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-nir-ipsecme-big-payload/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-nir-ipsecme-big-payload/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[BIER Encapsulation for IOAM Data]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-xzlnp-bier-ioam/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-xzlnp-bier-ioam/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Sequence ID calibration for mis-ordered requests]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-mzhang-nfsv4-sequence-id-calibration/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-mzhang-nfsv4-sequence-id-calibration/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[IP Parcels]]></title>
@@ -268,7 +742,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io." title="Compose email to paul.wouters@aiven.io.">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 92 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 92</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 93 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 93</span>
             
         
     
@@ -356,7 +830,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io." title="Compose email to paul.wouters@aiven.io.">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 92 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 92</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 93 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 93</span>
             
         
     
@@ -520,740 +994,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-drip-auth/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Security Considerations for Transient Numeric Identifiers Employed in Network Protocols]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-gont-numeric-ids-sec-considerations/</link>
-      
-      <description><![CDATA[
-    
-        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-gont-numeric-ids-sec-considerations">
-<a href="/doc/draft-gont-numeric-ids-sec-considerations/ballotpopup/899329/" data-bs-toggle="modal" data-bs-target="#modal-899329" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-discuss"></td>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-899329" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-    
-        
-            IESG Evaluation::AD Followup
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                IETF stream
-                
-                    :
-                
-            
-        
-        Best Current Practice
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="DNSDIR Last Call review of draft-gont-numeric-ids-sec-considerations-10: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-gont-numeric-ids-sec-considerations-10-dnsdir-lc-leymann-2023-01-24/">
-                        dnsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART Last Call review of draft-gont-numeric-ids-sec-considerations-09: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-gont-numeric-ids-sec-considerations-09-tsvart-lc-tuexen-2023-01-09/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-gont-numeric-ids-sec-considerations-06: Has Nits" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-gont-numeric-ids-sec-considerations-06-secdir-lc-kaufman-2021-01-05/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-gont-numeric-ids-sec-considerations-06: Ready with Issues" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-gont-numeric-ids-sec-considerations-06-genart-lc-mishra-2021-01-06/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART Last Call review of draft-gont-numeric-ids-sec-considerations-06: Not Ready" class="badge rounded-pill bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-gont-numeric-ids-sec-considerations-06-tsvart-lc-aboba-2020-12-25/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2021-01-04" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-gont-numeric-ids-sec-considerations/reviewrequest/14129/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io." title="Compose email to paul.wouters@aiven.io.">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-gont-numeric-ids-sec-considerations">
-<a href="/doc/draft-gont-numeric-ids-sec-considerations/ballotpopup/899329/" data-bs-toggle="modal" data-bs-target="#modal-899329" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-discuss"></td>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-899329" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-    
-        
-            IESG Evaluation::AD Followup
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                IETF stream
-                
-                    :
-                
-            
-        
-        Best Current Practice
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="DNSDIR Last Call review of draft-gont-numeric-ids-sec-considerations-10: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-gont-numeric-ids-sec-considerations-10-dnsdir-lc-leymann-2023-01-24/">
-                        dnsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART Last Call review of draft-gont-numeric-ids-sec-considerations-09: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-gont-numeric-ids-sec-considerations-09-tsvart-lc-tuexen-2023-01-09/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-gont-numeric-ids-sec-considerations-06: Has Nits" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-gont-numeric-ids-sec-considerations-06-secdir-lc-kaufman-2021-01-05/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-gont-numeric-ids-sec-considerations-06: Ready with Issues" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-gont-numeric-ids-sec-considerations-06-genart-lc-mishra-2021-01-06/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART Last Call review of draft-gont-numeric-ids-sec-considerations-06: Not Ready" class="badge rounded-pill bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-gont-numeric-ids-sec-considerations-06-tsvart-lc-aboba-2020-12-25/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2021-01-04" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-gont-numeric-ids-sec-considerations/reviewrequest/14129/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io." title="Compose email to paul.wouters@aiven.io.">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-gont-numeric-ids-sec-considerations/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Structured Email: Problem Statement and Areas of Work]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-happel-sml-problem-statement/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-happel-sml-problem-statement/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Structured and Dynamic Email]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-happel-structured-dynamic-email/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-happel-structured-dynamic-email/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[A Network YANG Data Model for Attachment Circuits]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-boro-opsawg-ntw-attachment-circuit/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-boro-opsawg-ntw-attachment-circuit/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[TLS-based EAP types and TLS 1.3]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-emu-tls-eap-types/</link>
-      
-      <description><![CDATA[
-    
-        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-emu-tls-eap-types">
-<a href="/doc/draft-ietf-emu-tls-eap-types/ballotpopup/901557/" data-bs-toggle="modal" data-bs-target="#modal-901557" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-901557" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-    
-        
-            IESG Evaluation
-        
-        
-        
-        
-        
-            <br>
-            IESG telechat: 2023-02-16
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-emu-tls-eap-types-10: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-emu-tls-eap-types-10-genart-lc-fossati-2023-01-24/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-02-01" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-emu-tls-eap-types/reviewrequest/17003/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-01-27" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-emu-tls-eap-types/reviewrequest/17007/">
-                        artart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of emu milestone: WG adopts draft providing guidance for use of TLS 1.3 with TLS based EAP methods" class="milestone">Nov 2019</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io." title="Compose email to paul.wouters@aiven.io.">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-emu-tls-eap-types">
-<a href="/doc/draft-ietf-emu-tls-eap-types/ballotpopup/901557/" data-bs-toggle="modal" data-bs-target="#modal-901557" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-901557" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-    
-        
-            IESG Evaluation
-        
-        
-        
-        
-        
-            <br>
-            IESG telechat: 2023-02-16
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-emu-tls-eap-types-10: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-emu-tls-eap-types-10-genart-lc-fossati-2023-01-24/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-02-01" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-emu-tls-eap-types/reviewrequest/17003/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-01-27" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-emu-tls-eap-types/reviewrequest/17007/">
-                        artart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of emu milestone: WG adopts draft providing guidance for use of TLS 1.3 with TLS based EAP methods" class="milestone">Nov 2019</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io." title="Compose email to paul.wouters@aiven.io.">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-emu-tls-eap-types/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[A Flags Extension for TLS 1.3]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-tls-tlsflags/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Waiting for Implementation
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-        
-            <br>
-            <span title='Part of tls milestone: Submit "A Flags Extension for TLS 1.3" to the IESG' class="milestone">Nov 2020</span>
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Waiting for Implementation
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-        
-            <br>
-            <span title='Part of tls milestone: Submit "A Flags Extension for TLS 1.3" to the IESG' class="milestone">Nov 2020</span>
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-tls-tlsflags/</guid>
       
     </item>
     
