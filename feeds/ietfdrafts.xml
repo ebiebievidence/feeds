@@ -7,11 +7,11 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Wed, 08 Feb 2023 01:57:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Feb 2023 01:56:16 +0000</lastBuildDate>
     
     <item>
-      <title><![CDATA[Automatic Extended Route Optimization (AERO)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-templin-intarea-aero/</link>
+      <title><![CDATA[SRv6 Midpoint Protection]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-chen-rtgwg-srv6-midpoint-protection/</link>
       
       <description><![CDATA[
     
@@ -55,13 +55,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-templin-intarea-aero/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-chen-rtgwg-srv6-midpoint-protection/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Transmission of IP Packets over Overlay Multilink Network (OMNI) Interfaces]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-templin-intarea-omni/</link>
+      <title><![CDATA[IP Parcels]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-templin-intarea-parcels/</link>
       
       <description><![CDATA[
     
@@ -105,641 +105,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-templin-intarea-omni/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-templin-intarea-parcels/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[TNAuthList profile of ACME Authority Token]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-acme-authority-token-tnauthlist/</link>
-      
-      <description><![CDATA[
-    
-        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-acme-authority-token-tnauthlist">
-<a href="/doc/draft-ietf-acme-authority-token-tnauthlist/ballotpopup/835238/" data-bs-toggle="modal" data-bs-target="#modal-835238" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-discuss"></td>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-835238" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-    
-        
-            IESG Evaluation::AD Followup
-        
-        
-        
-        <span class="badge rounded-pill bg-danger" title="In state for 63 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 63</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                In WG Last Call
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="ARTART Telechat review of draft-ietf-acme-authority-token-tnauthlist-08: Ready with Issues" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-authority-token-tnauthlist-08-artart-telechat-turner-2021-11-29/">
-                        artart
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-acme-authority-token-tnauthlist-07: Has Nits" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-authority-token-tnauthlist-07-secdir-lc-cam-winget-2021-03-25/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-acme-authority-token-tnauthlist-07: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-authority-token-tnauthlist-07-genart-lc-resnick-2021-03-15/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2021-03-16" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-acme-authority-token-tnauthlist/reviewrequest/14382/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of acme milestone: TNAuthlist extension submitted to IESG" class="milestone">Apr 2020</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/rdd@cert.org">Roman Danyliw</a> <a href="mailto:rdd%40cert.org" aria-label="Compose email to rdd@cert.org." title="Compose email to rdd@cert.org.">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 448 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 448</span>
-            
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-acme-authority-token-tnauthlist">
-<a href="/doc/draft-ietf-acme-authority-token-tnauthlist/ballotpopup/835238/" data-bs-toggle="modal" data-bs-target="#modal-835238" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-discuss"></td>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-835238" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-    
-        
-            IESG Evaluation::AD Followup
-        
-        
-        
-        <span class="badge rounded-pill bg-danger" title="In state for 63 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 63</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                In WG Last Call
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="ARTART Telechat review of draft-ietf-acme-authority-token-tnauthlist-08: Ready with Issues" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-authority-token-tnauthlist-08-artart-telechat-turner-2021-11-29/">
-                        artart
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-acme-authority-token-tnauthlist-07: Has Nits" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-authority-token-tnauthlist-07-secdir-lc-cam-winget-2021-03-25/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-acme-authority-token-tnauthlist-07: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-authority-token-tnauthlist-07-genart-lc-resnick-2021-03-15/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2021-03-16" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-acme-authority-token-tnauthlist/reviewrequest/14382/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of acme milestone: TNAuthlist extension submitted to IESG" class="milestone">Apr 2020</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/rdd@cert.org">Roman Danyliw</a> <a href="mailto:rdd%40cert.org" aria-label="Compose email to rdd@cert.org." title="Compose email to rdd@cert.org.">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 448 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 448</span>
-            
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-acme-authority-token-tnauthlist/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[OSPF Abnormal State Information]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-chen-ospf-abnormal-state-info/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-chen-ospf-abnormal-state-info/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Architecture for Use of BGP as Central Controller]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-cth-rtgwg-bgp-control/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-cth-rtgwg-bgp-control/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[BIER-TE Egress Protection]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-chen-bier-te-egress-protect/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-chen-bier-te-egress-protect/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[BIER-TE Fast ReRoute]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-chen-bier-te-frr/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-chen-bier-te-frr/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Concise Software Identification Tags]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-sacm-coswid/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            RFC Ed Queue
-        
-        
-            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-sacm-coswid">IANA</a>
-        
-        
-        <span class="badge rounded-pill bg-danger" title="In state for 202 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 202</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="SECDIR Telechat review of draft-ietf-sacm-coswid-20: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sacm-coswid-20-secdir-telechat-sparks-2022-02-01/">
-                        secdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-sacm-coswid-18: Has Issues" class="badge rounded-pill bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sacm-coswid-18-secdir-lc-sparks-2021-08-11/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR Last Call review of draft-ietf-sacm-coswid-18: Has Nits" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sacm-coswid-18-opsdir-lc-bradner-2021-08-07/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART Last Call review of draft-ietf-sacm-coswid-18: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sacm-coswid-18-artart-lc-salz-2021-08-02/">
-                        artart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of sacm milestone: WGLC CoSWID" class="milestone">Jun 2019</span>,
-        
-            
-            <span title="Part of sacm milestone: Submit CoSWID to IESG" class="milestone">Jul 2020</span>,
-        
-            
-            <span title="Part of sacm milestone: Submit CoSWID to RSE for Publication" class="milestone">Dec 2021</span>
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            RFC Ed Queue
-        
-        
-            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-sacm-coswid">IANA</a>
-        
-        
-        <span class="badge rounded-pill bg-danger" title="In state for 202 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 202</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="SECDIR Telechat review of draft-ietf-sacm-coswid-20: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sacm-coswid-20-secdir-telechat-sparks-2022-02-01/">
-                        secdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-sacm-coswid-18: Has Issues" class="badge rounded-pill bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sacm-coswid-18-secdir-lc-sparks-2021-08-11/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR Last Call review of draft-ietf-sacm-coswid-18: Has Nits" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sacm-coswid-18-opsdir-lc-bradner-2021-08-07/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART Last Call review of draft-ietf-sacm-coswid-18: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sacm-coswid-18-artart-lc-salz-2021-08-02/">
-                        artart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of sacm milestone: WGLC CoSWID" class="milestone">Jun 2019</span>,
-        
-            
-            <span title="Part of sacm milestone: Submit CoSWID to IESG" class="milestone">Jul 2020</span>,
-        
-            
-            <span title="Part of sacm milestone: Submit CoSWID to RSE for Publication" class="milestone">Dec 2021</span>
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-sacm-coswid/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[BIER Fast ReRoute]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-bier-frr/</link>
+      <title><![CDATA[Automated Certificate Management Environment (ACME) Renewal Information (ARI) Extension]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-acme-ari/</link>
       
       <description><![CDATA[
     
@@ -795,13 +167,321 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-bier-frr/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-acme-ari/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[A Secure Selection and Filtering Mechanism for the Network Time Protocol with Khronos]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-ntp-chronos/</link>
+      <title><![CDATA[Supporting Asymmetric Links in Low Power Networks: AODV-RPL]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-roll-aodv-rpl/</link>
+      
+      <description><![CDATA[
+    
+        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-roll-aodv-rpl"></div>
+    
+    
+        
+            AD is watching
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="IOTDIR Telechat review of draft-ietf-roll-aodv-rpl-10: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-roll-aodv-rpl-10-iotdir-telechat-van-der-stok-2021-04-15/">
+                        iotdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Telechat review of draft-ietf-roll-aodv-rpl-10: Has Nits" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-roll-aodv-rpl-10-secdir-telechat-kivinen-2021-04-12/">
+                        secdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-roll-aodv-rpl-10: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-roll-aodv-rpl-10-genart-lc-shirazipour-2021-04-22/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-roll-aodv-rpl-09: Has Nits" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-roll-aodv-rpl-09-secdir-lc-kivinen-2021-03-22/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2021-03-31" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-roll-aodv-rpl/reviewrequest/14465/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of roll milestone: Initial submission of a reactive P2P route discovery mechanism based on AODV-RPL protocol to the  IESG" class="milestone">Mar 2020</span>
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-roll-aodv-rpl"></div>
+    
+    
+        
+            AD is watching
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="IOTDIR Telechat review of draft-ietf-roll-aodv-rpl-10: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-roll-aodv-rpl-10-iotdir-telechat-van-der-stok-2021-04-15/">
+                        iotdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Telechat review of draft-ietf-roll-aodv-rpl-10: Has Nits" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-roll-aodv-rpl-10-secdir-telechat-kivinen-2021-04-12/">
+                        secdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-roll-aodv-rpl-10: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-roll-aodv-rpl-10-genart-lc-shirazipour-2021-04-22/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-roll-aodv-rpl-09: Has Nits" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-roll-aodv-rpl-09-secdir-lc-kivinen-2021-03-22/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2021-03-31" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-roll-aodv-rpl/reviewrequest/14465/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of roll milestone: Initial submission of a reactive P2P route discovery mechanism based on AODV-RPL protocol to the  IESG" class="milestone">Mar 2020</span>
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-roll-aodv-rpl/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[PIM Null-Register packing]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-pim-null-register-packing/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            In Last Call (ends 2023-02-22)
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Review:
+            
+                
+                    <span title="RTGDIR Early review of draft-ietf-pim-null-register-packing-10: Has Nits" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-null-register-packing-10-rtgdir-early-qu-2021-10-04/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/aretana.ietf@gmail.com">Alvaro Retana</a> <a href="mailto:aretana.ietf%40gmail.com" aria-label="Compose email to aretana.ietf@gmail.com." title="Compose email to aretana.ietf@gmail.com.">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            In Last Call (ends 2023-02-22)
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Review:
+            
+                
+                    <span title="RTGDIR Early review of draft-ietf-pim-null-register-packing-10: Has Nits" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-null-register-packing-10-rtgdir-early-qu-2021-10-04/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/aretana.ietf@gmail.com">Alvaro Retana</a> <a href="mailto:aretana.ietf%40gmail.com" aria-label="Compose email to aretana.ietf@gmail.com." title="Compose email to aretana.ietf@gmail.com.">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-pim-null-register-packing/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Source Address Validation Using BGP UPDATEs, ASPA, and ROA (BAR-SAV)]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-sidrops-bar-sav/</link>
       
       <description><![CDATA[
     
@@ -819,13 +499,11 @@
         
             <br>
             
-                In WG Last Call
-                
-                    :
+                WG Document
                 
             
         
-        Informational
+        
         
         
         
@@ -848,20 +526,524 @@
         
             <br>
             
-                In WG Last Call
-                
-                    :
+                WG Document
                 
             
         
-        Informational
+        
         
         
         
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-ntp-chronos/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-sidrops-bar-sav/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[The 'haptics' Top-level Media Type]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-mediaman-haptics/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            AD is watching
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/superuser@gmail.com">Murray Kucherawy</a> <a href="mailto:superuser%40gmail.com" aria-label="Compose email to superuser@gmail.com." title="Compose email to superuser@gmail.com.">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 70 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 70</span>
+            
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            AD is watching
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/superuser@gmail.com">Murray Kucherawy</a> <a href="mailto:superuser%40gmail.com" aria-label="Compose email to superuser@gmail.com." title="Compose email to superuser@gmail.com.">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 70 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 70</span>
+            
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-mediaman-haptics/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[SRv6 Path Egress Protection]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-rtgwg-srv6-egress-protection/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-rtgwg-srv6-egress-protection/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Simple Provisioning of Public Names for Residential Networks]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-homenet-front-end-naming-delegation/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            RFC Ed Queue
+        
+        
+            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-homenet-front-end-naming-delegation">MISSREF</a>
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Experimental
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="DNSDIR Last Call review of draft-ietf-homenet-front-end-naming-delegation-26: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-26-dnsdir-lc-somerset-2023-01-31/">
+                        dnsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Telechat review of draft-ietf-homenet-front-end-naming-delegation-25: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-25-dnsdir-telechat-huston-2022-12-17/">
+                        dnsdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="INTDIR Telechat review of draft-ietf-homenet-front-end-naming-delegation-25: Almost Ready" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-25-intdir-telechat-chown-2023-01-05/">
+                        intdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Telechat review of draft-ietf-homenet-front-end-naming-delegation-25: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-25-dnsdir-telechat-huston-2022-12-18/">
+                        dnsdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART Last Call review of draft-ietf-homenet-front-end-naming-delegation-22: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-22-artart-lc-miller-2022-11-06/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Telechat review of draft-ietf-homenet-front-end-naming-delegation-19: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-19-dnsdir-telechat-wicinski-2022-10-20/">
+                        dnsdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Telechat review of draft-ietf-homenet-front-end-naming-delegation-18: Not Ready" class="badge rounded-pill bg-danger">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-18-dnsdir-telechat-brown-2022-10-17/">
+                        dnsdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Telechat review of draft-ietf-homenet-front-end-naming-delegation-18: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-18-dnsdir-telechat-somerset-2022-10-12/">
+                        dnsdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-homenet-front-end-naming-delegation-18: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-18-genart-lc-holmberg-2022-10-04/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-01-03" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-homenet-front-end-naming-delegation/reviewrequest/16875/">
+                        artart
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2022-10-04" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-homenet-front-end-naming-delegation/reviewrequest/16303/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            RFC Ed Queue
+        
+        
+            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-homenet-front-end-naming-delegation">MISSREF</a>
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Experimental
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="DNSDIR Last Call review of draft-ietf-homenet-front-end-naming-delegation-26: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-26-dnsdir-lc-somerset-2023-01-31/">
+                        dnsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Telechat review of draft-ietf-homenet-front-end-naming-delegation-25: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-25-dnsdir-telechat-huston-2022-12-17/">
+                        dnsdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="INTDIR Telechat review of draft-ietf-homenet-front-end-naming-delegation-25: Almost Ready" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-25-intdir-telechat-chown-2023-01-05/">
+                        intdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Telechat review of draft-ietf-homenet-front-end-naming-delegation-25: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-25-dnsdir-telechat-huston-2022-12-18/">
+                        dnsdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART Last Call review of draft-ietf-homenet-front-end-naming-delegation-22: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-22-artart-lc-miller-2022-11-06/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Telechat review of draft-ietf-homenet-front-end-naming-delegation-19: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-19-dnsdir-telechat-wicinski-2022-10-20/">
+                        dnsdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Telechat review of draft-ietf-homenet-front-end-naming-delegation-18: Not Ready" class="badge rounded-pill bg-danger">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-18-dnsdir-telechat-brown-2022-10-17/">
+                        dnsdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Telechat review of draft-ietf-homenet-front-end-naming-delegation-18: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-18-dnsdir-telechat-somerset-2022-10-12/">
+                        dnsdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-homenet-front-end-naming-delegation-18: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-homenet-front-end-naming-delegation-18-genart-lc-holmberg-2022-10-04/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-01-03" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-homenet-front-end-naming-delegation/reviewrequest/16875/">
+                        artart
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2022-10-04" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-homenet-front-end-naming-delegation/reviewrequest/16303/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-homenet-front-end-naming-delegation/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Extended TCP Options and IPv6 Extension Headers IPFIX Information Elements]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-boucadair-opsawg-ipfix-tcpo-v6eh/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-boucadair-opsawg-ipfix-tcpo-v6eh/</guid>
       
     </item>
     
