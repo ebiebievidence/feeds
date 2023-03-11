@@ -7,279 +7,61 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Fri, 10 Mar 2023 02:03:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Mar 2023 01:45:36 +0000</lastBuildDate>
     
     <item>
-      <title><![CDATA[PIM Assert Message Packing]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-pim-assert-packing/</link>
+      <title><![CDATA[JSON Proof Token]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-jmiller-jose-json-proof-token/</link>
       
       <description><![CDATA[
     
-        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-pim-assert-packing">
-<a href="/doc/draft-ietf-pim-assert-packing/ballotpopup/909325/" data-bs-toggle="modal" data-bs-target="#modal-909325" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-909325" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
     
         
-            IESG Evaluation
+            I-D Exists
         
         
         
         
-        
-            <br>
-            IESG telechat: 2023-03-16
         
         
             
         
         
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="TSVART Last Call review of draft-ietf-pim-assert-packing-08: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-assert-packing-08-tsvart-lc-pauly-2023-02-26/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-pim-assert-packing-08: Has Nits" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-assert-packing-08-secdir-lc-sparks-2023-03-02/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Last Call review of draft-ietf-pim-assert-packing-08: Has Nits" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-assert-packing-08-rtgdir-lc-peng-2023-03-01/">
-                        rtgdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-pim-assert-packing-08: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-assert-packing-08-genart-lc-robles-2023-03-02/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-03-02" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-pim-assert-packing/reviewrequest/17093/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/aretana.ietf@gmail.com">Alvaro Retana</a> <a href="mailto:aretana.ietf%40gmail.com" aria-label="Compose email to aretana.ietf@gmail.com." title="Compose email to aretana.ietf@gmail.com.">
-                <i class="bi bi-envelope"></i></a></span>
-            
+        
         
     
 ]]></description>
       <content:encoded><![CDATA[
     
-        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-pim-assert-packing">
-<a href="/doc/draft-ietf-pim-assert-packing/ballotpopup/909325/" data-bs-toggle="modal" data-bs-target="#modal-909325" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-909325" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
     
         
-            IESG Evaluation
+            I-D Exists
         
         
         
         
-        
-            <br>
-            IESG telechat: 2023-03-16
         
         
             
         
         
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="TSVART Last Call review of draft-ietf-pim-assert-packing-08: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-assert-packing-08-tsvart-lc-pauly-2023-02-26/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-pim-assert-packing-08: Has Nits" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-assert-packing-08-secdir-lc-sparks-2023-03-02/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Last Call review of draft-ietf-pim-assert-packing-08: Has Nits" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-assert-packing-08-rtgdir-lc-peng-2023-03-01/">
-                        rtgdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-pim-assert-packing-08: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-assert-packing-08-genart-lc-robles-2023-03-02/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-03-02" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-pim-assert-packing/reviewrequest/17093/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/aretana.ietf@gmail.com">Alvaro Retana</a> <a href="mailto:aretana.ietf%40gmail.com" aria-label="Compose email to aretana.ietf@gmail.com." title="Compose email to aretana.ietf@gmail.com.">
-                <i class="bi bi-envelope"></i></a></span>
-            
+        
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-pim-assert-packing/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-jmiller-jose-json-proof-token/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Negative Caching of DNS Resolution Failures]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-dnsop-caching-resolution-failures/</link>
+      <title><![CDATA[JSON Proof Algorithms]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-jmiller-jose-json-proof-algorithms/</link>
       
       <description><![CDATA[
     
@@ -294,12 +76,6 @@
         
             
         
-        
-            <br>
-            
-                WG Document
-                
-            
         
         
         
@@ -322,12 +98,6 @@
             
         
         
-            <br>
-            
-                WG Document
-                
-            
-        
         
         
         
@@ -335,78 +105,30 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-dnsop-caching-resolution-failures/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-jmiller-jose-json-proof-algorithms/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[BGP Community Container Attribute]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-idr-wide-bgp-communities/</link>
+      <title><![CDATA[JSON Web Proof]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-jmiller-jose-json-web-proof/</link>
       
       <description><![CDATA[
     
     
         
-            AD Evaluation::AD Followup
+            I-D Exists
         
         
         
-        <span class="badge rounded-pill bg-danger" title="In state for 76 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 76</span>
+        
         
         
             
         
         
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
         
         
-            <br>
-            Reviews:
-            
-                
-                    <span title="SECDIR Early review of draft-ietf-idr-wide-bgp-communities-07: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-wide-bgp-communities-07-secdir-early-dunbar-2022-05-22/">
-                        secdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR Early review of draft-ietf-idr-wide-bgp-communities-07: Has Issues" class="badge rounded-pill bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-wide-bgp-communities-07-opsdir-early-clarke-2022-06-03/">
-                        opsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Early review of draft-ietf-idr-wide-bgp-communities-07: Has Issues" class="badge rounded-pill bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-wide-bgp-communities-07-rtgdir-early-lindem-2022-05-16/">
-                        rtgdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
@@ -416,78 +138,30 @@
     
     
         
-            AD Evaluation::AD Followup
+            I-D Exists
         
         
         
-        <span class="badge rounded-pill bg-danger" title="In state for 76 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 76</span>
+        
         
         
             
         
         
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
         
         
-            <br>
-            Reviews:
-            
-                
-                    <span title="SECDIR Early review of draft-ietf-idr-wide-bgp-communities-07: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-wide-bgp-communities-07-secdir-early-dunbar-2022-05-22/">
-                        secdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR Early review of draft-ietf-idr-wide-bgp-communities-07: Has Issues" class="badge rounded-pill bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-wide-bgp-communities-07-opsdir-early-clarke-2022-06-03/">
-                        opsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Early review of draft-ietf-idr-wide-bgp-communities-07: Has Issues" class="badge rounded-pill bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-wide-bgp-communities-07-rtgdir-early-lindem-2022-05-16/">
-                        rtgdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-idr-wide-bgp-communities/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-jmiller-jose-json-web-proof/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[BGP UPDATE for SDWAN Edge Discovery]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-idr-sdwan-edge-discovery/</link>
+      <title><![CDATA[Stateless OpenPGP Command Line Interface]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-dkg-openpgp-stateless-cli/</link>
       
       <description><![CDATA[
     
@@ -502,12 +176,6 @@
         
             
         
-        
-            <br>
-            
-                WG Document
-                
-            
         
         
         
@@ -530,12 +198,6 @@
             
         
         
-            <br>
-            
-                WG Document
-                
-            
-        
         
         
         
@@ -543,13 +205,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-idr-sdwan-edge-discovery/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-dkg-openpgp-stateless-cli/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[BIER-TE for Broadcast Link]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-chen-bier-te-lan/</link>
+      <title><![CDATA[Group Address Allocation Protocol (GAAP)]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-farinacci-pim-gaap/</link>
       
       <description><![CDATA[
     
@@ -593,13 +255,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-chen-bier-te-lan/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-farinacci-pim-gaap/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[OSPF Extensions for BIER-TE]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-bier-te-ospf/</link>
+      <title><![CDATA[Reference Interaction Models for Remote Attestation Procedures]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-rats-reference-interaction-models/</link>
       
       <description><![CDATA[
     
@@ -624,6 +286,12 @@
         
         
         
+        
+            <br>
+            <span title="Part of rats milestone: Submit Reference Interaction Models" class="milestone">Nov 2023</span>,
+        
+            
+            <span title="Part of rats milestone: Submit Reference Interaction Models to WGLC" class="milestone">Mar 2023</span>
         
         
     
@@ -652,16 +320,22 @@
         
         
         
+            <br>
+            <span title="Part of rats milestone: Submit Reference Interaction Models" class="milestone">Nov 2023</span>,
+        
+            
+            <span title="Part of rats milestone: Submit Reference Interaction Models to WGLC" class="milestone">Mar 2023</span>
+        
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-bier-te-ospf/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-rats-reference-interaction-models/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[OSPFv3 Extensions for BIER-TE]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-bier-te-ospfv3/</link>
+      <title><![CDATA[Direct Anonymous Attestation for the Remote Attestation Procedures Architecture]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-rats-daa/</link>
       
       <description><![CDATA[
     
@@ -686,6 +360,12 @@
         
         
         
+        
+            <br>
+            <span title="Part of rats milestone: Submit Direct Anonymous Attestation for RATs for publication" class="milestone">Mar 2023</span>,
+        
+            
+            <span title="Part of rats milestone: Submit Direct Anonymous Attestation for RATs to WGLC" class="milestone">Nov 2022</span>
         
         
     
@@ -714,16 +394,22 @@
         
         
         
+            <br>
+            <span title="Part of rats milestone: Submit Direct Anonymous Attestation for RATs for publication" class="milestone">Mar 2023</span>,
+        
+            
+            <span title="Part of rats milestone: Submit Direct Anonymous Attestation for RATs to WGLC" class="milestone">Nov 2022</span>
+        
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-bier-te-ospfv3/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-rats-daa/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[More Control Operators for CDDL]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-bormann-cbor-cddl-more-control/</link>
+      <title><![CDATA[CDDL 2.0 -- a draft plan]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-bormann-cbor-cddl-2-draft/</link>
       
       <description><![CDATA[
     
@@ -767,13 +453,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-bormann-cbor-cddl-more-control/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-bormann-cbor-cddl-2-draft/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Dynamic Networks to Hybrid Cloud DCs: Problem Statement and Mitigation Practices]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-rtgwg-net2cloud-problem-statement/</link>
+      <title><![CDATA[CDNI Protected Secrets Metadata]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-rosenblum-cdni-protected-secrets-metadata/</link>
       
       <description><![CDATA[
     
@@ -789,66 +475,8 @@
             
         
         
-            <br>
-            
-                WG Document
-                
-            
         
         
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="DNSDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-20: Ready with Issues" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-20-dnsdir-early-obser-2023-03-07/">
-                        dnsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-04-09" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rtgwg-net2cloud-problem-statement/reviewrequest/17188/">
-                        secdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-04-09" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rtgwg-net2cloud-problem-statement/reviewrequest/17189/">
-                        genart
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-04-09" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rtgwg-net2cloud-problem-statement/reviewrequest/17193/">
-                        tsvart
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
@@ -868,78 +496,20 @@
             
         
         
-            <br>
-            
-                WG Document
-                
-            
         
         
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="DNSDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-20: Ready with Issues" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-20-dnsdir-early-obser-2023-03-07/">
-                        dnsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-04-09" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rtgwg-net2cloud-problem-statement/reviewrequest/17188/">
-                        secdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-04-09" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rtgwg-net2cloud-problem-statement/reviewrequest/17189/">
-                        genart
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-04-09" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rtgwg-net2cloud-problem-statement/reviewrequest/17193/">
-                        tsvart
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-rtgwg-net2cloud-problem-statement/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-rosenblum-cdni-protected-secrets-metadata/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[P2MP Policy Ping]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-pim-p2mp-policy-ping/</link>
+      <title><![CDATA[IPv6 CE Routers LAN Prefix Delegation]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-winters-v6ops-cpe-lan-pd/</link>
       
       <description><![CDATA[
     
@@ -954,12 +524,6 @@
         
             
         
-        
-            <br>
-            
-                WG Document
-                
-            
         
         
         
@@ -982,12 +546,6 @@
             
         
         
-            <br>
-            
-                WG Document
-                
-            
-        
         
         
         
@@ -995,7 +553,7 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-pim-p2mp-policy-ping/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-winters-v6ops-cpe-lan-pd/</guid>
       
     </item>
     
