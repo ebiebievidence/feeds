@@ -7,7 +7,225 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Mon, 20 Mar 2023 01:52:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Mar 2023 01:42:15 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[SCHC Compound ACK]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-lpwan-schc-compound-ack/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            RFC Ed Queue
+        
+        
+            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-lpwan-schc-compound-ack">EDIT</a>
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="TSVART Last Call review of draft-ietf-lpwan-schc-compound-ack-14: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lpwan-schc-compound-ack-14-tsvart-lc-eddy-2023-03-14/">
+                        tsvart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="YANGDOCTORS Early review of draft-ietf-lpwan-schc-compound-ack-14: On the Right Track" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lpwan-schc-compound-ack-14-yangdoctors-early-aries-2023-03-20/">
+                        yangdoctors
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-lpwan-schc-compound-ack-13: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lpwan-schc-compound-ack-13-secdir-lc-weis-2023-03-04/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Last Call review of draft-ietf-lpwan-schc-compound-ack-12: Has Issues" class="badge rounded-pill bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lpwan-schc-compound-ack-12-opsdir-lc-zhou-2023-03-02/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-03-14" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lpwan-schc-compound-ack/reviewrequest/17216/">
+                        opsdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-03-09" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lpwan-schc-compound-ack/reviewrequest/17160/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            RFC Ed Queue
+        
+        
+            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-lpwan-schc-compound-ack">EDIT</a>
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="TSVART Last Call review of draft-ietf-lpwan-schc-compound-ack-14: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lpwan-schc-compound-ack-14-tsvart-lc-eddy-2023-03-14/">
+                        tsvart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="YANGDOCTORS Early review of draft-ietf-lpwan-schc-compound-ack-14: On the Right Track" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lpwan-schc-compound-ack-14-yangdoctors-early-aries-2023-03-20/">
+                        yangdoctors
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-lpwan-schc-compound-ack-13: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lpwan-schc-compound-ack-13-secdir-lc-weis-2023-03-04/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Last Call review of draft-ietf-lpwan-schc-compound-ack-12: Has Issues" class="badge rounded-pill bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lpwan-schc-compound-ack-12-opsdir-lc-zhou-2023-03-02/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-03-14" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lpwan-schc-compound-ack/reviewrequest/17216/">
+                        opsdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-03-09" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lpwan-schc-compound-ack/reviewrequest/17160/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lpwan-schc-compound-ack/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[Client-Cert HTTP Header Field]]></title>
@@ -834,192 +1052,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-scitt-software-use-cases/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Improving the Robustness of Stateless Address Autoconfiguration (SLAAC) to Flash Renumbering Events]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-6man-slaac-renum/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-6man-slaac-renum/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[HTTP Unprompted Authentication]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-httpbis-unprompted-auth/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-httpbis-unprompted-auth/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Data minimization among protocol participants]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-arkko-iab-data-minimization-principle/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                IAB stream
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                IAB stream
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-arkko-iab-data-minimization-principle/</guid>
       
     </item>
     
