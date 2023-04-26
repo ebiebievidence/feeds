@@ -7,17 +7,19 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Tue, 25 Apr 2023 01:43:21 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Apr 2023 01:42:13 +0000</lastBuildDate>
     
     <item>
-      <title><![CDATA[DMARC Aggregate Reporting]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-dmarc-aggregate-reporting/</link>
+      <title><![CDATA[Avoidance of ROA Containing Multiple IP Prefixes]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-sidrops-roa-considerations/</link>
       
       <description><![CDATA[
     
+        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-sidrops-roa-considerations"></div>
+    
     
         
-            I-D Exists
+            Last Call Requested
         
         
         
@@ -29,217 +31,493 @@
         
             <br>
             
-                WG Document
+                Submitted to IESG for Publication
+                
+                    :
                 
             
         
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-dmarc-aggregate-reporting/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[CBOR Web Token (CWT) Claims in COSE Headers]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-cose-cwt-claims-in-headers/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-cose-cwt-claims-in-headers/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Status of this Memo]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-rtgwg-net2cloud-problem-statement/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
+        Best Current Practice
         
         
             <br>
             Reviews:
             
                 
-                    <span title="RTGDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Has Issues" class="badge rounded-pill bg-warning">
+                    <span title="SECDIR Last Call review of draft-ietf-sidrops-roa-considerations-07: Ready" class="badge rounded-pill bg-success">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-22-rtgdir-early-robles-2023-04-09/">
-                        rtgdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Has Issues" class="badge rounded-pill bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-22-opsdir-early-hares-2023-04-10/">
-                        opsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Not Ready" class="badge rounded-pill bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-22-secdir-early-cooley-2023-04-09/">
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-roa-considerations-07-secdir-lc-turner-2023-02-28/">
                         secdir
                         
-                            Early
+                            LC
                         
                     </a>
                     </span>
 
             
                 
-                    <span title="TSVART Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Not Ready" class="badge rounded-pill bg-danger">
+                    <span title="RTGDIR Last Call review of draft-ietf-sidrops-roa-considerations-07: Has Nits" class="badge rounded-pill bg-info">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-22-tsvart-early-black-2023-04-03/">
-                        tsvart
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-roa-considerations-07-rtgdir-lc-pignataro-2023-03-01/">
+                        rtgdir
                         
-                            Early
+                            LC
                         
                     </a>
                     </span>
 
             
                 
-                    <span title="DNSDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Ready with Nits" class="badge rounded-pill bg-success">
+                    <span title="GENART Last Call review of draft-ietf-sidrops-roa-considerations-07: Ready with Nits" class="badge rounded-pill bg-success">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-20-dnsdir-early-obser-2023-03-07/">
-                        dnsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Early review of draft-ietf-rtgwg-net2cloud-problem-statement-21: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-21-genart-early-kyzivat-2023-03-19/">
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-roa-considerations-07-genart-lc-worley-2023-02-19/">
                         genart
                         
-                            Early
+                            LC
                         
                     </a>
                     </span>
 
             
                 
-                        <span title="Incomplete, due 2023-04-09" class="badge rounded-pill bg-secondary">
+                    <span title="ARTART Last Call review of draft-ietf-sidrops-roa-considerations-07: Almost Ready" class="badge rounded-pill bg-info">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rtgwg-net2cloud-problem-statement/reviewrequest/17190/">
-                        intdir
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-roa-considerations-07-artart-lc-fenton-2023-02-17/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-02-24" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-sidrops-roa-considerations/reviewrequest/17096/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/warren@kumari.net">Warren "Ace" Kumari</a> <a href="mailto:warren%40kumari.net" aria-label="Compose email to warren@kumari.net." title="Compose email to warren@kumari.net.">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-sidrops-roa-considerations"></div>
+    
+    
+        
+            Last Call Requested
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Best Current Practice
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-sidrops-roa-considerations-07: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-roa-considerations-07-secdir-lc-turner-2023-02-28/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Last Call review of draft-ietf-sidrops-roa-considerations-07: Has Nits" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-roa-considerations-07-rtgdir-lc-pignataro-2023-03-01/">
+                        rtgdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-sidrops-roa-considerations-07: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-roa-considerations-07-genart-lc-worley-2023-02-19/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART Last Call review of draft-ietf-sidrops-roa-considerations-07: Almost Ready" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-roa-considerations-07-artart-lc-fenton-2023-02-17/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-02-24" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-sidrops-roa-considerations/reviewrequest/17096/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/warren@kumari.net">Warren "Ace" Kumari</a> <a href="mailto:warren%40kumari.net" aria-label="Compose email to warren@kumari.net." title="Compose email to warren@kumari.net.">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-sidrops-roa-considerations/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Guidance on End-to-End E-mail Security]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-lamps-e2e-mail-guidance/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lamps-e2e-mail-guidance/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[MPLS Network Action for Entropy]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-li-mpls-mna-entropy/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-li-mpls-mna-entropy/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[IP Layer Metrics for Edge Services]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-dunbar-cats-edge-service-metrics/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-dunbar-cats-edge-service-metrics/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[ECN Over Aggregating Tunnels]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-duke-tsvwg-ecn-aggregating-tunnels/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-duke-tsvwg-ecn-aggregating-tunnels/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[QUIC Version Aliasing]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-duke-quic-version-aliasing/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-duke-quic-version-aliasing/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Internationalization for the NFSv4 Protocols]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-nfsv4-internationalization/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+            <br>
+            Review:
+            
+                
+                    <span title="I18NDIR Early review of draft-dnoveck-nfsv4-internationalization-01: On the Right Track" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-dnoveck-nfsv4-internationalization-01-i18ndir-early-williams-2020-06-01/">
+                        i18ndir
                         
                             Early
                         
@@ -276,85 +554,13 @@
         
         
             <br>
-            Reviews:
+            Review:
             
                 
-                    <span title="RTGDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Has Issues" class="badge rounded-pill bg-warning">
+                    <span title="I18NDIR Early review of draft-dnoveck-nfsv4-internationalization-01: On the Right Track" class="badge rounded-pill bg-info">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-22-rtgdir-early-robles-2023-04-09/">
-                        rtgdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Has Issues" class="badge rounded-pill bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-22-opsdir-early-hares-2023-04-10/">
-                        opsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Not Ready" class="badge rounded-pill bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-22-secdir-early-cooley-2023-04-09/">
-                        secdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Not Ready" class="badge rounded-pill bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-22-tsvart-early-black-2023-04-03/">
-                        tsvart
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-20-dnsdir-early-obser-2023-03-07/">
-                        dnsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Early review of draft-ietf-rtgwg-net2cloud-problem-statement-21: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-21-genart-early-kyzivat-2023-03-19/">
-                        genart
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-04-09" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rtgwg-net2cloud-problem-statement/reviewrequest/17190/">
-                        intdir
+                    <a class="text-reset text-decoration-none" href="/doc/review-dnoveck-nfsv4-internationalization-01-i18ndir-early-williams-2020-06-01/">
+                        i18ndir
                         
                             Early
                         
@@ -367,13 +573,137 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-rtgwg-net2cloud-problem-statement/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-nfsv4-internationalization/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[SR-MPLS / SRv6 Transport Interworking]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-bonica-spring-srv6-end-dtm/</link>
+      <title><![CDATA[Tunnel Extensible Authentication Protocol (TEAP) Version 1]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-emu-rfc7170bis/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-emu-rfc7170bis/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Carrying SR Algorithm information in PCE-based Networks.]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-pce-sid-algo/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-pce-sid-algo/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Distribution of SR P2MP Policies and State using BGP-LS]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-liu-idr-bgpls-sr-p2mp-policy-distribution/</link>
       
       <description><![CDATA[
     
@@ -417,307 +747,7 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-bonica-spring-srv6-end-dtm/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Framework for In-situ Flow Information Telemetry]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-song-opsawg-ifit-framework/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-song-opsawg-ifit-framework/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[LISP Multicast Overlay Group to Underlay RLOC Mappings]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-vdas-lisp-group-mapping/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-vdas-lisp-group-mapping/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Problems and Requirements of Evaluation Methodology for Integrated Space and Terrestrial Networks]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-lai-bmwg-istn-methodology/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-lai-bmwg-istn-methodology/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Stateless SRv6 Point-to-Multipoint Path]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-chen-pim-srv6-p2mp-path/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-chen-pim-srv6-p2mp-path/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Stateless Best Effort Multicast Using MRH]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-chen-pim-be-mrh/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-chen-pim-be-mrh/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Stateless Best Effort Multicast Simulations]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-chen-pim-be-mrh-simu/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-chen-pim-be-mrh-simu/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-liu-idr-bgpls-sr-p2mp-policy-distribution/</guid>
       
     </item>
     
