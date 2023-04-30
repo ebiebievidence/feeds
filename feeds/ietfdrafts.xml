@@ -7,7 +7,345 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Sat, 29 Apr 2023 01:41:40 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Apr 2023 01:45:03 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[Subject Identifiers for Security Event Tokens]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-secevent-subject-identifiers/</link>
+      
+      <description><![CDATA[
+    
+        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-secevent-subject-identifiers">
+<a href="/doc/draft-ietf-secevent-subject-identifiers/ballotpopup/902548/" data-bs-toggle="modal" data-bs-target="#modal-902548" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-902548" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill bg-danger" title="In state for 72 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 72</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-secevent-subject-identifiers-15: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-secevent-subject-identifiers-15-secdir-lc-weiler-2023-02-14/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART Last Call review of draft-ietf-secevent-subject-identifiers-14: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-secevent-subject-identifiers-14-artart-lc-kyzivat-2022-11-11/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-secevent-subject-identifiers-14: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-secevent-subject-identifiers-14-genart-lc-holmberg-2022-10-28/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/rdd@cert.org">Roman Danyliw</a> <a href="mailto:rdd%40cert.org" aria-label="Compose email to rdd@cert.org." title="Compose email to rdd@cert.org.">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 85 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 85</span>
+            
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-secevent-subject-identifiers">
+<a href="/doc/draft-ietf-secevent-subject-identifiers/ballotpopup/902548/" data-bs-toggle="modal" data-bs-target="#modal-902548" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-902548" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill bg-danger" title="In state for 72 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 72</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-secevent-subject-identifiers-15: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-secevent-subject-identifiers-15-secdir-lc-weiler-2023-02-14/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART Last Call review of draft-ietf-secevent-subject-identifiers-14: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-secevent-subject-identifiers-14-artart-lc-kyzivat-2022-11-11/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-secevent-subject-identifiers-14: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-secevent-subject-identifiers-14-genart-lc-holmberg-2022-10-28/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/rdd@cert.org">Roman Danyliw</a> <a href="mailto:rdd%40cert.org" aria-label="Compose email to rdd@cert.org." title="Compose email to rdd@cert.org.">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 85 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 85</span>
+            
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-secevent-subject-identifiers/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Structured Error Data for Filtered DNS]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Report from the IAB workshop on Management Techniques in Encrypted Networks (M-TEN)]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-iab-m-ten-workshop/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                IAB stream
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                IAB stream
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-iab-m-ten-workshop/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[Problem Details for HTTP APIs]]></title>
@@ -23,7 +361,7 @@
         
         
         
-        <span class="badge rounded-pill bg-danger" title="In state for 31 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 31</span>
+        <span class="badge rounded-pill bg-danger" title="In state for 32 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 32</span>
         
         
             
@@ -94,7 +432,7 @@
         
         
         
-        <span class="badge rounded-pill bg-danger" title="In state for 31 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 31</span>
+        <span class="badge rounded-pill bg-danger" title="In state for 32 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 32</span>
         
         
             
@@ -734,6 +1072,18 @@
             Reviews:
             
                 
+                    <span title="SECDIR Last Call review of draft-ietf-rtgwg-yang-rib-extend-16: Has Nits" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-yang-rib-extend-16-secdir-lc-lonvick-2023-04-29/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
                     <span title="YANGDOCTORS Last Call review of draft-ietf-rtgwg-yang-rib-extend-06: Ready with Nits" class="badge rounded-pill bg-success">
                     
                     <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-yang-rib-extend-06-yangdoctors-lc-bjorklund-2021-04-14/">
@@ -786,18 +1136,6 @@
                     
                     <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rtgwg-yang-rib-extend/reviewrequest/17449/">
                         genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-05-01" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rtgwg-yang-rib-extend/reviewrequest/17437/">
-                        secdir
                         
                             LC
                         
@@ -858,6 +1196,18 @@
             Reviews:
             
                 
+                    <span title="SECDIR Last Call review of draft-ietf-rtgwg-yang-rib-extend-16: Has Nits" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-yang-rib-extend-16-secdir-lc-lonvick-2023-04-29/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
                     <span title="YANGDOCTORS Last Call review of draft-ietf-rtgwg-yang-rib-extend-06: Ready with Nits" class="badge rounded-pill bg-success">
                     
                     <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-yang-rib-extend-06-yangdoctors-lc-bjorklund-2021-04-14/">
@@ -910,18 +1260,6 @@
                     
                     <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rtgwg-yang-rib-extend/reviewrequest/17449/">
                         genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-05-01" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rtgwg-yang-rib-extend/reviewrequest/17437/">
-                        secdir
                         
                             LC
                         
@@ -1004,468 +1342,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-rabnic-bess-evpn-mcast-eeg/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Proxying IP in HTTP]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-masque-connect-ip/</link>
-      
-      <description><![CDATA[
-    
-        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-masque-connect-ip"></div>
-    
-    
-        
-            Approved-announcement to be sent::AD Followup
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="INTDIR Telechat review of draft-ietf-masque-connect-ip-10: Not Ready" class="badge rounded-pill bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-10-intdir-telechat-touch-2023-04-14/">
-                        intdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="INTDIR Telechat review of draft-ietf-masque-connect-ip-09: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-09-intdir-telechat-winters-2023-04-07/">
-                        intdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Telechat review of draft-ietf-masque-connect-ip-09: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-09-dnsdir-telechat-gieben-2023-04-10/">
-                        dnsdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-masque-connect-ip-09: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-09-secdir-lc-cam-winget-2023-04-10/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="HTTPDIR Telechat review of draft-ietf-masque-connect-ip-08: Ready with Issues" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-08-httpdir-telechat-nottingham-2023-04-04/">
-                        httpdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR Last Call review of draft-ietf-masque-connect-ip-08: Serious Issues" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-08-opsdir-lc-dunbar-2023-03-22/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART Last Call review of draft-ietf-masque-connect-ip-08: Not Ready" class="badge rounded-pill bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-08-tsvart-lc-briscoe-2023-03-28/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART Last Call review of draft-ietf-masque-connect-ip-08: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-08-artart-lc-mahoney-2023-03-15/">
-                        artart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-masque-connect-ip-08: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-08-genart-lc-gurbani-2023-03-03/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Last Call review of draft-ietf-masque-connect-ip-08: Ready with Issues" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-08-dnsdir-lc-gieben-2023-03-12/">
-                        dnsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="INTDIR Early review of draft-ietf-masque-connect-ip-07: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-07-intdir-early-winters-2023-02-28/">
-                        intdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-04-11" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-masque-connect-ip/reviewrequest/17404/">
-                        dnsdir
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-masque-connect-ip"></div>
-    
-    
-        
-            Approved-announcement to be sent::AD Followup
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="INTDIR Telechat review of draft-ietf-masque-connect-ip-10: Not Ready" class="badge rounded-pill bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-10-intdir-telechat-touch-2023-04-14/">
-                        intdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="INTDIR Telechat review of draft-ietf-masque-connect-ip-09: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-09-intdir-telechat-winters-2023-04-07/">
-                        intdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Telechat review of draft-ietf-masque-connect-ip-09: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-09-dnsdir-telechat-gieben-2023-04-10/">
-                        dnsdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-masque-connect-ip-09: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-09-secdir-lc-cam-winget-2023-04-10/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="HTTPDIR Telechat review of draft-ietf-masque-connect-ip-08: Ready with Issues" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-08-httpdir-telechat-nottingham-2023-04-04/">
-                        httpdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR Last Call review of draft-ietf-masque-connect-ip-08: Serious Issues" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-08-opsdir-lc-dunbar-2023-03-22/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART Last Call review of draft-ietf-masque-connect-ip-08: Not Ready" class="badge rounded-pill bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-08-tsvart-lc-briscoe-2023-03-28/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART Last Call review of draft-ietf-masque-connect-ip-08: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-08-artart-lc-mahoney-2023-03-15/">
-                        artart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-masque-connect-ip-08: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-08-genart-lc-gurbani-2023-03-03/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Last Call review of draft-ietf-masque-connect-ip-08: Ready with Issues" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-08-dnsdir-lc-gieben-2023-03-12/">
-                        dnsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="INTDIR Early review of draft-ietf-masque-connect-ip-07: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-masque-connect-ip-07-intdir-early-winters-2023-02-28/">
-                        intdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-04-11" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-masque-connect-ip/reviewrequest/17404/">
-                        dnsdir
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-masque-connect-ip/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Considerations for Benchmarking Network Performance in Satellite Internet Constellations]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-lai-bmwg-sic-benchmarking/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-lai-bmwg-sic-benchmarking/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Traces of EDHOC]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-lake-traces/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            Publication Requested
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Informational
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            Publication Requested
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Informational
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lake-traces/</guid>
       
     </item>
     
