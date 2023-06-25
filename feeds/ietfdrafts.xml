@@ -7,7 +7,693 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Sat, 24 Jun 2023 02:03:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jun 2023 02:21:33 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[Subject Identifiers for Security Event Tokens]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-secevent-subject-identifiers/</link>
+      
+      <description><![CDATA[
+    
+        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-secevent-subject-identifiers">
+<a href="/doc/draft-ietf-secevent-subject-identifiers/ballotpopup/902548/" data-bs-toggle="modal" data-bs-target="#modal-902548" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-902548" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-secevent-subject-identifiers-15: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-secevent-subject-identifiers-15-secdir-lc-weiler-2023-02-14/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART Last Call review of draft-ietf-secevent-subject-identifiers-14: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-secevent-subject-identifiers-14-artart-lc-kyzivat-2022-11-11/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-secevent-subject-identifiers-14: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-secevent-subject-identifiers-14-genart-lc-holmberg-2022-10-28/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/rdd@cert.org">Roman Danyliw</a> <a href="mailto:rdd%40cert.org" aria-label="Compose email to rdd@cert.org." title="Compose email to rdd@cert.org.">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 141 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 141</span>
+            
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-secevent-subject-identifiers">
+<a href="/doc/draft-ietf-secevent-subject-identifiers/ballotpopup/902548/" data-bs-toggle="modal" data-bs-target="#modal-902548" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-902548" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-secevent-subject-identifiers-15: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-secevent-subject-identifiers-15-secdir-lc-weiler-2023-02-14/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART Last Call review of draft-ietf-secevent-subject-identifiers-14: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-secevent-subject-identifiers-14-artart-lc-kyzivat-2022-11-11/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-secevent-subject-identifiers-14: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-secevent-subject-identifiers-14-genart-lc-holmberg-2022-10-28/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/rdd@cert.org">Roman Danyliw</a> <a href="mailto:rdd%40cert.org" aria-label="Compose email to rdd@cert.org." title="Compose email to rdd@cert.org.">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 141 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 141</span>
+            
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-secevent-subject-identifiers/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Active OAM for Service Function Chaining (SFC)]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-sfc-multi-layer-oam/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            Waiting for AD Go-Ahead
+        
+        
+        
+        <span class="badge rounded-pill bg-danger" title="In state for 36 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 36</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="TSVART Last Call review of draft-ietf-sfc-multi-layer-oam-23: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sfc-multi-layer-oam-23-tsvart-lc-bonaventure-2023-05-22/">
+                        tsvart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-sfc-multi-layer-oam-23: Has Issues" class="badge rounded-pill bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sfc-multi-layer-oam-23-secdir-lc-mundy-2023-05-16/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-sfc-multi-layer-oam-23: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sfc-multi-layer-oam-23-genart-lc-sarikaya-2023-05-15/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Last Call review of draft-ietf-sfc-multi-layer-oam-23: Has Issues" class="badge rounded-pill bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sfc-multi-layer-oam-23-rtgdir-lc-dukes-2023-05-08/">
+                        rtgdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-06-09" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-sfc-multi-layer-oam/reviewrequest/17536/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-05-17" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-sfc-multi-layer-oam/reviewrequest/17533/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/andrew-ietf@liquid.tech">Andrew Alston</a> <a href="mailto:andrew-ietf%40liquid.tech" aria-label="Compose email to andrew-ietf@liquid.tech." title="Compose email to andrew-ietf@liquid.tech.">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 36 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 36</span>
+            
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            Waiting for AD Go-Ahead
+        
+        
+        
+        <span class="badge rounded-pill bg-danger" title="In state for 36 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 36</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="TSVART Last Call review of draft-ietf-sfc-multi-layer-oam-23: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sfc-multi-layer-oam-23-tsvart-lc-bonaventure-2023-05-22/">
+                        tsvart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-sfc-multi-layer-oam-23: Has Issues" class="badge rounded-pill bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sfc-multi-layer-oam-23-secdir-lc-mundy-2023-05-16/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-sfc-multi-layer-oam-23: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sfc-multi-layer-oam-23-genart-lc-sarikaya-2023-05-15/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Last Call review of draft-ietf-sfc-multi-layer-oam-23: Has Issues" class="badge rounded-pill bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sfc-multi-layer-oam-23-rtgdir-lc-dukes-2023-05-08/">
+                        rtgdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-06-09" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-sfc-multi-layer-oam/reviewrequest/17536/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-05-17" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-sfc-multi-layer-oam/reviewrequest/17533/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/andrew-ietf@liquid.tech">Andrew Alston</a> <a href="mailto:andrew-ietf%40liquid.tech" aria-label="Compose email to andrew-ietf@liquid.tech." title="Compose email to andrew-ietf@liquid.tech.">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 36 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 36</span>
+            
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-sfc-multi-layer-oam/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[RateLimit header fields for HTTP]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-httpapi-ratelimit-headers/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-httpapi-ratelimit-headers/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[REST API Linked Data Keywords]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-polli-restapi-ld-keywords/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-polli-restapi-ld-keywords/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Network File System (NFS) Version 4 Minor Version 1 Protocol]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-nfsv4-rfc5661bis/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-nfsv4-rfc5661bis/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Generic Fault-Avoidance Routing Protocol for Data Center Networks]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-sl-rtgwg-far-dcn/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Response to Review Needed
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Response to Review Needed
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-sl-rtgwg-far-dcn/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[BGP UPDATE for SD-WAN Edge Discovery]]></title>
@@ -68,238 +754,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-idr-sdwan-edge-discovery/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Active OAM for Service Function Chaining (SFC)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-sfc-multi-layer-oam/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            Waiting for AD Go-Ahead
-        
-        
-        
-        <span class="badge rounded-pill bg-danger" title="In state for 35 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 35</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="TSVART Last Call review of draft-ietf-sfc-multi-layer-oam-23: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sfc-multi-layer-oam-23-tsvart-lc-bonaventure-2023-05-22/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-sfc-multi-layer-oam-23: Has Issues" class="badge rounded-pill bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sfc-multi-layer-oam-23-secdir-lc-mundy-2023-05-16/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-sfc-multi-layer-oam-23: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sfc-multi-layer-oam-23-genart-lc-sarikaya-2023-05-15/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Last Call review of draft-ietf-sfc-multi-layer-oam-23: Has Issues" class="badge rounded-pill bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sfc-multi-layer-oam-23-rtgdir-lc-dukes-2023-05-08/">
-                        rtgdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-06-09" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-sfc-multi-layer-oam/reviewrequest/17536/">
-                        artart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-05-17" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-sfc-multi-layer-oam/reviewrequest/17533/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/andrew-ietf@liquid.tech">Andrew Alston</a> <a href="mailto:andrew-ietf%40liquid.tech" aria-label="Compose email to andrew-ietf@liquid.tech." title="Compose email to andrew-ietf@liquid.tech.">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 35 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 35</span>
-            
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            Waiting for AD Go-Ahead
-        
-        
-        
-        <span class="badge rounded-pill bg-danger" title="In state for 35 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 35</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="TSVART Last Call review of draft-ietf-sfc-multi-layer-oam-23: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sfc-multi-layer-oam-23-tsvart-lc-bonaventure-2023-05-22/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-sfc-multi-layer-oam-23: Has Issues" class="badge rounded-pill bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sfc-multi-layer-oam-23-secdir-lc-mundy-2023-05-16/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-sfc-multi-layer-oam-23: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sfc-multi-layer-oam-23-genart-lc-sarikaya-2023-05-15/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Last Call review of draft-ietf-sfc-multi-layer-oam-23: Has Issues" class="badge rounded-pill bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sfc-multi-layer-oam-23-rtgdir-lc-dukes-2023-05-08/">
-                        rtgdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-06-09" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-sfc-multi-layer-oam/reviewrequest/17536/">
-                        artart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-05-17" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-sfc-multi-layer-oam/reviewrequest/17533/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/andrew-ietf@liquid.tech">Andrew Alston</a> <a href="mailto:andrew-ietf%40liquid.tech" aria-label="Compose email to andrew-ietf@liquid.tech." title="Compose email to andrew-ietf@liquid.tech.">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 35 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 35</span>
-            
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-sfc-multi-layer-oam/</guid>
       
     </item>
     
@@ -634,286 +1088,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-pce-local-protection-enforcement/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[PIM Flooding Mechanism Enhancements]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-gopal-pim-pfm-forwarding-enhancements/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-gopal-pim-pfm-forwarding-enhancements/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[The IPv6 Compact Routing Header (CRH)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-bonica-6man-comp-rtg-hdr/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-bonica-6man-comp-rtg-hdr/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[The Privacy Pass HTTP Authentication Scheme]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-privacypass-auth-scheme/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            In Last Call (ends 2023-07-07)
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io." title="Compose email to paul.wouters@aiven.io.">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            In Last Call (ends 2023-07-07)
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io." title="Compose email to paul.wouters@aiven.io.">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-privacypass-auth-scheme/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Best Practices for Deletion of Domain and Host Objects in the Extensible Provisioning Protocol (EPP)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-hollenbeck-regext-epp-delete-bcp/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-hollenbeck-regext-epp-delete-bcp/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[RDAP Extensions]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-newton-regext-rdap-extensions/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-newton-regext-rdap-extensions/</guid>
       
     </item>
     
