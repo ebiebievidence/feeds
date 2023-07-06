@@ -7,51 +7,21 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Wed, 05 Jul 2023 02:04:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jul 2023 02:09:37 +0000</lastBuildDate>
     
     <item>
-      <title><![CDATA[A Secure Selection and Filtering Mechanism for the Network Time Protocol with Khronos]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-ntp-chronos/</link>
+      <title><![CDATA[YANG Data Model for Routing in Fat Trees (RIFT)]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-rift-yang/</link>
       
       <description><![CDATA[
     
-        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ntp-chronos">
-<a href="/doc/draft-ietf-ntp-chronos/ballotpopup/927122/" data-bs-toggle="modal" data-bs-target="#modal-927122" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-927122" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
     
         
-            IESG Evaluation
+            AD Evaluation::AD Followup
         
         
         
-        
-        
-            <br>
-            IESG telechat: 2023-07-13
+        <span class="badge rounded-pill bg-danger" title="In state for 35 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 35</span>
         
         
             
@@ -65,87 +35,17 @@
                 
             
         
-        Informational
+        Proposed Standard
         
         
             <br>
-            Reviews:
+            Review:
             
                 
-                    <span title="INTDIR Telechat review of draft-ietf-ntp-chronos-17: Ready with Nits" class="badge rounded-pill bg-success">
+                    <span title="YANGDOCTORS Last Call review of draft-ietf-rift-yang-03: Almost Ready" class="badge rounded-pill bg-info">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ntp-chronos-17-intdir-telechat-chown-2023-07-03/">
-                        intdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-ntp-chronos-16: Has Nits" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ntp-chronos-16-secdir-lc-schwartz-2023-06-22/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART Last Call review of draft-ietf-ntp-chronos-16: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ntp-chronos-16-tsvart-lc-pauly-2023-06-19/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR Last Call review of draft-ietf-ntp-chronos-16: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ntp-chronos-16-opsdir-lc-zhou-2023-06-25/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-ntp-chronos-14: Almost Ready" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ntp-chronos-14-genart-lc-even-2023-06-12/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Last Call review of draft-ietf-ntp-chronos-14: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ntp-chronos-14-dnsdir-lc-huston-2023-06-08/">
-                        dnsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-06-22" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-ntp-chronos/reviewrequest/17643/">
-                        artart
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rift-yang-03-yangdoctors-lc-vasko-2021-07-08/">
+                        yangdoctors
                         
                             LC
                         
@@ -154,56 +54,29 @@
 
             
         
+        
+            <br>
+            <span title="Part of rift milestone: Submit YANG module to IESG for publication" class="milestone">Aug 2020</span>
         
         
             <br>
             Action Holder:
             
-                <span><a title="Responsible AD" href="/person/ek.ietf@gmail.com">Erik Kline</a> <a href="mailto:ek.ietf%40gmail.com" aria-label="Compose email to ek.ietf@gmail.com." title="Compose email to ek.ietf@gmail.com.">
-                <i class="bi bi-envelope"></i></a></span>
+                <span><a title="Responsible AD" href="/person/james.n.guichard@futurewei.com">Jim Guichard</a> <a href="mailto:james.n.guichard%40futurewei.com" aria-label="Compose email to james.n.guichard@futurewei.com." title="Compose email to james.n.guichard@futurewei.com.">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 35 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 35</span>
             
         
     
 ]]></description>
       <content:encoded><![CDATA[
     
-        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ntp-chronos">
-<a href="/doc/draft-ietf-ntp-chronos/ballotpopup/927122/" data-bs-toggle="modal" data-bs-target="#modal-927122" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-927122" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
     
         
-            IESG Evaluation
+            AD Evaluation::AD Followup
         
         
         
-        
-        
-            <br>
-            IESG telechat: 2023-07-13
+        <span class="badge rounded-pill bg-danger" title="In state for 35 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 35</span>
         
         
             
@@ -217,87 +90,17 @@
                 
             
         
-        Informational
+        Proposed Standard
         
         
             <br>
-            Reviews:
+            Review:
             
                 
-                    <span title="INTDIR Telechat review of draft-ietf-ntp-chronos-17: Ready with Nits" class="badge rounded-pill bg-success">
+                    <span title="YANGDOCTORS Last Call review of draft-ietf-rift-yang-03: Almost Ready" class="badge rounded-pill bg-info">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ntp-chronos-17-intdir-telechat-chown-2023-07-03/">
-                        intdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-ntp-chronos-16: Has Nits" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ntp-chronos-16-secdir-lc-schwartz-2023-06-22/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART Last Call review of draft-ietf-ntp-chronos-16: Ready with Nits" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ntp-chronos-16-tsvart-lc-pauly-2023-06-19/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR Last Call review of draft-ietf-ntp-chronos-16: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ntp-chronos-16-opsdir-lc-zhou-2023-06-25/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-ntp-chronos-14: Almost Ready" class="badge rounded-pill bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ntp-chronos-14-genart-lc-even-2023-06-12/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Last Call review of draft-ietf-ntp-chronos-14: Ready" class="badge rounded-pill bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ntp-chronos-14-dnsdir-lc-huston-2023-06-08/">
-                        dnsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-06-22" class="badge rounded-pill bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-ntp-chronos/reviewrequest/17643/">
-                        artart
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rift-yang-03-yangdoctors-lc-vasko-2021-07-08/">
+                        yangdoctors
                         
                             LC
                         
@@ -306,24 +109,27 @@
 
             
         
+        
+            <br>
+            <span title="Part of rift milestone: Submit YANG module to IESG for publication" class="milestone">Aug 2020</span>
         
         
             <br>
             Action Holder:
             
-                <span><a title="Responsible AD" href="/person/ek.ietf@gmail.com">Erik Kline</a> <a href="mailto:ek.ietf%40gmail.com" aria-label="Compose email to ek.ietf@gmail.com." title="Compose email to ek.ietf@gmail.com.">
-                <i class="bi bi-envelope"></i></a></span>
+                <span><a title="Responsible AD" href="/person/james.n.guichard@futurewei.com">Jim Guichard</a> <a href="mailto:james.n.guichard%40futurewei.com" aria-label="Compose email to james.n.guichard@futurewei.com." title="Compose email to james.n.guichard@futurewei.com.">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill bg-danger" title="In state for 35 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 35</span>
             
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-ntp-chronos/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-rift-yang/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[BGP-LS extensions for BIER-TE]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-cz-bier-bgp-ls-bier-te-ext/</link>
+      <title><![CDATA[Media Header Extensions for Wireless Networks]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-kaippallimalil-tsvwg-media-hdr-wireless/</link>
       
       <description><![CDATA[
     
@@ -367,13 +173,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-cz-bier-bgp-ls-bier-te-ext/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-kaippallimalil-tsvwg-media-hdr-wireless/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[An RPKI and IPsec-based AS-to-AS Approach for Source Address Validation]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-xu-ipsecme-risav/</link>
+      <title><![CDATA[Inband Telemetry for HPCC++]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-miao-ccwg-hpcc-info/</link>
       
       <description><![CDATA[
     
@@ -417,13 +223,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-xu-ipsecme-risav/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-miao-ccwg-hpcc-info/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Considerations for Protection of SR Networks]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-liu-rtgwg-sr-protection-considerations/</link>
+      <title><![CDATA[HPCC++: Enhanced High Precision Congestion Control]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-miao-ccwg-hpcc/</link>
       
       <description><![CDATA[
     
@@ -467,13 +273,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-liu-rtgwg-sr-protection-considerations/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-miao-ccwg-hpcc/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[A well-known URI for publishing ECHConfigList values.]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-tls-wkech/</link>
+      <title><![CDATA[WebSocket Extension to disable masking]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-damjanovic-websockets-nomasking/</link>
       
       <description><![CDATA[
     
@@ -488,12 +294,6 @@
         
             
         
-        
-            <br>
-            
-                WG Document
-                
-            
         
         
         
@@ -516,12 +316,6 @@
             
         
         
-            <br>
-            
-                WG Document
-                
-            
-        
         
         
         
@@ -529,91 +323,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-tls-wkech/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-damjanovic-websockets-nomasking/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Strong Assertions of IoT Network Access Requirements]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-suit-mud/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                In WG Last Call
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-        
-            <br>
-            <span title="Part of suit milestone: Adopt SUIT Manifest MUD extension document as WG item" class="milestone">Dec 2021</span>,
-        
-            
-            <span title="Part of suit milestone: Submit SUIT Manifest MUD extension document to the IESG for publication as a Proposed Standard" class="milestone">Dec 2022</span>
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                In WG Last Call
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-        
-            <br>
-            <span title="Part of suit milestone: Adopt SUIT Manifest MUD extension document as WG item" class="milestone">Dec 2021</span>,
-        
-            
-            <span title="Part of suit milestone: Submit SUIT Manifest MUD extension document to the IESG for publication as a Proposed Standard" class="milestone">Dec 2022</span>
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-suit-mud/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[A summary of security-enabling technologies for IoT devices]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-iotops-security-summary/</link>
+      <title><![CDATA[Mobility aware Transport Network Slicing for 5G]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-dmm-tn-aware-mobility/</link>
       
       <description><![CDATA[
     
@@ -669,13 +385,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-iotops-security-summary/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-dmm-tn-aware-mobility/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Bundle Protocol Yang Model]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-blanchet-dtn-bp-yang-model/</link>
+      <title><![CDATA[Problems and Requirements of Satellite Constellation for Internet]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-lhan-problems-requirements-satellite-net/</link>
       
       <description><![CDATA[
     
@@ -719,13 +435,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-blanchet-dtn-bp-yang-model/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-lhan-problems-requirements-satellite-net/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[IPv6 Hop-by-Hop Options Processing Procedures]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-6man-hbh-processing/</link>
+      <title><![CDATA[Transmission of IP Packets over Overlay Multilink Network (OMNI) Interfaces]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-templin-intarea-omni/</link>
       
       <description><![CDATA[
     
@@ -740,12 +456,6 @@
         
             
         
-        
-            <br>
-            
-                In WG Last Call
-                
-            
         
         
         
@@ -768,12 +478,6 @@
             
         
         
-            <br>
-            
-                In WG Last Call
-                
-            
-        
         
         
         
@@ -781,13 +485,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-6man-hbh-processing/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-templin-intarea-omni/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Use of Password Based Message Authentication Code 1 (PBMAC1) in PKCS #12 Syntax]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-lamps-pkcs12-pbmac1/</link>
+      <title><![CDATA[Updates to X.509 Policy Validation]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-lamps-x509-policy-graph/</link>
       
       <description><![CDATA[
     
@@ -843,7 +547,69 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lamps-pkcs12-pbmac1/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lamps-x509-policy-graph/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Challenges and Opportunities in Management for Green Networking]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-irtf-nmrg-green-ps/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                IRTF stream
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                IRTF stream
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-irtf-nmrg-green-ps/</guid>
       
     </item>
     
