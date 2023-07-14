@@ -7,7 +7,473 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Thu, 13 Jul 2023 02:11:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jul 2023 02:09:02 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[ACME Integrations for Device Certificate Enrollment]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-acme-integrations/</link>
+      
+      <description><![CDATA[
+    
+        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-acme-integrations"></div>
+    
+    
+        
+            Approved-announcement to be sent
+        
+        
+        
+        
+        
+            <br>
+            IESG telechat: 2023-07-13
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="DNSDIR Telechat review of draft-ietf-acme-integrations-16: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-16-dnsdir-telechat-lemon-2023-07-10/">
+                        dnsdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Last Call review of draft-ietf-acme-integrations-15: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-15-dnsdir-lc-lemon-2023-06-08/">
+                        dnsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Last Call review of draft-ietf-acme-integrations-14: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-14-dnsdir-lc-lemon-2023-06-05/">
+                        dnsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Telechat review of draft-ietf-acme-integrations-13: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-13-secdir-telechat-salowey-2023-03-09/">
+                        secdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Telechat review of draft-ietf-acme-integrations-13: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-13-dnsdir-telechat-lemon-2023-03-01/">
+                        dnsdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-acme-integrations-12: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-12-genart-lc-evens-2023-01-20/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Last Call review of draft-ietf-acme-integrations-12: Has Nits" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-12-opsdir-lc-wu-2023-01-20/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-acme-integrations-12: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-12-secdir-lc-salowey-2023-01-18/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART Last Call review of draft-ietf-acme-integrations-12: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-12-artart-lc-levine-2023-01-11/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Last Call review of draft-ietf-acme-integrations-12: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-12-dnsdir-lc-lemon-2023-01-24/">
+                        dnsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-07-11" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-acme-integrations/reviewrequest/17831/">
+                        dnsdir
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of acme milestone: ACME integration with with EST, BRSKI and TEAP use cases submitted to IESG" class="milestone">Apr 2021</span>
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-acme-integrations"></div>
+    
+    
+        
+            Approved-announcement to be sent
+        
+        
+        
+        
+        
+            <br>
+            IESG telechat: 2023-07-13
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="DNSDIR Telechat review of draft-ietf-acme-integrations-16: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-16-dnsdir-telechat-lemon-2023-07-10/">
+                        dnsdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Last Call review of draft-ietf-acme-integrations-15: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-15-dnsdir-lc-lemon-2023-06-08/">
+                        dnsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Last Call review of draft-ietf-acme-integrations-14: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-14-dnsdir-lc-lemon-2023-06-05/">
+                        dnsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Telechat review of draft-ietf-acme-integrations-13: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-13-secdir-telechat-salowey-2023-03-09/">
+                        secdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Telechat review of draft-ietf-acme-integrations-13: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-13-dnsdir-telechat-lemon-2023-03-01/">
+                        dnsdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-acme-integrations-12: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-12-genart-lc-evens-2023-01-20/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Last Call review of draft-ietf-acme-integrations-12: Has Nits" class="badge rounded-pill bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-12-opsdir-lc-wu-2023-01-20/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-acme-integrations-12: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-12-secdir-lc-salowey-2023-01-18/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART Last Call review of draft-ietf-acme-integrations-12: Ready with Nits" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-12-artart-lc-levine-2023-01-11/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Last Call review of draft-ietf-acme-integrations-12: Ready with Issues" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-acme-integrations-12-dnsdir-lc-lemon-2023-01-24/">
+                        dnsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-07-11" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-acme-integrations/reviewrequest/17831/">
+                        dnsdir
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of acme milestone: ACME integration with with EST, BRSKI and TEAP use cases submitted to IESG" class="milestone">Apr 2021</span>
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-acme-integrations/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[IANA Considerations and IETF Protocol and Documentation Usage for IEEE 802 Parameters]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-intarea-rfc7042bis/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Consensus: Waiting for Write-Up
+                
+                    :
+                
+            
+        
+        Best Current Practice
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Consensus: Waiting for Write-Up
+                
+                    :
+                
+            
+        
+        Best Current Practice
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-intarea-rfc7042bis/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[BMP Peer Up Message Namespace]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-grow-bmp-peer-up/</link>
+      
+      <description><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-grow-bmp-peer-up/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[Certification Authority Authorization (CAA) Processing for Email Addresses]]></title>
@@ -72,6 +538,18 @@
             Reviews:
             
                 
+                    <span title="SECDIR Last Call review of draft-ietf-lamps-caa-issuemail-05: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lamps-caa-issuemail-05-secdir-lc-turner-2023-07-13/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
                     <span title="GENART Last Call review of draft-ietf-lamps-caa-issuemail-04: Ready" class="badge rounded-pill bg-success">
                     
                     <a class="text-reset text-decoration-none" href="/doc/review-ietf-lamps-caa-issuemail-04-genart-lc-holmberg-2023-07-03/">
@@ -108,12 +586,10 @@
 
             
                 
-                        <span title="Incomplete, due 2023-07-11" class="badge rounded-pill bg-secondary">
+                        <span title="Incomplete, due 2023-08-08" class="badge rounded-pill bg-secondary">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lamps-caa-issuemail/reviewrequest/17733/">
-                        opsdir
-                        
-                            LC
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lamps-caa-issuemail/reviewrequest/17830/">
+                        dnsdir
                         
                     </a>
                     </span>
@@ -122,8 +598,8 @@
                 
                         <span title="Incomplete, due 2023-07-11" class="badge rounded-pill bg-secondary">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lamps-caa-issuemail/reviewrequest/17720/">
-                        secdir
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lamps-caa-issuemail/reviewrequest/17733/">
+                        opsdir
                         
                             LC
                         
@@ -202,6 +678,18 @@
             Reviews:
             
                 
+                    <span title="SECDIR Last Call review of draft-ietf-lamps-caa-issuemail-05: Ready" class="badge rounded-pill bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lamps-caa-issuemail-05-secdir-lc-turner-2023-07-13/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
                     <span title="GENART Last Call review of draft-ietf-lamps-caa-issuemail-04: Ready" class="badge rounded-pill bg-success">
                     
                     <a class="text-reset text-decoration-none" href="/doc/review-ietf-lamps-caa-issuemail-04-genart-lc-holmberg-2023-07-03/">
@@ -238,12 +726,10 @@
 
             
                 
-                        <span title="Incomplete, due 2023-07-11" class="badge rounded-pill bg-secondary">
+                        <span title="Incomplete, due 2023-08-08" class="badge rounded-pill bg-secondary">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lamps-caa-issuemail/reviewrequest/17733/">
-                        opsdir
-                        
-                            LC
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lamps-caa-issuemail/reviewrequest/17830/">
+                        dnsdir
                         
                     </a>
                     </span>
@@ -252,8 +738,8 @@
                 
                         <span title="Incomplete, due 2023-07-11" class="badge rounded-pill bg-secondary">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lamps-caa-issuemail/reviewrequest/17720/">
-                        secdir
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lamps-caa-issuemail/reviewrequest/17733/">
+                        opsdir
                         
                             LC
                         
@@ -333,13 +819,43 @@
       
       <description><![CDATA[
     
+        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-long-lived-gr">
+<a href="/doc/draft-ietf-idr-long-lived-gr/ballotpopup/931838/" data-bs-toggle="modal" data-bs-target="#modal-931838" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-931838" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
     
         
-            In Last Call (ends 2023-07-13)
+            IESG Evaluation
         
         
         
         
+        
+            <br>
+            IESG telechat: 2023-08-10
         
         
             
@@ -402,6 +918,16 @@
                         rtgdir
                         
                             LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-08-08" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-idr-long-lived-gr/reviewrequest/17826/">
+                        secdir
                         
                     </a>
                     </span>
@@ -421,13 +947,43 @@
 ]]></description>
       <content:encoded><![CDATA[
     
+        <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-long-lived-gr">
+<a href="/doc/draft-ietf-idr-long-lived-gr/ballotpopup/931838/" data-bs-toggle="modal" data-bs-target="#modal-931838" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-931838" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
     
         
-            In Last Call (ends 2023-07-13)
+            IESG Evaluation
         
         
         
         
+        
+            <br>
+            IESG telechat: 2023-08-10
         
         
             
@@ -490,6 +1046,16 @@
                         rtgdir
                         
                             LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-08-08" class="badge rounded-pill bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-idr-long-lived-gr/reviewrequest/17826/">
+                        secdir
                         
                     </a>
                     </span>
@@ -792,192 +1358,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-irtf-coinrg-use-case-analysis/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[JSON Proof Token]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-jose-json-proof-token/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-jose-json-proof-token/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[JSON Proof Algorithms]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-jose-json-proof-algorithms/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-jose-json-proof-algorithms/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[JSON Web Proof]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-jose-json-web-proof/</link>
-      
-      <description><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-jose-json-web-proof/</guid>
       
     </item>
     
