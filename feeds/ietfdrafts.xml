@@ -7,288 +7,64 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Wed, 13 Dec 2023 01:33:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Dec 2023 01:31:53 +0000</lastBuildDate>
     
     <item>
-      <title><![CDATA[Use of GOST 2012 Signature Algorithms in DNSKEY and RRSIG Resource Records for DNSSEC]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc5933-bis/</link>
+      <title><![CDATA[IPv6 Extended Fragment Header]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-templin-6man-ipid-ext/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-dnsop-rfc5933-bis">
-<a href="/doc/draft-ietf-dnsop-rfc5933-bis/ballotpopup/887814/" data-bs-toggle="modal" data-bs-target="#modal-887814" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-discuss"></td>
-<td class="position-discuss"></td>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-abstain"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-887814" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-templin-6man-ipid-ext"></div>
     
         
-            IESG Evaluation
+            I-D Exists
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 376 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 376</span>
+        
         
         
             
         
         
-            <br>
-            
-                Held by WG
-                
-                    :
-                
-            
-        
-        Informational
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="DNSDIR Telechat review of draft-ietf-dnsop-rfc5933-bis-13: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-rfc5933-bis-13-dnsdir-telechat-reid-2022-11-30/">
-                        dnsdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Telechat review of draft-ietf-dnsop-rfc5933-bis-12: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-rfc5933-bis-12-dnsdir-telechat-rose-2022-11-02/">
-                        dnsdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Last Call review of draft-ietf-dnsop-rfc5933-bis-10: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-rfc5933-bis-10-dnsdir-lc-reid-2022-10-16/">
-                        dnsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-dnsop-rfc5933-bis-10: Almost Ready" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-rfc5933-bis-10-genart-lc-even-2022-10-13/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-dnsop-rfc5933-bis-10: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-rfc5933-bis-10-secdir-lc-sethi-2022-10-09/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2022-10-19" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-dnsop-rfc5933-bis/reviewrequest/16410/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/warren@kumari.net">Warren "Ace" Kumari</a> <a href="mailto:warren%40kumari.net" aria-label="Compose email to warren@kumari.net." title="Compose email to warren@kumari.net.">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 413 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 413</span>
-            
+        
         
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-dnsop-rfc5933-bis">
-<a href="/doc/draft-ietf-dnsop-rfc5933-bis/ballotpopup/887814/" data-bs-toggle="modal" data-bs-target="#modal-887814" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-discuss"></td>
-<td class="position-discuss"></td>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-abstain"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-887814" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-templin-6man-ipid-ext"></div>
     
         
-            IESG Evaluation
+            I-D Exists
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 376 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 376</span>
+        
         
         
             
         
         
-            <br>
-            
-                Held by WG
-                
-                    :
-                
-            
-        
-        Informational
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="DNSDIR Telechat review of draft-ietf-dnsop-rfc5933-bis-13: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-rfc5933-bis-13-dnsdir-telechat-reid-2022-11-30/">
-                        dnsdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Telechat review of draft-ietf-dnsop-rfc5933-bis-12: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-rfc5933-bis-12-dnsdir-telechat-rose-2022-11-02/">
-                        dnsdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Last Call review of draft-ietf-dnsop-rfc5933-bis-10: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-rfc5933-bis-10-dnsdir-lc-reid-2022-10-16/">
-                        dnsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-dnsop-rfc5933-bis-10: Almost Ready" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-rfc5933-bis-10-genart-lc-even-2022-10-13/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-dnsop-rfc5933-bis-10: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-rfc5933-bis-10-secdir-lc-sethi-2022-10-09/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2022-10-19" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-dnsop-rfc5933-bis/reviewrequest/16410/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/warren@kumari.net">Warren "Ace" Kumari</a> <a href="mailto:warren%40kumari.net" aria-label="Compose email to warren@kumari.net." title="Compose email to warren@kumari.net.">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 413 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 413</span>
-            
+        
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-dnsop-rfc5933-bis/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-templin-6man-ipid-ext/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Use of GOST 2012 Signature Algorithms in DNSKEY and RRSIG Resource Records for DNSSEC]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-makarenko-gost2012-dnssec/</link>
+      <title><![CDATA[IPv4 Parcels and Advanced Jumbos (AJs)]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-templin-intarea-parcels/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-makarenko-gost2012-dnssec"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-templin-intarea-parcels"></div>
     
         
             I-D Exists
@@ -301,15 +77,7 @@
             
         
         
-            <br>
-            
-                In IESG Review
-                
-                    :
-                
-            
         
-        Informational
         
         
         
@@ -317,7 +85,7 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-makarenko-gost2012-dnssec"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-templin-intarea-parcels"></div>
     
         
             I-D Exists
@@ -330,22 +98,14 @@
             
         
         
-            <br>
-            
-                In IESG Review
-                
-                    :
-                
-            
         
-        Informational
         
         
         
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-makarenko-gost2012-dnssec/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-templin-intarea-parcels/</guid>
       
     </item>
     
@@ -400,11 +160,11 @@
     </item>
     
     <item>
-      <title><![CDATA[A YANG Data Model for OSPF Segment Routing for the MPLS Data Plane]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-ospf-sr-yang/</link>
+      <title><![CDATA[LISP Distinguished Name Encoding]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-lisp-name-encoding/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ospf-sr-yang"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lisp-name-encoding"></div>
     
         
             I-D Exists
@@ -419,7 +179,195 @@
         
             <br>
             
-                WG Document
+                WG Consensus: Waiting for Write-Up
+                
+            
+        
+        
+        
+        
+            <br>
+            Review:
+            
+                
+                    <span title="RTGDIR Early review of draft-ietf-lisp-name-encoding-00: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lisp-name-encoding-00-rtgdir-early-hopps-2022-10-25/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lisp-name-encoding"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Consensus: Waiting for Write-Up
+                
+            
+        
+        
+        
+        
+            <br>
+            Review:
+            
+                
+                    <span title="RTGDIR Early review of draft-ietf-lisp-name-encoding-00: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lisp-name-encoding-00-rtgdir-early-hopps-2022-10-25/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lisp-name-encoding/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Partitioning as an Architecture for Privacy]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-iab-privacy-partitioning/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-iab-privacy-partitioning"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Community Review
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-iab-privacy-partitioning"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Community Review
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-iab-privacy-partitioning/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Virtual Router Redundancy Protocol (VRRP) Version 3 for IPv4 and IPv6]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-rtgwg-vrrp-rfc5798bis/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-rtgwg-vrrp-rfc5798bis">
+<a href="/doc/draft-ietf-rtgwg-vrrp-rfc5798bis/ballotpopup/958905/" data-bs-toggle="modal" data-bs-target="#modal-958905" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-958905" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation
+        
+        
+        
+        
+        
+            <br>
+            IESG telechat: 2024-01-04
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
                 
                     :
                 
@@ -432,22 +380,10 @@
             Reviews:
             
                 
-                    <span title="RTGDIR Last Call review of draft-ietf-ospf-sr-yang-22: Has Nits" class="badge rounded-pill text-bg-info">
+                    <span title="SECDIR Early review of draft-ietf-rtgwg-vrrp-rfc5798bis-13: Ready" class="badge rounded-pill text-bg-success">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ospf-sr-yang-22-rtgdir-lc-meuric-2023-11-29/">
-                        rtgdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="YANGDOCTORS Early review of draft-ietf-ospf-sr-yang-20: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ospf-sr-yang-20-yangdoctors-early-rahman-2023-04-03/">
-                        yangdoctors
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-vrrp-rfc5798bis-13-secdir-early-vucinic-2023-12-12/">
+                        secdir
                         
                             Early
                         
@@ -456,241 +392,9 @@
 
             
                 
-                        <span title="Incomplete, due 2023-11-30" class="badge rounded-pill text-bg-secondary">
+                    <span title="RTGDIR Early review of draft-ietf-rtgwg-vrrp-rfc5798bis-13: Has Issues" class="badge rounded-pill text-bg-warning">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-ospf-sr-yang/reviewrequest/18401/">
-                        yangdoctors
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ospf-sr-yang"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="RTGDIR Last Call review of draft-ietf-ospf-sr-yang-22: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ospf-sr-yang-22-rtgdir-lc-meuric-2023-11-29/">
-                        rtgdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="YANGDOCTORS Early review of draft-ietf-ospf-sr-yang-20: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ospf-sr-yang-20-yangdoctors-early-rahman-2023-04-03/">
-                        yangdoctors
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-11-30" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-ospf-sr-yang/reviewrequest/18401/">
-                        yangdoctors
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-ospf-sr-yang/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[IPv6 Extended Fragment Header]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-templin-6man-ipid-ext/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-templin-6man-ipid-ext"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-templin-6man-ipid-ext"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-templin-6man-ipid-ext/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[IPv4 routes with an IPv6 next hop]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-chroboczek-int-v4-via-v6/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-chroboczek-int-v4-via-v6"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-chroboczek-int-v4-via-v6"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-chroboczek-int-v4-via-v6/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Dynamic Networks to Hybrid Cloud DCs: Problem Statement and Mitigation Practices]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-rtgwg-net2cloud-problem-statement/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-rtgwg-net2cloud-problem-statement"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="INTDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-26: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-26-intdir-early-muite-2023-05-06/">
-                        intdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-22-rtgdir-early-robles-2023-04-09/">
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-vrrp-rfc5798bis-13-rtgdir-early-eastlake-2023-12-12/">
                         rtgdir
                         
                             Early
@@ -700,9 +404,45 @@
 
             
                 
-                    <span title="OPSDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Has Issues" class="badge rounded-pill text-bg-warning">
+                    <span title="RTGDIR Early review of draft-ietf-rtgwg-vrrp-rfc5798bis-12: Ready" class="badge rounded-pill text-bg-success">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-22-opsdir-early-hares-2023-04-10/">
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-vrrp-rfc5798bis-12-rtgdir-early-white-2023-12-07/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Early review of draft-ietf-rtgwg-vrrp-rfc5798bis-03: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-vrrp-rfc5798bis-03-secdir-early-vucinic-2023-04-06/">
+                        secdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Early review of draft-ietf-rtgwg-vrrp-rfc5798bis-02: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-vrrp-rfc5798bis-02-rtgdir-early-niven-jenkins-2023-03-01/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Early review of draft-ietf-rtgwg-vrrp-rfc5798bis-02: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-vrrp-rfc5798bis-02-opsdir-early-chown-2023-03-02/">
                         opsdir
                         
                             Early
@@ -712,9 +452,99 @@
 
             
                 
-                    <span title="SECDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Not Ready" class="badge rounded-pill text-bg-danger">
+                        <span title="Incomplete, due 2023-12-28" class="badge rounded-pill text-bg-secondary">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-22-secdir-early-cooley-2023-04-09/">
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rtgwg-vrrp-rfc5798bis/reviewrequest/18548/">
+                        intdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-12-11" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rtgwg-vrrp-rfc5798bis/reviewrequest/18504/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/james.n.guichard@futurewei.com">Jim Guichard</a> <a href="mailto:james.n.guichard%40futurewei.com" aria-label="Compose email to james.n.guichard@futurewei.com." title="Compose email to james.n.guichard@futurewei.com.">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-rtgwg-vrrp-rfc5798bis">
+<a href="/doc/draft-ietf-rtgwg-vrrp-rfc5798bis/ballotpopup/958905/" data-bs-toggle="modal" data-bs-target="#modal-958905" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-958905" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation
+        
+        
+        
+        
+        
+            <br>
+            IESG telechat: 2024-01-04
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR Early review of draft-ietf-rtgwg-vrrp-rfc5798bis-13: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-vrrp-rfc5798bis-13-secdir-early-vucinic-2023-12-12/">
                         secdir
                         
                             Early
@@ -724,88 +554,9 @@
 
             
                 
-                    <span title="TSVART Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Not Ready" class="badge rounded-pill text-bg-danger">
+                    <span title="RTGDIR Early review of draft-ietf-rtgwg-vrrp-rfc5798bis-13: Has Issues" class="badge rounded-pill text-bg-warning">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-22-tsvart-early-black-2023-04-03/">
-                        tsvart
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-20-dnsdir-early-obser-2023-03-07/">
-                        dnsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Early review of draft-ietf-rtgwg-net2cloud-problem-statement-21: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-21-genart-early-kyzivat-2023-03-19/">
-                        genart
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-rtgwg-net2cloud-problem-statement"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="INTDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-26: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-26-intdir-early-muite-2023-05-06/">
-                        intdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-22-rtgdir-early-robles-2023-04-09/">
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-vrrp-rfc5798bis-13-rtgdir-early-eastlake-2023-12-12/">
                         rtgdir
                         
                             Early
@@ -815,9 +566,45 @@
 
             
                 
-                    <span title="OPSDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Has Issues" class="badge rounded-pill text-bg-warning">
+                    <span title="RTGDIR Early review of draft-ietf-rtgwg-vrrp-rfc5798bis-12: Ready" class="badge rounded-pill text-bg-success">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-22-opsdir-early-hares-2023-04-10/">
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-vrrp-rfc5798bis-12-rtgdir-early-white-2023-12-07/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Early review of draft-ietf-rtgwg-vrrp-rfc5798bis-03: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-vrrp-rfc5798bis-03-secdir-early-vucinic-2023-04-06/">
+                        secdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Early review of draft-ietf-rtgwg-vrrp-rfc5798bis-02: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-vrrp-rfc5798bis-02-rtgdir-early-niven-jenkins-2023-03-01/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Early review of draft-ietf-rtgwg-vrrp-rfc5798bis-02: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-vrrp-rfc5798bis-02-opsdir-early-chown-2023-03-02/">
                         opsdir
                         
                             Early
@@ -827,48 +614,22 @@
 
             
                 
-                    <span title="SECDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Not Ready" class="badge rounded-pill text-bg-danger">
+                        <span title="Incomplete, due 2023-12-28" class="badge rounded-pill text-bg-secondary">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-22-secdir-early-cooley-2023-04-09/">
-                        secdir
-                        
-                            Early
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rtgwg-vrrp-rfc5798bis/reviewrequest/18548/">
+                        intdir
                         
                     </a>
                     </span>
 
             
                 
-                    <span title="TSVART Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Not Ready" class="badge rounded-pill text-bg-danger">
+                        <span title="Incomplete, due 2023-12-11" class="badge rounded-pill text-bg-secondary">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-22-tsvart-early-black-2023-04-03/">
-                        tsvart
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Early review of draft-ietf-rtgwg-net2cloud-problem-statement-22: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-20-dnsdir-early-obser-2023-03-07/">
-                        dnsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Early review of draft-ietf-rtgwg-net2cloud-problem-statement-21: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-net2cloud-problem-statement-21-genart-early-kyzivat-2023-03-19/">
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rtgwg-vrrp-rfc5798bis/reviewrequest/18504/">
                         genart
                         
-                            Early
+                            LC
                         
                     </a>
                     </span>
@@ -877,18 +638,25 @@
         
         
         
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/james.n.guichard@futurewei.com">Jim Guichard</a> <a href="mailto:james.n.guichard%40futurewei.com" aria-label="Compose email to james.n.guichard@futurewei.com." title="Compose email to james.n.guichard@futurewei.com.">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-rtgwg-net2cloud-problem-statement/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-rtgwg-vrrp-rfc5798bis/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Merkle Tree Ladder Mode (MTL) Signatures]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-harvey-cfrg-mtl-mode/</link>
+      <title><![CDATA[EVPN L3-Optimized IRB]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-sajassi-bess-evpn-l3-optimized-irb/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-harvey-cfrg-mtl-mode"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-sajassi-bess-evpn-l3-optimized-irb"></div>
     
         
             I-D Exists
@@ -909,7 +677,7 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-harvey-cfrg-mtl-mode"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-sajassi-bess-evpn-l3-optimized-irb"></div>
     
         
             I-D Exists
@@ -929,23 +697,23 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-harvey-cfrg-mtl-mode/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-sajassi-bess-evpn-l3-optimized-irb/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Announcing Supported Authentication Methods in IKEv2]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-auth-announce/</link>
+      <title><![CDATA[HTTP Proxy-Status Parameter for Next-Hop Aliases]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-httpbis-alias-proxy-status/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ipsecme-ikev2-auth-announce"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-httpbis-alias-proxy-status"></div>
     
         
-            AD Evaluation::External Party
+            Approved-announcement sent
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 40 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 40</span>
+        
         
         
             
@@ -960,131 +728,25 @@
             
         
         Proposed Standard
-        
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/rdd@cert.org">Roman Danyliw</a> <a href="mailto:rdd%40cert.org" aria-label="Compose email to rdd@cert.org." title="Compose email to rdd@cert.org.">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 48 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 48</span>
-            
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ipsecme-ikev2-auth-announce"></div>
-    
-        
-            AD Evaluation::External Party
-        
-        
-        
-        <span class="badge rounded-pill text-bg-danger" title="In state for 40 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 40</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/rdd@cert.org">Roman Danyliw</a> <a href="mailto:rdd%40cert.org" aria-label="Compose email to rdd@cert.org." title="Compose email to rdd@cert.org.">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 48 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 48</span>
-            
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-auth-announce/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[IP Fragmentation Avoidance in DNS]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-dnsop-avoid-fragmentation/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-dnsop-avoid-fragmentation"></div>
-    
-        
-            Waiting for AD Go-Ahead
-        
-        
-        
-        <span class="badge rounded-pill text-bg-danger" title="In state for 46 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 46</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Best Current Practice
         
         
             <br>
             Reviews:
             
                 
-                    <span title="GENART Last Call review of draft-ietf-dnsop-avoid-fragmentation-15: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    <span title="INTDIR Telechat review of draft-ietf-httpbis-alias-proxy-status-05: On the Right Track" class="badge rounded-pill text-bg-info">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-avoid-fragmentation-15-genart-lc-holmberg-2023-10-23/">
-                        genart
-                        
-                            LC
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-httpbis-alias-proxy-status-05-intdir-telechat-haberman-2023-10-23/">
+                        intdir
                         
                     </a>
                     </span>
 
             
                 
-                    <span title="SECDIR Last Call review of draft-ietf-dnsop-avoid-fragmentation-15: Has Issues" class="badge rounded-pill text-bg-warning">
+                    <span title="ARTART Last Call review of draft-ietf-httpbis-alias-proxy-status-05: Ready" class="badge rounded-pill text-bg-success">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-avoid-fragmentation-15-secdir-lc-eastlake-2023-10-28/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART Last Call review of draft-ietf-dnsop-avoid-fragmentation-15: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-avoid-fragmentation-15-tsvart-lc-kuehlewind-2023-10-22/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART Last Call review of draft-ietf-dnsop-avoid-fragmentation-15: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-avoid-fragmentation-15-artart-lc-leiba-2023-10-23/">
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-httpbis-alias-proxy-status-05-artart-lc-allocchio-2023-10-12/">
                         artart
                         
                             LC
@@ -1094,10 +756,10 @@
 
             
                 
-                    <span title="DNSDIR Last Call review of draft-ietf-dnsop-avoid-fragmentation-15: Ready" class="badge rounded-pill text-bg-success">
+                    <span title="GENART Last Call review of draft-ietf-httpbis-alias-proxy-status-05: Ready" class="badge rounded-pill text-bg-success">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-avoid-fragmentation-15-dnsdir-lc-cunat-2023-10-14/">
-                        dnsdir
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-httpbis-alias-proxy-status-05-genart-lc-hares-2023-10-12/">
+                        genart
                         
                             LC
                         
@@ -1106,21 +768,9 @@
 
             
                 
-                    <span title="DNSDIR Last Call review of draft-ietf-dnsop-avoid-fragmentation-13: Ready" class="badge rounded-pill text-bg-success">
+                    <span title="OPSDIR Last Call review of draft-ietf-httpbis-alias-proxy-status-05: Has Nits" class="badge rounded-pill text-bg-info">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-avoid-fragmentation-13-dnsdir-lc-cunat-2023-07-07/">
-                        dnsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-10-27" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-dnsop-avoid-fragmentation/reviewrequest/18311/">
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-httpbis-alias-proxy-status-05-opsdir-lc-dodge-2023-10-10/">
                         opsdir
                         
                             LC
@@ -1129,30 +779,44 @@
                     </span>
 
             
+                
+                    <span title="DNSDIR Last Call review of draft-ietf-httpbis-alias-proxy-status-05: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-httpbis-alias-proxy-status-05-dnsdir-lc-reid-2023-10-16/">
+                        dnsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-10-16" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-httpbis-alias-proxy-status/reviewrequest/18219/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
         
         
-        
-            <br>
-            Action Holders:
-            
-                <span><a title="Author" href="/person/paul@redbarn.org">Paul A. Vixie</a> <a href="mailto:paul%40redbarn.org" aria-label="Compose email to paul@redbarn.org." title="Compose email to paul@redbarn.org.">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author" href="/person/fujiwara@wide.ad.jp">Kazunori Fujiwara</a> <a href="mailto:fujiwara%40wide.ad.jp" aria-label="Compose email to fujiwara@wide.ad.jp." title="Compose email to fujiwara@wide.ad.jp.">
-                <i class="bi bi-envelope"></i></a></span>
-            
         
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-dnsop-avoid-fragmentation"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-httpbis-alias-proxy-status"></div>
     
         
-            Waiting for AD Go-Ahead
+            Approved-announcement sent
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 46 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 46</span>
+        
         
         
             
@@ -1166,52 +830,26 @@
                 
             
         
-        Best Current Practice
+        Proposed Standard
         
         
             <br>
             Reviews:
             
                 
-                    <span title="GENART Last Call review of draft-ietf-dnsop-avoid-fragmentation-15: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    <span title="INTDIR Telechat review of draft-ietf-httpbis-alias-proxy-status-05: On the Right Track" class="badge rounded-pill text-bg-info">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-avoid-fragmentation-15-genart-lc-holmberg-2023-10-23/">
-                        genart
-                        
-                            LC
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-httpbis-alias-proxy-status-05-intdir-telechat-haberman-2023-10-23/">
+                        intdir
                         
                     </a>
                     </span>
 
             
                 
-                    <span title="SECDIR Last Call review of draft-ietf-dnsop-avoid-fragmentation-15: Has Issues" class="badge rounded-pill text-bg-warning">
+                    <span title="ARTART Last Call review of draft-ietf-httpbis-alias-proxy-status-05: Ready" class="badge rounded-pill text-bg-success">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-avoid-fragmentation-15-secdir-lc-eastlake-2023-10-28/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART Last Call review of draft-ietf-dnsop-avoid-fragmentation-15: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-avoid-fragmentation-15-tsvart-lc-kuehlewind-2023-10-22/">
-                        tsvart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART Last Call review of draft-ietf-dnsop-avoid-fragmentation-15: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-avoid-fragmentation-15-artart-lc-leiba-2023-10-23/">
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-httpbis-alias-proxy-status-05-artart-lc-allocchio-2023-10-12/">
                         artart
                         
                             LC
@@ -1221,10 +859,10 @@
 
             
                 
-                    <span title="DNSDIR Last Call review of draft-ietf-dnsop-avoid-fragmentation-15: Ready" class="badge rounded-pill text-bg-success">
+                    <span title="GENART Last Call review of draft-ietf-httpbis-alias-proxy-status-05: Ready" class="badge rounded-pill text-bg-success">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-avoid-fragmentation-15-dnsdir-lc-cunat-2023-10-14/">
-                        dnsdir
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-httpbis-alias-proxy-status-05-genart-lc-hares-2023-10-12/">
+                        genart
                         
                             LC
                         
@@ -1233,21 +871,9 @@
 
             
                 
-                    <span title="DNSDIR Last Call review of draft-ietf-dnsop-avoid-fragmentation-13: Ready" class="badge rounded-pill text-bg-success">
+                    <span title="OPSDIR Last Call review of draft-ietf-httpbis-alias-proxy-status-05: Has Nits" class="badge rounded-pill text-bg-info">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-avoid-fragmentation-13-dnsdir-lc-cunat-2023-07-07/">
-                        dnsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2023-10-27" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-dnsop-avoid-fragmentation/reviewrequest/18311/">
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-httpbis-alias-proxy-status-05-opsdir-lc-dodge-2023-10-10/">
                         opsdir
                         
                             LC
@@ -1256,22 +882,152 @@
                     </span>
 
             
+                
+                    <span title="DNSDIR Last Call review of draft-ietf-httpbis-alias-proxy-status-05: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-httpbis-alias-proxy-status-05-dnsdir-lc-reid-2023-10-16/">
+                        dnsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-10-16" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-httpbis-alias-proxy-status/reviewrequest/18219/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
         
         
-        
-            <br>
-            Action Holders:
-            
-                <span><a title="Author" href="/person/paul@redbarn.org">Paul A. Vixie</a> <a href="mailto:paul%40redbarn.org" aria-label="Compose email to paul@redbarn.org." title="Compose email to paul@redbarn.org.">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author" href="/person/fujiwara@wide.ad.jp">Kazunori Fujiwara</a> <a href="mailto:fujiwara%40wide.ad.jp" aria-label="Compose email to fujiwara@wide.ad.jp." title="Compose email to fujiwara@wide.ad.jp.">
-                <i class="bi bi-envelope"></i></a></span>
-            
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-dnsop-avoid-fragmentation/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-httpbis-alias-proxy-status/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Internationalized Email Addresses in X.509 Certificates]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-lamps-rfc8398bis/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lamps-rfc8398bis"></div>
+    
+        
+            Publication Requested
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lamps-rfc8398bis"></div>
+    
+        
+            Publication Requested
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lamps-rfc8398bis/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Network Programming extension: SRv6 uSID instruction]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-filsfils-spring-net-pgm-extension-srv6-usid/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-filsfils-spring-net-pgm-extension-srv6-usid"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-filsfils-spring-net-pgm-extension-srv6-usid"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-filsfils-spring-net-pgm-extension-srv6-usid/</guid>
       
     </item>
     
