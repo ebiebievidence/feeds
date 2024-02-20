@@ -7,14 +7,268 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Mon, 19 Feb 2024 01:28:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Feb 2024 01:20:07 +0000</lastBuildDate>
     
     <item>
-      <title><![CDATA[The Gordian Envelope Structured Data Format]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-mcnally-envelope/</link>
+      <title><![CDATA[DTN Management Architecture]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-dtn-dtnma/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-mcnally-envelope"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-dtn-dtnma">
+<a href="/doc/draft-ietf-dtn-dtnma/ballotpopup/968174/" data-bs-toggle="modal" data-bs-target="#modal-968174" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-abstain"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-968174" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="INTDIR Telechat review of draft-ietf-dtn-dtnma-10: On the Right Track" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dtn-dtnma-10-intdir-telechat-eastlake-2024-02-14/">
+                        intdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-dtn-dtnma-08: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dtn-dtnma-08-secdir-lc-mandelberg-2023-12-15/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-dtn-dtnma-08: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dtn-dtnma-08-genart-lc-bryant-2024-01-03/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="TSVART Last Call review of draft-ietf-dtn-dtnma-08: Not Ready" class="badge rounded-pill text-bg-danger">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dtn-dtnma-08-tsvart-lc-touch-2024-01-12/">
+                        tsvart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-12-25" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-dtn-dtnma/reviewrequest/18551/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/zahed.sarker.ietf@gmail.com">Zaheduzzaman Sarker</a> <a href="mailto:zahed.sarker.ietf%40gmail.com" aria-label="Compose email to zahed.sarker.ietf@gmail.com." title="Compose email to zahed.sarker.ietf@gmail.com.">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-dtn-dtnma">
+<a href="/doc/draft-ietf-dtn-dtnma/ballotpopup/968174/" data-bs-toggle="modal" data-bs-target="#modal-968174" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-abstain"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-968174" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="INTDIR Telechat review of draft-ietf-dtn-dtnma-10: On the Right Track" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dtn-dtnma-10-intdir-telechat-eastlake-2024-02-14/">
+                        intdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-dtn-dtnma-08: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dtn-dtnma-08-secdir-lc-mandelberg-2023-12-15/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-dtn-dtnma-08: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dtn-dtnma-08-genart-lc-bryant-2024-01-03/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="TSVART Last Call review of draft-ietf-dtn-dtnma-08: Not Ready" class="badge rounded-pill text-bg-danger">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dtn-dtnma-08-tsvart-lc-touch-2024-01-12/">
+                        tsvart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2023-12-25" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-dtn-dtnma/reviewrequest/18551/">
+                        artart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/zahed.sarker.ietf@gmail.com">Zaheduzzaman Sarker</a> <a href="mailto:zahed.sarker.ietf%40gmail.com" aria-label="Compose email to zahed.sarker.ietf@gmail.com." title="Compose email to zahed.sarker.ietf@gmail.com.">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-dtn-dtnma/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Replay Resistant Authenticated Receiver Chain]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-chuang-replay-resistant-arc/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-chuang-replay-resistant-arc"></div>
     
         
             I-D Exists
@@ -35,7 +289,7 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-mcnally-envelope"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-chuang-replay-resistant-arc"></div>
     
         
             I-D Exists
@@ -55,16 +309,16 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-mcnally-envelope/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-chuang-replay-resistant-arc/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[TLS Flag - Request mTLS]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-jhoyla-req-mtls-flag/</link>
+      <title><![CDATA[Deprecation Of The IPv6 Router Alert Option]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-bonica-6man-deprecate-router-alert/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-jhoyla-req-mtls-flag"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-bonica-6man-deprecate-router-alert"></div>
     
         
             I-D Exists
@@ -76,6 +330,12 @@
         
             
         
+        
+            <br>
+            
+                Candidate for WG Adoption
+                
+            
         
         
         
@@ -85,7 +345,7 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-jhoyla-req-mtls-flag"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-bonica-6man-deprecate-router-alert"></div>
     
         
             I-D Exists
@@ -97,6 +357,12 @@
         
             
         
+        
+            <br>
+            
+                Candidate for WG Adoption
+                
+            
         
         
         
@@ -105,166 +371,16 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-jhoyla-req-mtls-flag/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-bonica-6man-deprecate-router-alert/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Chempat: Generic Instantiated PQ/T Hybrid Key Encapsulation Mechanisms]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-josefsson-chempat/</link>
+      <title><![CDATA[Automated Certificate Management Environment (ACME) Scoped DNS Challenges]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-acme-scoped-dns-challenges/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-josefsson-chempat"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-josefsson-chempat"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-josefsson-chempat/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[IGP Flexible Algorithm with Time Constraint]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-dong-lsr-flex-algo-time-constraint/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-dong-lsr-flex-algo-time-constraint"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-dong-lsr-flex-algo-time-constraint"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-dong-lsr-flex-algo-time-constraint/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Echo Request/Reply for DetNet Capability Discovery]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-tan-detnet-cap-discovery/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-tan-detnet-cap-discovery"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-tan-detnet-cap-discovery"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-tan-detnet-cap-discovery/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Source Address Validation in Inter-domain Networks Gap Analysis, Problem Statement, and Requirements]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-savnet-inter-domain-problem-statement/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-savnet-inter-domain-problem-statement"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-acme-scoped-dns-challenges"></div>
     
         
             I-D Exists
@@ -291,7 +407,7 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-savnet-inter-domain-problem-statement"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-acme-scoped-dns-challenges"></div>
     
         
             I-D Exists
@@ -317,16 +433,82 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-savnet-inter-domain-problem-statement/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-acme-scoped-dns-challenges/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Extensible Provisioning Protocol (EPP) Transport over QUIC]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-yao-regext-epp-quic/</link>
+      <title><![CDATA[Zero Checksum for the Stream Control Transmission Protocol]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-tsvwg-sctp-zero-checksum/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-yao-regext-epp-quic"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-tsvwg-sctp-zero-checksum"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Waiting for WG Chair Go-Ahead
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-tsvwg-sctp-zero-checksum"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Waiting for WG Chair Go-Ahead
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-tsvwg-sctp-zero-checksum/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[LISP for the Mobile Network]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-farinacci-lisp-mobile-network/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-farinacci-lisp-mobile-network"></div>
     
         
             I-D Exists
@@ -347,7 +529,7 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-yao-regext-epp-quic"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-farinacci-lisp-mobile-network"></div>
     
         
             I-D Exists
@@ -367,16 +549,16 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-yao-regext-epp-quic/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-farinacci-lisp-mobile-network/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[PCEP extensions for Distribution of Link-State and TE Information]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-dhodylee-pce-pcep-ls/</link>
+      <title><![CDATA[LISP Traffic Engineering Use-Cases]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-lisp-te/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-dhodylee-pce-pcep-ls"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lisp-te"></div>
     
         
             I-D Exists
@@ -388,6 +570,12 @@
         
             
         
+        
+            <br>
+            
+                WG Document
+                
+            
         
         
         
@@ -397,7 +585,7 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-dhodylee-pce-pcep-ls"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lisp-te"></div>
     
         
             I-D Exists
@@ -409,6 +597,12 @@
         
             
         
+        
+            <br>
+            
+                WG Document
+                
+            
         
         
         
@@ -417,16 +611,16 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-dhodylee-pce-pcep-ls/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lisp-te/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Routing Framework for LEO Mega-constellation Based on Region Division]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-hou-satellite-routing-framework/</link>
+      <title><![CDATA[LISP Control-Plane ECDSA Authentication and Authorization]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-lisp-ecdsa-auth/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-hou-satellite-routing-framework"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lisp-ecdsa-auth"></div>
     
         
             I-D Exists
@@ -438,6 +632,12 @@
         
             
         
+        
+            <br>
+            
+                WG Document
+                
+            
         
         
         
@@ -447,7 +647,7 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-hou-satellite-routing-framework"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lisp-ecdsa-auth"></div>
     
         
             I-D Exists
@@ -459,6 +659,12 @@
         
             
         
+        
+            <br>
+            
+                WG Document
+                
+            
         
         
         
@@ -467,16 +673,16 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-hou-satellite-routing-framework/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lisp-ecdsa-auth/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[An Emulation System Architecture for Space Network]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-zh-sn-emulation-arch/</link>
+      <title><![CDATA[LISP EID Anonymity]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-lisp-eid-anonymity/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-zh-sn-emulation-arch"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lisp-eid-anonymity"></div>
     
         
             I-D Exists
@@ -488,6 +694,12 @@
         
             
         
+        
+            <br>
+            
+                WG Document
+                
+            
         
         
         
@@ -497,7 +709,7 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-zh-sn-emulation-arch"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lisp-eid-anonymity"></div>
     
         
             I-D Exists
@@ -510,6 +722,12 @@
             
         
         
+            <br>
+            
+                WG Document
+                
+            
+        
         
         
         
@@ -517,7 +735,69 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-zh-sn-emulation-arch/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lisp-eid-anonymity/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[LISP Predictive RLOCs]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-lisp-predictive-rlocs/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lisp-predictive-rlocs"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lisp-predictive-rlocs"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lisp-predictive-rlocs/</guid>
       
     </item>
     
