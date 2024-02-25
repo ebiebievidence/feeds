@@ -7,7 +7,519 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Sat, 24 Feb 2024 01:18:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Feb 2024 01:30:27 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[TVR (Time-Variant Routing) Use Cases]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-tvr-use-cases/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-tvr-use-cases">
+<a href="/doc/draft-ietf-tvr-use-cases/ballotpopup/971256/" data-bs-toggle="modal" data-bs-target="#modal-971256" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-971256" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation
+        
+        
+        
+        
+        
+            <br>
+            IESG telechat: 2024-02-29
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR Telechat review of draft-ietf-tvr-use-cases-05: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-tvr-use-cases-05-secdir-telechat-turner-2024-02-23/">
+                        secdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="INTDIR Telechat review of draft-ietf-tvr-use-cases-05: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-tvr-use-cases-05-intdir-telechat-thubert-2024-02-21/">
+                        intdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="TSVART Last Call review of draft-ietf-tvr-use-cases-04: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-tvr-use-cases-04-tsvart-lc-scharf-2024-02-08/">
+                        tsvart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-tvr-use-cases-04: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-tvr-use-cases-04-secdir-lc-turner-2024-02-15/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-tvr-use-cases-04: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-tvr-use-cases-04-genart-lc-sarikaya-2024-02-15/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2024-02-24" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-tvr-use-cases/reviewrequest/18971/">
+                        iotdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2024-02-15" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-tvr-use-cases/reviewrequest/18868/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/andrew-ietf@liquid.tech">Andrew Alston</a> <a href="mailto:andrew-ietf%40liquid.tech" aria-label="Compose email to andrew-ietf@liquid.tech." title="Compose email to andrew-ietf@liquid.tech.">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-tvr-use-cases">
+<a href="/doc/draft-ietf-tvr-use-cases/ballotpopup/971256/" data-bs-toggle="modal" data-bs-target="#modal-971256" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-971256" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation
+        
+        
+        
+        
+        
+            <br>
+            IESG telechat: 2024-02-29
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR Telechat review of draft-ietf-tvr-use-cases-05: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-tvr-use-cases-05-secdir-telechat-turner-2024-02-23/">
+                        secdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="INTDIR Telechat review of draft-ietf-tvr-use-cases-05: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-tvr-use-cases-05-intdir-telechat-thubert-2024-02-21/">
+                        intdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="TSVART Last Call review of draft-ietf-tvr-use-cases-04: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-tvr-use-cases-04-tsvart-lc-scharf-2024-02-08/">
+                        tsvart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-tvr-use-cases-04: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-tvr-use-cases-04-secdir-lc-turner-2024-02-15/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-tvr-use-cases-04: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-tvr-use-cases-04-genart-lc-sarikaya-2024-02-15/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2024-02-24" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-tvr-use-cases/reviewrequest/18971/">
+                        iotdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2024-02-15" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-tvr-use-cases/reviewrequest/18868/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/andrew-ietf@liquid.tech">Andrew Alston</a> <a href="mailto:andrew-ietf%40liquid.tech" aria-label="Compose email to andrew-ietf@liquid.tech." title="Compose email to andrew-ietf@liquid.tech.">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-tvr-use-cases/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[COSE Header parameter for RFC 3161 Time-Stamp Tokens]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-cose-tsa-tst-header-parameter/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-cose-tsa-tst-header-parameter"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-cose-tsa-tst-header-parameter"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-cose-tsa-tst-header-parameter/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[An Architecture for YANG-Push to Apache Kafka Integration]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-netana-nmop-yang-kafka-integration/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-netana-nmop-yang-kafka-integration"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-netana-nmop-yang-kafka-integration"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-netana-nmop-yang-kafka-integration/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Galois Counter Mode with Secure Short Tags (GCM-SST)]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-mattsson-cfrg-aes-gcm-sst/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-mattsson-cfrg-aes-gcm-sst"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-mattsson-cfrg-aes-gcm-sst"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-mattsson-cfrg-aes-gcm-sst/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Policy Considerations for Changes to RFCs]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-carpenter-rswg-rfc-changes/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-carpenter-rswg-rfc-changes"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-carpenter-rswg-rfc-changes"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-carpenter-rswg-rfc-changes/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[Mobile User Plane Evolution]]></title>
@@ -658,280 +1170,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-rtgwg-net2cloud-problem-statement/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Guidance to Avoid Carrying RPKI Validation States in Transitive BGP Path Attributes]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-spaghetti-sidrops-avoid-rpki-state-in-bgp/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-spaghetti-sidrops-avoid-rpki-state-in-bgp"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-spaghetti-sidrops-avoid-rpki-state-in-bgp"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-spaghetti-sidrops-avoid-rpki-state-in-bgp/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Export of GTP-U Information in IP Flow Information Export (IPFIX)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-voyersriram-opsawg-ipfix-gtpu/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-voyersriram-opsawg-ipfix-gtpu"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-voyersriram-opsawg-ipfix-gtpu"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-voyersriram-opsawg-ipfix-gtpu/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Updates to Lightweight OCSP Profile for High Volume Environments]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-lamps-rfc5019bis/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lamps-rfc5019bis"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                In WG Last Call
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lamps-rfc5019bis"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                In WG Last Call
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lamps-rfc5019bis/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Use Cases for In-Network Computing]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-irtf-coinrg-use-cases/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-irtf-coinrg-use-cases"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                In RG Last Call
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-irtf-coinrg-use-cases"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                In RG Last Call
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-irtf-coinrg-use-cases/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Compact ECDHE and ECDSA Encodings for TLS 1.3]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-mattsson-tls-compact-ecc/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-mattsson-tls-compact-ecc"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-mattsson-tls-compact-ecc"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-mattsson-tls-compact-ecc/</guid>
       
     </item>
     
