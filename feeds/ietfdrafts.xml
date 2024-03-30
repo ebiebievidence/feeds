@@ -7,14 +7,290 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Fri, 29 Mar 2024 01:22:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Mar 2024 01:19:14 +0000</lastBuildDate>
     
     <item>
-      <title><![CDATA[Scalable Remote Attestation for Systems, Containers, and Applications]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-moriarty-attestationsets/</link>
+      <title><![CDATA[A Simple BGP-based Mobile Routing System for the Aeronautical Telecommunications Network]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-rtgwg-atn-bgp/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-moriarty-attestationsets"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-rtgwg-atn-bgp"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="TSVART Early review of draft-ietf-rtgwg-atn-bgp-13: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-atn-bgp-13-tsvart-early-tuexen-2022-02-11/">
+                        tsvart
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="INTDIR Early review of draft-ietf-rtgwg-atn-bgp-12: On the Right Track" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-atn-bgp-12-intdir-early-thaler-2022-01-31/">
+                        intdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Early review of draft-ietf-rtgwg-atn-bgp-12: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-atn-bgp-12-opsdir-early-mishra-2022-02-01/">
+                        opsdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Early review of draft-ietf-rtgwg-atn-bgp-12: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-atn-bgp-12-secdir-early-housley-2022-01-18/">
+                        secdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Early review of draft-ietf-rtgwg-atn-bgp-12: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-atn-bgp-12-rtgdir-early-chen-2022-01-28/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Early review of draft-templin-atn-bgp-07: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-templin-atn-bgp-07-rtgdir-early-bryant-2018-07-24/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-rtgwg-atn-bgp"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+            
+        
+        
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="TSVART Early review of draft-ietf-rtgwg-atn-bgp-13: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-atn-bgp-13-tsvart-early-tuexen-2022-02-11/">
+                        tsvart
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="INTDIR Early review of draft-ietf-rtgwg-atn-bgp-12: On the Right Track" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-atn-bgp-12-intdir-early-thaler-2022-01-31/">
+                        intdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Early review of draft-ietf-rtgwg-atn-bgp-12: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-atn-bgp-12-opsdir-early-mishra-2022-02-01/">
+                        opsdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Early review of draft-ietf-rtgwg-atn-bgp-12: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-atn-bgp-12-secdir-early-housley-2022-01-18/">
+                        secdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Early review of draft-ietf-rtgwg-atn-bgp-12: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rtgwg-atn-bgp-12-rtgdir-early-chen-2022-01-28/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Early review of draft-templin-atn-bgp-07: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-templin-atn-bgp-07-rtgdir-early-bryant-2018-07-24/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-rtgwg-atn-bgp/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[The PrivateToken HTTP Authentication Scheme Extensions Parameter]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-wood-privacypass-auth-scheme-extensions/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-wood-privacypass-auth-scheme-extensions"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Adopted by a WG
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-wood-privacypass-auth-scheme-extensions"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Adopted by a WG
+                
+            
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-wood-privacypass-auth-scheme-extensions/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Digital Emblems Indicating Protections Under International Law]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-haberman-digital-emblem/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-haberman-digital-emblem"></div>
     
         
             I-D Exists
@@ -35,7 +311,7 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-moriarty-attestationsets"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-haberman-digital-emblem"></div>
     
         
             I-D Exists
@@ -55,308 +331,16 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-moriarty-attestationsets/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-haberman-digital-emblem/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Zero Checksum for the Stream Control Transmission Protocol]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-tsvwg-sctp-zero-checksum/</link>
+      <title><![CDATA[BGP for BIER-TE Path]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-idr-bier-te-path/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-tsvwg-sctp-zero-checksum"></div>
-    
-        
-            AD Evaluation::AD Followup
-        
-        
-        
-        <span class="badge rounded-pill text-bg-warning" title="In state for 16 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 16</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/zahed.sarker.ietf@gmail.com">Zaheduzzaman Sarker</a> <a href="mailto:zahed.sarker.ietf%40gmail.com" aria-label="Compose email to zahed.sarker.ietf@gmail.com" title="Compose email to zahed.sarker.ietf@gmail.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-tsvwg-sctp-zero-checksum"></div>
-    
-        
-            AD Evaluation::AD Followup
-        
-        
-        
-        <span class="badge rounded-pill text-bg-warning" title="In state for 16 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 16</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/zahed.sarker.ietf@gmail.com">Zaheduzzaman Sarker</a> <a href="mailto:zahed.sarker.ietf%40gmail.com" aria-label="Compose email to zahed.sarker.ietf@gmail.com" title="Compose email to zahed.sarker.ietf@gmail.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-tsvwg-sctp-zero-checksum/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[More Control Operators for CDDL]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-cbor-cddl-more-control/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-cbor-cddl-more-control"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                In WG Last Call
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-cbor-cddl-more-control"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                In WG Last Call
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-cbor-cddl-more-control/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Supporting In-Situ OAM Direct Export Using MPLS Network Actions]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-mb-mpls-ioam-dex/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-mb-mpls-ioam-dex"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-mb-mpls-ioam-dex"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-mb-mpls-ioam-dex/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Automatic Extended Route Optimization (AERO)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-templin-intarea-aero2/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-templin-intarea-aero2"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-templin-intarea-aero2"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-templin-intarea-aero2/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Transmission of IP Packets over Overlay Multilink Network (OMNI) Interfaces]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-templin-intarea-omni2/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-templin-intarea-omni2"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-templin-intarea-omni2"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-templin-intarea-omni2/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Bootstrapping TLS Encrypted ClientHello with DNS Service Bindings]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-tls-svcb-ech/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-tls-svcb-ech"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-bier-te-path"></div>
     
         
             I-D Exists
@@ -383,7 +367,7 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-tls-svcb-ech"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-bier-te-path"></div>
     
         
             I-D Exists
@@ -409,16 +393,16 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-tls-svcb-ech/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-idr-bier-te-path/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[CPace, a balanced composable PAKE]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-irtf-cfrg-cpace/</link>
+      <title><![CDATA[BGP for Network High Availability]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-chen-idr-ctr-availability/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-irtf-cfrg-cpace"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-chen-idr-ctr-availability"></div>
     
         
             I-D Exists
@@ -431,15 +415,7 @@
             
         
         
-            <br>
-            
-                Active RG Document
-                
-                    :
-                
-            
         
-        Informational
         
         
         
@@ -447,7 +423,136 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-irtf-cfrg-cpace"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-chen-idr-ctr-availability"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-chen-idr-ctr-availability/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[SR Path Ingress Protection]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-chen-idr-sr-ingress-protection/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-chen-idr-sr-ingress-protection"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-chen-idr-sr-ingress-protection"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-chen-idr-sr-ingress-protection/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[BGP Request for Candidate Paths of SR TE Policies]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-li-ldr-bgp-request-cp-sr-te-policy/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-li-ldr-bgp-request-cp-sr-te-policy"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-li-ldr-bgp-request-cp-sr-te-policy"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-li-ldr-bgp-request-cp-sr-te-policy/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[BGP for Mirror Binding]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-chen-idr-mbinding/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-chen-idr-mbinding"></div>
     
         
             I-D Exists
@@ -462,29 +567,54 @@
         
             <br>
             
-                Active RG Document
-                
-                    :
+                Call For Adoption By WG Issued
                 
             
         
-        Informational
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-chen-idr-mbinding"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Call For Adoption By WG Issued
+                
+            
+        
+        
         
         
         
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-irtf-cfrg-cpace/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-chen-idr-mbinding/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[LISP Site External Connectivity]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-lisp-site-external-connectivity/</link>
+      <title><![CDATA[BGP Flow Specification for SRv6]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-idr-flowspec-srv6/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lisp-site-external-connectivity"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-flowspec-srv6"></div>
     
         
             I-D Exists
@@ -511,7 +641,7 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lisp-site-external-connectivity"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-flowspec-srv6"></div>
     
         
             I-D Exists
@@ -537,16 +667,16 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lisp-site-external-connectivity/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-idr-flowspec-srv6/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Recursively Setting Directories and Subitems]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-mzhang-nfsv4-recursively-setting/</link>
+      <title><![CDATA[PCE for BIER-TE Ingress Protection]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-chen-pce-bier-te-ingress-protect/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-mzhang-nfsv4-recursively-setting"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-chen-pce-bier-te-ingress-protect"></div>
     
         
             I-D Exists
@@ -567,7 +697,7 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-mzhang-nfsv4-recursively-setting"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-chen-pce-bier-te-ingress-protect"></div>
     
         
             I-D Exists
@@ -587,7 +717,7 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-mzhang-nfsv4-recursively-setting/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-chen-pce-bier-te-ingress-protect/</guid>
       
     </item>
     
