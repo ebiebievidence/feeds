@@ -7,7 +7,837 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Sun, 26 May 2024 01:39:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2024 01:35:55 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[The Entity Attestation Token (EAT)]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-rats-eat/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-rats-eat"></div>
+    
+        
+            AD Evaluation::AD Followup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="INTDIR Telechat review of draft-ietf-rats-eat-21: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rats-eat-21-intdir-telechat-song-2023-09-05/">
+                        intdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Last Call review of draft-ietf-rats-eat-21: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rats-eat-21-opsdir-lc-dunbar-2023-08-09/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-rats-eat-21: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rats-eat-21-genart-lc-robles-2023-08-09/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-rats-eat-13: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rats-eat-13-secdir-lc-orman-2022-07-23/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="IOTDIR Last Call review of draft-ietf-rats-eat-13: Not Ready" class="badge rounded-pill text-bg-danger">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rats-eat-13-iotdir-lc-lear-2022-06-05/">
+                        iotdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of rats milestone: Submit Entity Attestation Token for publication" class="milestone">Dec 2023</span>,
+        
+            
+            <span title="Part of suit milestone: Decide with RATS WG in which working group the 'set of claims for attesting to firmware update status' document should be produced" class="milestone">Mar 2022</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/rdd@cert.org">Roman Danyliw</a> <a href="mailto:rdd%40cert.org" aria-label="Compose email to rdd@cert.org" title="Compose email to rdd@cert.org">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-rats-eat"></div>
+    
+        
+            AD Evaluation::AD Followup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="INTDIR Telechat review of draft-ietf-rats-eat-21: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rats-eat-21-intdir-telechat-song-2023-09-05/">
+                        intdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Last Call review of draft-ietf-rats-eat-21: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rats-eat-21-opsdir-lc-dunbar-2023-08-09/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-rats-eat-21: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rats-eat-21-genart-lc-robles-2023-08-09/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-rats-eat-13: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rats-eat-13-secdir-lc-orman-2022-07-23/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="IOTDIR Last Call review of draft-ietf-rats-eat-13: Not Ready" class="badge rounded-pill text-bg-danger">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-rats-eat-13-iotdir-lc-lear-2022-06-05/">
+                        iotdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of rats milestone: Submit Entity Attestation Token for publication" class="milestone">Dec 2023</span>,
+        
+            
+            <span title="Part of suit milestone: Decide with RATS WG in which working group the 'set of claims for attesting to firmware update status' document should be produced" class="milestone">Mar 2022</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/rdd@cert.org">Roman Danyliw</a> <a href="mailto:rdd%40cert.org" aria-label="Compose email to rdd@cert.org" title="Compose email to rdd@cert.org">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-rats-eat/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[BGP Link-State Shortest Path First (SPF) Routing]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-lsvr-bgp-spf/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lsvr-bgp-spf"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="RTGDIR Last Call review of draft-ietf-lsvr-bgp-spf-13: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lsvr-bgp-spf-13-rtgdir-lc-qu-2021-06-29/">
+                        rtgdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Early review of draft-ietf-lsvr-bgp-spf-02: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lsvr-bgp-spf-02-rtgdir-early-frost-2018-08-21/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Early review of draft-ietf-lsvr-bgp-spf-01: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lsvr-bgp-spf-01-opsdir-early-baker-2018-08-06/">
+                        opsdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lsvr-bgp-spf"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Document
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="RTGDIR Last Call review of draft-ietf-lsvr-bgp-spf-13: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lsvr-bgp-spf-13-rtgdir-lc-qu-2021-06-29/">
+                        rtgdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Early review of draft-ietf-lsvr-bgp-spf-02: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lsvr-bgp-spf-02-rtgdir-early-frost-2018-08-21/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Early review of draft-ietf-lsvr-bgp-spf-01: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lsvr-bgp-spf-01-opsdir-early-baker-2018-08-06/">
+                        opsdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lsvr-bgp-spf/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Naming the Protocol specified RFC 8029]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-andersson-mpls-rfc8029-lsp-ping-naming/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-andersson-mpls-rfc8029-lsp-ping-naming"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-andersson-mpls-rfc8029-lsp-ping-naming"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-andersson-mpls-rfc8029-lsp-ping-naming/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Security Profiles in Bootstrap Voucher Artifacts]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-mohammed-anima-voucher-security-profile/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-mohammed-anima-voucher-security-profile"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-mohammed-anima-voucher-security-profile"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-mohammed-anima-voucher-security-profile/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Benchmarking Methodology for Stateful NATxy Gateways using RFC 4814 Pseudorandom Port Numbers]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-bmwg-benchmarking-stateful/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-bmwg-benchmarking-stateful">
+<a href="/doc/draft-ietf-bmwg-benchmarking-stateful/ballotpopup/993353/" data-bs-toggle="modal" data-bs-target="#modal-993353" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-993353" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation
+        
+        
+        
+        
+        
+            <br>
+            IESG telechat: 2024-05-30
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="TSVART Last Call review of draft-ietf-bmwg-benchmarking-stateful-06: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-benchmarking-stateful-06-tsvart-lc-scharf-2024-05-20/">
+                        tsvart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-bmwg-benchmarking-stateful-06: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-benchmarking-stateful-06-secdir-lc-melnikov-2024-05-22/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-bmwg-benchmarking-stateful-06: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-benchmarking-stateful-06-genart-lc-sparks-2024-05-22/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2024-05-22" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-bmwg-benchmarking-stateful/reviewrequest/19567/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of bmwg milestone: Benchmarking for Stateful NATxy Gateways using RFC4814 Pseudorandom port numbers to IESG review" class="milestone">Sep 2024</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/warren@kumari.net">Warren "Ace" Kumari</a> <a href="mailto:warren%40kumari.net" aria-label="Compose email to warren@kumari.net" title="Compose email to warren@kumari.net">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-bmwg-benchmarking-stateful">
+<a href="/doc/draft-ietf-bmwg-benchmarking-stateful/ballotpopup/993353/" data-bs-toggle="modal" data-bs-target="#modal-993353" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-993353" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation
+        
+        
+        
+        
+        
+            <br>
+            IESG telechat: 2024-05-30
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="TSVART Last Call review of draft-ietf-bmwg-benchmarking-stateful-06: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-benchmarking-stateful-06-tsvart-lc-scharf-2024-05-20/">
+                        tsvart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Last Call review of draft-ietf-bmwg-benchmarking-stateful-06: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-benchmarking-stateful-06-secdir-lc-melnikov-2024-05-22/">
+                        secdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Last Call review of draft-ietf-bmwg-benchmarking-stateful-06: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-benchmarking-stateful-06-genart-lc-sparks-2024-05-22/">
+                        genart
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2024-05-22" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-bmwg-benchmarking-stateful/reviewrequest/19567/">
+                        opsdir
+                        
+                            LC
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of bmwg milestone: Benchmarking for Stateful NATxy Gateways using RFC4814 Pseudorandom port numbers to IESG review" class="milestone">Sep 2024</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/warren@kumari.net">Warren "Ace" Kumari</a> <a href="mailto:warren%40kumari.net" aria-label="Compose email to warren@kumari.net" title="Compose email to warren@kumari.net">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-bmwg-benchmarking-stateful/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[CDNI Capacity Capability Advertisement Extensions]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-cdni-capacity-insights-extensions/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-cdni-capacity-insights-extensions"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Consensus: Waiting for Write-Up
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+        
+            <br>
+            <span title="Part of cdni milestone: Submit specification of CDNI Extensions for Capacity Capability Advertisement" class="milestone">Aug 2024</span>
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-cdni-capacity-insights-extensions"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                WG Consensus: Waiting for Write-Up
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+        
+            <br>
+            <span title="Part of cdni milestone: Submit specification of CDNI Extensions for Capacity Capability Advertisement" class="milestone">Aug 2024</span>
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-cdni-capacity-insights-extensions/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Inter-domain Source Address Validation (SAVNET) Architecture]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-wu-savnet-inter-domain-architecture/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-wu-savnet-inter-domain-architecture"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-wu-savnet-inter-domain-architecture"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-wu-savnet-inter-domain-architecture/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[SPKI S-Expressions]]></title>
@@ -162,7 +992,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-warning" title="In state for 21 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 21</span>
+        <span class="badge rounded-pill text-bg-warning" title="In state for 22 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 22</span>
         
             <br>
             IESG telechat: 2024-05-30
@@ -250,7 +1080,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/ek.ietf@gmail.com">Erik Kline</a> <a href="mailto:ek.ietf%40gmail.com" aria-label="Compose email to ek.ietf@gmail.com" title="Compose email to ek.ietf@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 21 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 21</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 22 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 22</span>
             
         
     
@@ -288,7 +1118,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-warning" title="In state for 21 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 21</span>
+        <span class="badge rounded-pill text-bg-warning" title="In state for 22 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 22</span>
         
             <br>
             IESG telechat: 2024-05-30
@@ -376,422 +1206,12 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/ek.ietf@gmail.com">Erik Kline</a> <a href="mailto:ek.ietf%40gmail.com" aria-label="Compose email to ek.ietf@gmail.com" title="Compose email to ek.ietf@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 21 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 21</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 22 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 22</span>
             
         
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-6man-comp-rtg-hdr/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[IPv6 MANET Local Addresses (MLAs)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-templin-6man-mla/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-templin-6man-mla"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-templin-6man-mla"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-templin-6man-mla/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Composite Signatures For Use In Internet PKI]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-sigs/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lamps-pq-composite-sigs"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lamps-pq-composite-sigs"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-sigs/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Border Gateway Protocol 4 (BGP-4) Send Hold Timer]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-sendholdtimer/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-bgp-sendholdtimer"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Consensus: Waiting for Write-Up
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-bgp-sendholdtimer"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Consensus: Waiting for Write-Up
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-sendholdtimer/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[464 Customer-side Translator (CLAT): Node Recommendations]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-link-v6ops-claton/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-link-v6ops-claton"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-link-v6ops-claton"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-link-v6ops-claton/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Hybrid signature spectrums]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-pquip-hybrid-signature-spectrums/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-pquip-hybrid-signature-spectrums"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-pquip-hybrid-signature-spectrums"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-pquip-hybrid-signature-spectrums/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[TLS Trust Expressions]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-davidben-tls-trust-expr/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-davidben-tls-trust-expr"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Candidate for WG Adoption
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-davidben-tls-trust-expr"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Candidate for WG Adoption
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-davidben-tls-trust-expr/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[IANA Registrations for the BGP Finite State Machine (FSM)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-hhp-idr-bgp-fsm-iana/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-hhp-idr-bgp-fsm-iana"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Call For Adoption By WG Issued
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-hhp-idr-bgp-fsm-iana"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Call For Adoption By WG Issued
-                
-            
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-hhp-idr-bgp-fsm-iana/</guid>
       
     </item>
     
