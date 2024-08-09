@@ -7,322 +7,64 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Thu, 08 Aug 2024 01:42:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Aug 2024 01:43:35 +0000</lastBuildDate>
     
     <item>
-      <title><![CDATA[LISP Distinguished Name Encoding]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-lisp-name-encoding/</link>
+      <title><![CDATA[OpenPGP Prompting and Caching]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-dkg-openpgp-prompting-caching/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lisp-name-encoding">
-<a href="/doc/draft-ietf-lisp-name-encoding/ballotpopup/1001679/" data-bs-toggle="modal" data-bs-target="#modal-1001679" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-discuss"></td>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1001679" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-dkg-openpgp-prompting-caching"></div>
     
         
-            IESG Evaluation
+            I-D Exists
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 30 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 30</span>
         
-            <br>
-            IESG telechat: 2024-08-08
         
         
             
         
         
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="INTDIR Telechat review of draft-ietf-lisp-name-encoding-09: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lisp-name-encoding-09-intdir-telechat-winters-2024-07-25/">
-                        intdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-lisp-name-encoding-08: Serious Issues" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lisp-name-encoding-08-secdir-lc-salz-2024-07-09/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-lisp-name-encoding-08: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lisp-name-encoding-08-genart-lc-korhonen-2024-07-04/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Last Call review of draft-ietf-lisp-name-encoding-08: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lisp-name-encoding-08-rtgdir-lc-lindem-2024-07-09/">
-                        rtgdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Early review of draft-ietf-lisp-name-encoding-00: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lisp-name-encoding-00-rtgdir-early-hopps-2022-10-25/">
-                        rtgdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2024-07-12" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lisp-name-encoding/reviewrequest/19856/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2024-07-05" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lisp-name-encoding/reviewrequest/19858/">
-                        artart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/james.n.guichard@futurewei.com">Jim Guichard</a> <a href="mailto:james.n.guichard%40futurewei.com" aria-label="Compose email to james.n.guichard@futurewei.com" title="Compose email to james.n.guichard@futurewei.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 30 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 30</span>
-            
+        
         
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lisp-name-encoding">
-<a href="/doc/draft-ietf-lisp-name-encoding/ballotpopup/1001679/" data-bs-toggle="modal" data-bs-target="#modal-1001679" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-discuss"></td>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1001679" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-dkg-openpgp-prompting-caching"></div>
     
         
-            IESG Evaluation
+            I-D Exists
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 30 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 30</span>
         
-            <br>
-            IESG telechat: 2024-08-08
         
         
             
         
         
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="INTDIR Telechat review of draft-ietf-lisp-name-encoding-09: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lisp-name-encoding-09-intdir-telechat-winters-2024-07-25/">
-                        intdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Last Call review of draft-ietf-lisp-name-encoding-08: Serious Issues" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lisp-name-encoding-08-secdir-lc-salz-2024-07-09/">
-                        secdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART Last Call review of draft-ietf-lisp-name-encoding-08: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lisp-name-encoding-08-genart-lc-korhonen-2024-07-04/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Last Call review of draft-ietf-lisp-name-encoding-08: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lisp-name-encoding-08-rtgdir-lc-lindem-2024-07-09/">
-                        rtgdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Early review of draft-ietf-lisp-name-encoding-00: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lisp-name-encoding-00-rtgdir-early-hopps-2022-10-25/">
-                        rtgdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2024-07-12" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lisp-name-encoding/reviewrequest/19856/">
-                        opsdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2024-07-05" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-lisp-name-encoding/reviewrequest/19858/">
-                        artart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/james.n.guichard@futurewei.com">Jim Guichard</a> <a href="mailto:james.n.guichard%40futurewei.com" aria-label="Compose email to james.n.guichard@futurewei.com" title="Compose email to james.n.guichard@futurewei.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 30 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 30</span>
-            
+        
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lisp-name-encoding/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-dkg-openpgp-prompting-caching/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Clarification of IPv6 Address Assignment Policy]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-carpenter-6man-addr-assign/</link>
+      <title><![CDATA[IETF Experiments]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-bonica-gendispatch-exp/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-carpenter-6man-addr-assign"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-bonica-gendispatch-exp"></div>
     
         
             I-D Exists
@@ -343,7 +85,7 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-carpenter-6man-addr-assign"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-bonica-gendispatch-exp"></div>
     
         
             I-D Exists
@@ -363,19 +105,19 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-carpenter-6man-addr-assign/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-bonica-gendispatch-exp/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[PIM Light]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-pim-light/</link>
+      <title><![CDATA[IETF Working Group Guidelines and Procedures]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-rsalz-2418bis/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-pim-light"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-rsalz-2418bis"></div>
     
         
-            AD Evaluation::AD Followup
+            I-D Exists
         
         
         
@@ -385,49 +127,18 @@
             
         
         
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Review:
-            
-                
-                        <span title="Incomplete, due 2024-08-12" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-pim-light/reviewrequest/20052/">
-                        rtgdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/gunter@vandevelde.cc">Gunter Van de Velde</a> <a href="mailto:gunter%40vandevelde.cc" aria-label="Compose email to gunter@vandevelde.cc" title="Compose email to gunter@vandevelde.cc">
-                <i class="bi bi-envelope"></i></a></span>
-            
+        
         
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-pim-light"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-rsalz-2418bis"></div>
     
         
-            AD Evaluation::AD Followup
+            I-D Exists
         
         
         
@@ -437,54 +148,23 @@
             
         
         
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Review:
-            
-                
-                        <span title="Incomplete, due 2024-08-12" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-pim-light/reviewrequest/20052/">
-                        rtgdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/gunter@vandevelde.cc">Gunter Van de Velde</a> <a href="mailto:gunter%40vandevelde.cc" aria-label="Compose email to gunter@vandevelde.cc" title="Compose email to gunter@vandevelde.cc">
-                <i class="bi bi-envelope"></i></a></span>
-            
+        
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-pim-light/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-rsalz-2418bis/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[POSIX Draft ACL support for Network File System Version 4, Minor Version 2]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-rmacklem-nfsv4-posix-acls/</link>
+      <title><![CDATA[Organization Trust Relationship Protocol]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-org-trust-relationship-protocol/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-rmacklem-nfsv4-posix-acls"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-org-trust-relationship-protocol"></div>
     
         
             I-D Exists
@@ -505,7 +185,7 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-rmacklem-nfsv4-posix-acls"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-org-trust-relationship-protocol"></div>
     
         
             I-D Exists
@@ -525,125 +205,7 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-rmacklem-nfsv4-posix-acls/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Deprecating Insecure Practices in RADIUS]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-radext-deprecating-radius/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-radext-deprecating-radius"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-            <br>
-            <span title="Part of radext milestone: Deprecating Insecure Uses of RADIUS to IESG" class="milestone">Jan 2024</span>
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-radext-deprecating-radius"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                WG Document
-                
-            
-        
-        
-        
-        
-        
-            <br>
-            <span title="Part of radext milestone: Deprecating Insecure Uses of RADIUS to IESG" class="milestone">Jan 2024</span>
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-radext-deprecating-radius/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[CoRIM profile for AMD SEV-SNP attestation report]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-deeglaze-amd-sev-snp-corim-profile/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-deeglaze-amd-sev-snp-corim-profile"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-deeglaze-amd-sev-snp-corim-profile"></div>
-    
-        
-            I-D Exists
-        
-        
-        
-        
-        
-        
-            
-        
-        
-        
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-deeglaze-amd-sev-snp-corim-profile/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-org-trust-relationship-protocol/</guid>
       
     </item>
     
@@ -710,11 +272,11 @@
     </item>
     
     <item>
-      <title><![CDATA[Federated TLS Authentication]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-halen-fed-tls-auth/</link>
+      <title><![CDATA[dCBOR: A Deterministic CBOR Application Profile]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-mcnally-deterministic-cbor/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-halen-fed-tls-auth"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-mcnally-deterministic-cbor"></div>
     
         
             I-D Exists
@@ -727,15 +289,7 @@
             
         
         
-            <br>
-            
-                In ISE Review
-                
-                    :
-                
-            
         
-        Informational
         
         
         
@@ -743,7 +297,7 @@
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-halen-fed-tls-auth"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-mcnally-deterministic-cbor"></div>
     
         
             I-D Exists
@@ -756,31 +310,73 @@
             
         
         
-            <br>
-            
-                In ISE Review
-                
-                    :
-                
-            
         
-        Informational
         
         
         
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-halen-fed-tls-auth/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-mcnally-deterministic-cbor/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Integrity Protection of In-situ OAM Data Fields]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-ippm-ioam-data-integrity/</link>
+      <title><![CDATA[The Iternet Standards Process]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-rsalz-2026bis/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ippm-ioam-data-integrity"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-rsalz-2026bis"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-rsalz-2026bis"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-rsalz-2026bis/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[An Information Model for Packet Discard Reporting]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-opsawg-discardmodel/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-opsawg-discardmodel"></div>
     
         
             I-D Exists
@@ -804,28 +400,12 @@
         Proposed Standard
         
         
-            <br>
-            Review:
-            
-                
-                    <span title="SECDIR Early review of draft-ietf-ippm-ioam-data-integrity-07: Serious Issues" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-ioam-data-integrity-07-secdir-early-kaduk-2023-12-21/">
-                        secdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
         
         
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ippm-ioam-data-integrity"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-opsawg-discardmodel"></div>
     
         
             I-D Exists
@@ -849,46 +429,27 @@
         Proposed Standard
         
         
-            <br>
-            Review:
-            
-                
-                    <span title="SECDIR Early review of draft-ietf-ippm-ioam-data-integrity-07: Serious Issues" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-ioam-data-integrity-07-secdir-early-kaduk-2023-12-21/">
-                        secdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
         
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-ippm-ioam-data-integrity/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-opsawg-discardmodel/</guid>
       
     </item>
     
     <item>
-      <title><![CDATA[Transferring Opportunistic Wireless Encryption to the IEEE 802.11 Working Group]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-wkumari-rfc8110-to-ieee/</link>
+      <title><![CDATA[Some Key Terms for Network Incident and Problem Management]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-nmop-terminology/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-wkumari-rfc8110-to-ieee"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-nmop-terminology"></div>
     
         
-            In Last Call (ends 2024-09-04)
+            I-D Exists
         
         
         
         
-        
-            <br>
-            IESG telechat: 2024-09-05
         
         
             
@@ -896,66 +457,29 @@
         
             <br>
             
-                IETF stream
-                
-                    :
+                WG Document
                 
             
         
-        Informational
         
-        
-            <br>
-            Reviews:
-            
-                
-                        <span title="Incomplete, due 2024-09-04" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-wkumari-rfc8110-to-ieee/reviewrequest/20130/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2024-09-04" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-wkumari-rfc8110-to-ieee/reviewrequest/20132/">
-                        iotdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
             <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD, Shepherd" href="/person/evyncke@cisco.com">Éric Vyncke</a> <a href="mailto:evyncke%40cisco.com" aria-label="Compose email to evyncke@cisco.com" title="Compose email to evyncke@cisco.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
+            <span title="Part of nmop milestone: Adopt a terminology document for anomaly and incident management" class="milestone">Jun 2024</span>
+        
         
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-wkumari-rfc8110-to-ieee"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-nmop-terminology"></div>
     
         
-            In Last Call (ends 2024-09-04)
+            I-D Exists
         
         
         
         
-        
-            <br>
-            IESG telechat: 2024-09-05
         
         
             
@@ -963,55 +487,71 @@
         
             <br>
             
-                IETF stream
-                
-                    :
+                WG Document
                 
             
         
-        Informational
         
-        
-            <br>
-            Reviews:
-            
-                
-                        <span title="Incomplete, due 2024-09-04" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-wkumari-rfc8110-to-ieee/reviewrequest/20130/">
-                        genart
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2024-09-04" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-wkumari-rfc8110-to-ieee/reviewrequest/20132/">
-                        iotdir
-                        
-                            LC
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
             <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD, Shepherd" href="/person/evyncke@cisco.com">Éric Vyncke</a> <a href="mailto:evyncke%40cisco.com" aria-label="Compose email to evyncke@cisco.com" title="Compose email to evyncke@cisco.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
+            <span title="Part of nmop milestone: Adopt a terminology document for anomaly and incident management" class="milestone">Jun 2024</span>
+        
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-wkumari-rfc8110-to-ieee/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-nmop-terminology/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Deadline Based Deterministic Forwarding]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-peng-detnet-deadline-based-forwarding/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-peng-detnet-deadline-based-forwarding"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-peng-detnet-deadline-based-forwarding"></div>
+    
+        
+            I-D Exists
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-peng-detnet-deadline-based-forwarding/</guid>
       
     </item>
     
