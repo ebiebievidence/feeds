@@ -7,7 +7,519 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Tue, 11 Nov 2025 02:15:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Nov 2025 02:14:41 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[Optimizing BFD Authentication]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-bfd-optimizing-authentication/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-bfd-optimizing-authentication"></div>
+    
+        
+            Approved-announcement to be sent::AD Followup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Experimental
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="TSVART IETF Last Call review of draft-ietf-bfd-optimizing-authentication-28: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bfd-optimizing-authentication-28-tsvart-lc-ihlar-2025-08-18/">
+                        tsvart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Early review of draft-ietf-bfd-optimizing-authentication-23: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bfd-optimizing-authentication-23-opsdir-early-schoenwaelder-2025-03-25/">
+                        opsdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR IETF Last Call review of draft-ietf-bfd-optimizing-authentication-23: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bfd-optimizing-authentication-23-rtgdir-lc-niven-jenkins-2025-03-20/">
+                        rtgdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="YANGDOCTORS Early review of draft-ietf-bfd-optimizing-authentication-18: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bfd-optimizing-authentication-18-yangdoctors-early-ma-2024-08-01/">
+                        yangdoctors
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Early review of draft-ietf-bfd-optimizing-authentication-16: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bfd-optimizing-authentication-16-secdir-early-farrell-2024-06-17/">
+                        secdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of bfd milestone: Provide an optimization to BFD authentication to reduce computational demand while still providing desirable security properties." class="milestone">Jun 2025</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/ketant.ietf@gmail.com">Ketan Talaulikar</a> <a href="mailto:ketant.ietf%40gmail.com" aria-label="Compose email to ketant.ietf@gmail.com" title="Compose email to ketant.ietf@gmail.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-bfd-optimizing-authentication"></div>
+    
+        
+            Approved-announcement to be sent::AD Followup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Experimental
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="TSVART IETF Last Call review of draft-ietf-bfd-optimizing-authentication-28: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bfd-optimizing-authentication-28-tsvart-lc-ihlar-2025-08-18/">
+                        tsvart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Early review of draft-ietf-bfd-optimizing-authentication-23: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bfd-optimizing-authentication-23-opsdir-early-schoenwaelder-2025-03-25/">
+                        opsdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR IETF Last Call review of draft-ietf-bfd-optimizing-authentication-23: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bfd-optimizing-authentication-23-rtgdir-lc-niven-jenkins-2025-03-20/">
+                        rtgdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="YANGDOCTORS Early review of draft-ietf-bfd-optimizing-authentication-18: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bfd-optimizing-authentication-18-yangdoctors-early-ma-2024-08-01/">
+                        yangdoctors
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Early review of draft-ietf-bfd-optimizing-authentication-16: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bfd-optimizing-authentication-16-secdir-early-farrell-2024-06-17/">
+                        secdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of bfd milestone: Provide an optimization to BFD authentication to reduce computational demand while still providing desirable security properties." class="milestone">Jun 2025</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/ketant.ietf@gmail.com">Ketan Talaulikar</a> <a href="mailto:ketant.ietf%40gmail.com" aria-label="Compose email to ketant.ietf@gmail.com" title="Compose email to ketant.ietf@gmail.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-bfd-optimizing-authentication/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[YANG Groupings for HTTP Clients and HTTP Servers]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-netconf-http-client-server/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-netconf-http-client-server">
+<a href="/doc/draft-ietf-netconf-http-client-server/ballotpopup/1010807/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1010807" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1010807" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-danger" title="In state for 89 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 89</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="HTTPDIR Telechat review of draft-ietf-netconf-http-client-server-23: Not Ready" class="badge rounded-pill text-bg-danger">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-netconf-http-client-server-23-httpdir-telechat-nottingham-2024-08-19/">
+                        httpdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-netconf-http-client-server-16: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-netconf-http-client-server-16-secdir-lc-sahib-2024-02-09/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="YANGDOCTORS IETF Last Call review of draft-ietf-netconf-http-client-server-06: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-netconf-http-client-server-06-yangdoctors-lc-lhotka-2021-04-12/">
+                        yangdoctors
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD, Shepherd" href="/person/mjethanandani@gmail.com">Mahesh Jethanandani</a> <a href="mailto:mjethanandani%40gmail.com" aria-label="Compose email to mjethanandani@gmail.com" title="Compose email to mjethanandani@gmail.com">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 43 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 43</span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-netconf-http-client-server">
+<a href="/doc/draft-ietf-netconf-http-client-server/ballotpopup/1010807/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1010807" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1010807" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-danger" title="In state for 89 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 89</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="HTTPDIR Telechat review of draft-ietf-netconf-http-client-server-23: Not Ready" class="badge rounded-pill text-bg-danger">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-netconf-http-client-server-23-httpdir-telechat-nottingham-2024-08-19/">
+                        httpdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-netconf-http-client-server-16: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-netconf-http-client-server-16-secdir-lc-sahib-2024-02-09/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="YANGDOCTORS IETF Last Call review of draft-ietf-netconf-http-client-server-06: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-netconf-http-client-server-06-yangdoctors-lc-lhotka-2021-04-12/">
+                        yangdoctors
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD, Shepherd" href="/person/mjethanandani@gmail.com">Mahesh Jethanandani</a> <a href="mailto:mjethanandani%40gmail.com" aria-label="Compose email to mjethanandani@gmail.com" title="Compose email to mjethanandani@gmail.com">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 43 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 43</span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-netconf-http-client-server/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Protocol-Specific Profiles for JSContact]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-calext-jscontact-profiles/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-calext-jscontact-profiles"></div>
+    
+        
+            In Last Call (ends 2025-11-25)
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+        
+            <br>
+            <span title="Part of calext milestone: Submit JSContact-profiles to IESG" class="milestone">Nov 2025</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/orie@or13.io">Orie Steele</a> <a href="mailto:orie%40or13.io" aria-label="Compose email to orie@or13.io" title="Compose email to orie@or13.io">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-calext-jscontact-profiles"></div>
+    
+        
+            In Last Call (ends 2025-11-25)
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+        
+            <br>
+            <span title="Part of calext milestone: Submit JSContact-profiles to IESG" class="milestone">Nov 2025</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/orie@or13.io">Orie Steele</a> <a href="mailto:orie%40or13.io" aria-label="Compose email to orie@or13.io" title="Compose email to orie@or13.io">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-calext-jscontact-profiles/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[NTP Over PTP]]></title>
@@ -46,7 +558,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-warning" title="In state for 18 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 18</span>
+        <span class="badge rounded-pill text-bg-warning" title="In state for 19 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 19</span>
         
         
             
@@ -172,7 +684,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-warning" title="In state for 18 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 18</span>
+        <span class="badge rounded-pill text-bg-warning" title="In state for 19 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 19</span>
         
         
             
@@ -281,7 +793,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-warning" title="In state for 28 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 28</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 29 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 29</span>
         
         
             
@@ -347,7 +859,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/orie@or13.io">Orie Steele</a> <a href="mailto:orie%40or13.io" aria-label="Compose email to orie@or13.io" title="Compose email to orie@or13.io">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 28 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 28</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 29 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 29</span>
             
         
         
@@ -361,7 +873,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-warning" title="In state for 28 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 28</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 29 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 29</span>
         
         
             
@@ -427,7 +939,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/orie@or13.io">Orie Steele</a> <a href="mailto:orie%40or13.io" aria-label="Compose email to orie@or13.io" title="Compose email to orie@or13.io">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 28 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 28</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 29 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 29</span>
             
         
         
@@ -570,6 +1082,18 @@
 
             
                 
+                    <span title="GENART IETF Last Call review of draft-ietf-sshm-ssh-agent-11: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sshm-ssh-agent-11-genart-lc-shirazipour-2025-11-11/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
                     <span title="ARTART IETF Last Call review of draft-ietf-sshm-ssh-agent-10: Ready" class="badge rounded-pill text-bg-success">
                     
                     <a class="text-reset text-decoration-none" href="/doc/review-ietf-sshm-ssh-agent-10-artart-lc-thomson-2025-11-06/">
@@ -594,18 +1118,6 @@
 
             
                 
-                        <span title="Incomplete, due 2025-11-11" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-sshm-ssh-agent/reviewrequest/23049/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
                         <span title="Incomplete, due 2025-10-31" class="badge rounded-pill text-bg-secondary">
                     
                     <a class="text-reset text-decoration-none" href="/doc/draft-ietf-sshm-ssh-agent/reviewrequest/22744/">
@@ -624,7 +1136,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 21 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 21</span>
             
         
         
@@ -671,6 +1183,18 @@
 
             
                 
+                    <span title="GENART IETF Last Call review of draft-ietf-sshm-ssh-agent-11: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sshm-ssh-agent-11-genart-lc-shirazipour-2025-11-11/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
                     <span title="ARTART IETF Last Call review of draft-ietf-sshm-ssh-agent-10: Ready" class="badge rounded-pill text-bg-success">
                     
                     <a class="text-reset text-decoration-none" href="/doc/review-ietf-sshm-ssh-agent-10-artart-lc-thomson-2025-11-06/">
@@ -695,18 +1219,6 @@
 
             
                 
-                        <span title="Incomplete, due 2025-11-11" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-sshm-ssh-agent/reviewrequest/23049/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
                         <span title="Incomplete, due 2025-10-31" class="badge rounded-pill text-bg-secondary">
                     
                     <a class="text-reset text-decoration-none" href="/doc/draft-ietf-sshm-ssh-agent/reviewrequest/22744/">
@@ -725,7 +1237,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 21 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 21</span>
             
         
         
@@ -766,6 +1278,30 @@
         
             <br>
             Reviews:
+            
+                
+                        <span title="Incomplete, due 2025-11-21" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-v6ops-claton/reviewrequest/23109/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2025-11-21" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-v6ops-claton/reviewrequest/23103/">
+                        opsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
             
                 
                         <span title="Incomplete, due 2025-11-21" class="badge rounded-pill text-bg-secondary">
@@ -834,6 +1370,30 @@
         
             <br>
             Reviews:
+            
+                
+                        <span title="Incomplete, due 2025-11-21" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-v6ops-claton/reviewrequest/23109/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2025-11-21" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-v6ops-claton/reviewrequest/23103/">
+                        opsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
             
                 
                         <span title="Incomplete, due 2025-11-21" class="badge rounded-pill text-bg-secondary">
@@ -1051,7 +1611,7 @@
             : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-jmap-calendars">IESG</a>
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 361 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 361</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 362 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 362</span>
         
         
             
@@ -1129,7 +1689,7 @@
             : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-jmap-calendars">IESG</a>
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 361 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 361</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 362 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 362</span>
         
         
             
@@ -1198,452 +1758,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-jmap-calendars/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[OCSP Usage for Secure Telephone Identity Certificates]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-stir-certificates-ocsp/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-stir-certificates-ocsp"></div>
-    
-        
-            Waiting for AD Go-Ahead::AD Followup
-        
-        
-        
-        <span class="badge rounded-pill text-bg-danger" title="In state for 84 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 84</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-stir-certificates-ocsp-11: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-stir-certificates-ocsp-11-secdir-lc-hallam-baker-2025-08-03/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-stir-certificates-ocsp-11: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-stir-certificates-ocsp-11-genart-lc-gurbani-2025-08-06/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/orie@or13.io">Orie Steele</a> <a href="mailto:orie%40or13.io" aria-label="Compose email to orie@or13.io" title="Compose email to orie@or13.io">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 105 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 105</span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-stir-certificates-ocsp"></div>
-    
-        
-            Waiting for AD Go-Ahead::AD Followup
-        
-        
-        
-        <span class="badge rounded-pill text-bg-danger" title="In state for 84 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 84</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-stir-certificates-ocsp-11: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-stir-certificates-ocsp-11-secdir-lc-hallam-baker-2025-08-03/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-stir-certificates-ocsp-11: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-stir-certificates-ocsp-11-genart-lc-gurbani-2025-08-06/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/orie@or13.io">Orie Steele</a> <a href="mailto:orie%40or13.io" aria-label="Compose email to orie@or13.io" title="Compose email to orie@or13.io">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 105 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 105</span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-stir-certificates-ocsp/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Multiple Loss Ratio Search]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-bmwg-mlrsearch/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-bmwg-mlrsearch"></div>
-    
-        
-            RFC Ed Queue
-        
-        
-            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-bmwg-mlrsearch">AUTH</a>
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Informational
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="PERFMETRDIR IETF Last Call review of draft-ietf-bmwg-mlrsearch-14: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-mlrsearch-14-perfmetrdir-lc-min-2025-10-27/">
-                        perfmetrdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="INTDIR Telechat review of draft-ietf-bmwg-mlrsearch-11: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-mlrsearch-11-intdir-telechat-linkova-2025-09-07/">
-                        intdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART IETF Last Call review of draft-ietf-bmwg-mlrsearch-11: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-mlrsearch-11-tsvart-lc-nishida-2025-08-03/">
-                        tsvart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-bmwg-mlrsearch-11: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-mlrsearch-11-opsdir-lc-cocker-2025-08-06/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-bmwg-mlrsearch-11: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-mlrsearch-11-secdir-lc-emery-2025-07-19/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-bmwg-mlrsearch-11: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-mlrsearch-11-genart-lc-eggert-2025-08-08/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of bmwg milestone: Submit Multiple Loss Ratio Search to the IESG" class="milestone">Jan 2025</span>
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-bmwg-mlrsearch"></div>
-    
-        
-            RFC Ed Queue
-        
-        
-            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-bmwg-mlrsearch">AUTH</a>
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Informational
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="PERFMETRDIR IETF Last Call review of draft-ietf-bmwg-mlrsearch-14: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-mlrsearch-14-perfmetrdir-lc-min-2025-10-27/">
-                        perfmetrdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="INTDIR Telechat review of draft-ietf-bmwg-mlrsearch-11: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-mlrsearch-11-intdir-telechat-linkova-2025-09-07/">
-                        intdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART IETF Last Call review of draft-ietf-bmwg-mlrsearch-11: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-mlrsearch-11-tsvart-lc-nishida-2025-08-03/">
-                        tsvart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-bmwg-mlrsearch-11: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-mlrsearch-11-opsdir-lc-cocker-2025-08-06/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-bmwg-mlrsearch-11: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-mlrsearch-11-secdir-lc-emery-2025-07-19/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-bmwg-mlrsearch-11: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bmwg-mlrsearch-11-genart-lc-eggert-2025-08-08/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of bmwg milestone: Submit Multiple Loss Ratio Search to the IESG" class="milestone">Jan 2025</span>
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-bmwg-mlrsearch/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[YANG-CBOR: Allocating SID ranges for PEN holders]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-core-yang-sid-pen/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-core-yang-sid-pen"></div>
-    
-        
-            Publication Requested
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Informational
-        
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/mbishop@evequefou.be">Mike Bishop</a> <a href="mailto:mbishop%40evequefou.be" aria-label="Compose email to mbishop@evequefou.be" title="Compose email to mbishop@evequefou.be">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-core-yang-sid-pen"></div>
-    
-        
-            Publication Requested
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Informational
-        
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/mbishop@evequefou.be">Mike Bishop</a> <a href="mailto:mbishop%40evequefou.be" aria-label="Compose email to mbishop@evequefou.be" title="Compose email to mbishop@evequefou.be">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-core-yang-sid-pen/</guid>
       
     </item>
     
