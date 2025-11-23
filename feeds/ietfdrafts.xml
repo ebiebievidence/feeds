@@ -7,7 +7,297 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Sat, 22 Nov 2025 02:03:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Nov 2025 02:29:32 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[Link-Layer Types for PCAP-related Capture File Formats]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-opsawg-pcaplinktype/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-opsawg-pcaplinktype">
+<a href="/doc/draft-ietf-opsawg-pcaplinktype/ballotpopup/1095953/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1095953" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1095953" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-danger" title="In state for 30 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 30</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-opsawg-pcaplinktype-13: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-opsawg-pcaplinktype-13-secdir-lc-reddyk-2025-10-23/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR IETF Last Call review of draft-ietf-opsawg-pcaplinktype-10: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-opsawg-pcaplinktype-10-opsdir-lc-contreras-2025-07-30/">
+                        opsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="TSVART IETF Last Call review of draft-ietf-opsawg-pcaplinktype-10: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-opsawg-pcaplinktype-10-tsvart-lc-scharf-2025-06-11/">
+                        tsvart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART IETF Last Call review of draft-ietf-opsawg-pcaplinktype-10: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-opsawg-pcaplinktype-10-artart-lc-reschke-2025-06-11/">
+                        artart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="INTDIR IETF Last Call review of draft-ietf-opsawg-pcaplinktype-05: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-opsawg-pcaplinktype-05-intdir-lc-bernardos-2024-08-22/">
+                        intdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-opsawg-pcaplinktype-04: Almost Ready" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-opsawg-pcaplinktype-04-genart-lc-halpern-2024-08-15/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of opsawg milestone: Submit PCAP and PCAPng Link Type as Informational" class="milestone">Dec 2025</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/mjethanandani@gmail.com">Mahesh Jethanandani</a> <a href="mailto:mjethanandani%40gmail.com" aria-label="Compose email to mjethanandani@gmail.com" title="Compose email to mjethanandani@gmail.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-opsawg-pcaplinktype">
+<a href="/doc/draft-ietf-opsawg-pcaplinktype/ballotpopup/1095953/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1095953" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1095953" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-danger" title="In state for 30 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 30</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-opsawg-pcaplinktype-13: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-opsawg-pcaplinktype-13-secdir-lc-reddyk-2025-10-23/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR IETF Last Call review of draft-ietf-opsawg-pcaplinktype-10: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-opsawg-pcaplinktype-10-opsdir-lc-contreras-2025-07-30/">
+                        opsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="TSVART IETF Last Call review of draft-ietf-opsawg-pcaplinktype-10: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-opsawg-pcaplinktype-10-tsvart-lc-scharf-2025-06-11/">
+                        tsvart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART IETF Last Call review of draft-ietf-opsawg-pcaplinktype-10: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-opsawg-pcaplinktype-10-artart-lc-reschke-2025-06-11/">
+                        artart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="INTDIR IETF Last Call review of draft-ietf-opsawg-pcaplinktype-05: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-opsawg-pcaplinktype-05-intdir-lc-bernardos-2024-08-22/">
+                        intdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-opsawg-pcaplinktype-04: Almost Ready" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-opsawg-pcaplinktype-04-genart-lc-halpern-2024-08-15/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of opsawg milestone: Submit PCAP and PCAPng Link Type as Informational" class="milestone">Dec 2025</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/mjethanandani@gmail.com">Mahesh Jethanandani</a> <a href="mailto:mjethanandani%40gmail.com" aria-label="Compose email to mjethanandani@gmail.com" title="Compose email to mjethanandani@gmail.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-opsawg-pcaplinktype/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[Constrained Resource Identifiers]]></title>
@@ -179,7 +469,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 32 days; goal is &lt;7 days."><i class="bi bi-clock-fill"></i> 32</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 33 days; goal is &lt;7 days."><i class="bi bi-clock-fill"></i> 33</span>
         
         
             
@@ -202,7 +492,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io" title="Compose email to paul.wouters@aiven.io">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 32 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 32</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 33 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 33</span>
             
         
         
@@ -216,7 +506,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 32 days; goal is &lt;7 days."><i class="bi bi-clock-fill"></i> 32</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 33 days; goal is &lt;7 days."><i class="bi bi-clock-fill"></i> 33</span>
         
         
             
@@ -239,7 +529,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io" title="Compose email to paul.wouters@aiven.io">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 32 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 32</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 33 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 33</span>
             
         
         
@@ -261,7 +551,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 140 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 140</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 141 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 141</span>
         
         
             
@@ -287,7 +577,7 @@
                 <i class="bi bi-envelope"></i></a></span>,
             
                 <span><a title="Action Holder" href="/person/wlin@juniper.net">Wen Lin</a> <a href="mailto:wlin%40juniper.net" aria-label="Compose email to wlin@juniper.net" title="Compose email to wlin@juniper.net">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 140 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 140</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 141 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 141</span>
             
         
         
@@ -301,7 +591,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 140 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 140</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 141 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 141</span>
         
         
             
@@ -327,7 +617,7 @@
                 <i class="bi bi-envelope"></i></a></span>,
             
                 <span><a title="Action Holder" href="/person/wlin@juniper.net">Wen Lin</a> <a href="mailto:wlin%40juniper.net" aria-label="Compose email to wlin@juniper.net" title="Compose email to wlin@juniper.net">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 140 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 140</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 141 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 141</span>
             
         
         
@@ -677,18 +967,6 @@
                     </span>
 
             
-                
-                        <span title="Incomplete, due 2025-10-07" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-dispatch-mime-protobuf/reviewrequest/22769/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
@@ -752,18 +1030,6 @@
                     
                     <a class="text-reset text-decoration-none" href="/doc/review-ietf-dispatch-mime-protobuf-03-genart-lc-bryant-2025-10-07/">
                         genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2025-10-07" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-dispatch-mime-protobuf/reviewrequest/22769/">
-                        secdir
                         
                             IETF Last Call
                         
@@ -861,6 +1127,18 @@
                     </span>
 
             
+                
+                        <span title="Incomplete, due 2025-12-03" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-netconf-udp-client-server/reviewrequest/23163/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
         
         
         
@@ -945,6 +1223,18 @@
                         yangdoctors
                         
                             Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2025-12-03" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-netconf-udp-client-server/reviewrequest/23163/">
+                        secdir
+                        
+                            IETF Last Call
                         
                     </a>
                     </span>
@@ -1658,244 +1948,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-6man-icmpv6-reflection/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Task Extensions to iCalendar]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-calext-ical-tasks/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-calext-ical-tasks">
-<a href="/doc/draft-ietf-calext-ical-tasks/ballotpopup/1057463/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1057463" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1057463" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-        
-            IESG Evaluation::AD Followup
-        
-        
-        
-        <span class="badge rounded-pill text-bg-warning" title="In state for 15 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 15</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="ARTART Telechat review of draft-ietf-calext-ical-tasks-13: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-calext-ical-tasks-13-artart-telechat-amsuess-2025-05-05/">
-                        artart
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-calext-ical-tasks-13: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-calext-ical-tasks-13-secdir-lc-salowey-2025-03-23/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-ietf-calext-ical-tasks-12: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-calext-ical-tasks-12-artart-lc-amsuess-2025-03-11/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-calext-ical-tasks-12: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-calext-ical-tasks-12-genart-lc-enghardt-2025-03-10/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of calext milestone: Submit task draft to IESG" class="milestone">Dec 2024</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/orie@or13.io">Orie Steele</a> <a href="mailto:orie%40or13.io" aria-label="Compose email to orie@or13.io" title="Compose email to orie@or13.io">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-calext-ical-tasks">
-<a href="/doc/draft-ietf-calext-ical-tasks/ballotpopup/1057463/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1057463" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1057463" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-        
-            IESG Evaluation::AD Followup
-        
-        
-        
-        <span class="badge rounded-pill text-bg-warning" title="In state for 15 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 15</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="ARTART Telechat review of draft-ietf-calext-ical-tasks-13: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-calext-ical-tasks-13-artart-telechat-amsuess-2025-05-05/">
-                        artart
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-calext-ical-tasks-13: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-calext-ical-tasks-13-secdir-lc-salowey-2025-03-23/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-ietf-calext-ical-tasks-12: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-calext-ical-tasks-12-artart-lc-amsuess-2025-03-11/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-calext-ical-tasks-12: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-calext-ical-tasks-12-genart-lc-enghardt-2025-03-10/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of calext milestone: Submit task draft to IESG" class="milestone">Dec 2024</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/orie@or13.io">Orie Steele</a> <a href="mailto:orie%40or13.io" aria-label="Compose email to orie@or13.io" title="Compose email to orie@or13.io">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-calext-ical-tasks/</guid>
       
     </item>
     
