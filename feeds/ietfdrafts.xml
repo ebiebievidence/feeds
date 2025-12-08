@@ -7,7 +7,263 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Sun, 07 Dec 2025 02:28:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 02:20:02 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[Internet Control Message Protocol (ICMPv6) Reflection]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-6man-icmpv6-reflection/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-6man-icmpv6-reflection">
+<a href="/doc/draft-ietf-6man-icmpv6-reflection/ballotpopup/1104838/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1104838" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-discuss"></td>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-yes"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1104838" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-warning" title="In state for 17 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 17</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="INTDIR Telechat review of draft-ietf-6man-icmpv6-reflection-12: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-6man-icmpv6-reflection-12-intdir-telechat-krishnan-2025-11-18/">
+                        intdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR IETF Last Call review of draft-ietf-6man-icmpv6-reflection-12: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-6man-icmpv6-reflection-12-opsdir-lc-comstedt-2025-11-05/">
+                        opsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-6man-icmpv6-reflection-12: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-6man-icmpv6-reflection-11-genart-lc-fossati-2025-10-15/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="TSVART IETF Last Call review of draft-ietf-6man-icmpv6-reflection-11: Almost Ready" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-6man-icmpv6-reflection-11-tsvart-lc-rose-2025-10-15/">
+                        tsvart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-6man-icmpv6-reflection-11: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-6man-icmpv6-reflection-11-secdir-lc-sparks-2025-10-21/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/ek.ietf@gmail.com">Erik Kline</a> <a href="mailto:ek.ietf%40gmail.com" aria-label="Compose email to ek.ietf@gmail.com" title="Compose email to ek.ietf@gmail.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-6man-icmpv6-reflection">
+<a href="/doc/draft-ietf-6man-icmpv6-reflection/ballotpopup/1104838/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1104838" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-discuss"></td>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-yes"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1104838" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-warning" title="In state for 17 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 17</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="INTDIR Telechat review of draft-ietf-6man-icmpv6-reflection-12: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-6man-icmpv6-reflection-12-intdir-telechat-krishnan-2025-11-18/">
+                        intdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR IETF Last Call review of draft-ietf-6man-icmpv6-reflection-12: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-6man-icmpv6-reflection-12-opsdir-lc-comstedt-2025-11-05/">
+                        opsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-6man-icmpv6-reflection-12: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-6man-icmpv6-reflection-11-genart-lc-fossati-2025-10-15/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="TSVART IETF Last Call review of draft-ietf-6man-icmpv6-reflection-11: Almost Ready" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-6man-icmpv6-reflection-11-tsvart-lc-rose-2025-10-15/">
+                        tsvart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-6man-icmpv6-reflection-11: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-6man-icmpv6-reflection-11-secdir-lc-sparks-2025-10-21/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/ek.ietf@gmail.com">Erik Kline</a> <a href="mailto:ek.ietf%40gmail.com" aria-label="Compose email to ek.ietf@gmail.com" title="Compose email to ek.ietf@gmail.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-6man-icmpv6-reflection/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[RTP Payload Format for Haptics]]></title>
@@ -516,6 +772,16 @@
 
             
                 
+                        <span title="Incomplete, due 2025-12-16" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-modpod-group-processes/reviewrequest/23263/">
+                        artart
+                        
+                    </a>
+                    </span>
+
+            
+                
                         <span title="Incomplete, due 2025-11-28" class="badge rounded-pill text-bg-secondary">
                     
                     <a class="text-reset text-decoration-none" href="/doc/draft-ietf-modpod-group-processes/reviewrequest/23166/">
@@ -633,6 +899,16 @@
 
             
                 
+                        <span title="Incomplete, due 2025-12-16" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-modpod-group-processes/reviewrequest/23263/">
+                        artart
+                        
+                    </a>
+                    </span>
+
+            
+                
                         <span title="Incomplete, due 2025-11-28" class="badge rounded-pill text-bg-secondary">
                     
                     <a class="text-reset text-decoration-none" href="/doc/draft-ietf-modpod-group-processes/reviewrequest/23166/">
@@ -698,7 +974,7 @@
         
         
         
-        
+        <span class="badge rounded-pill text-bg-warning" title="In state for 15 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 15</span>
         
         
             
@@ -812,7 +1088,7 @@
         
         
         
-        
+        <span class="badge rounded-pill text-bg-warning" title="In state for 15 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 15</span>
         
         
             
@@ -1378,7 +1654,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 44 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 44</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 45 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 45</span>
         
         
             
@@ -1519,7 +1795,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 44 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 44</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 45 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 45</span>
         
         
             
@@ -2110,88 +2386,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-opsawg-prefix-lengths/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[HTTP Unencoded Digest]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-httpbis-unencoded-digest/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-httpbis-unencoded-digest"></div>
-    
-        
-            Publication Requested
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/mbishop@evequefou.be">Mike Bishop</a> <a href="mailto:mbishop%40evequefou.be" aria-label="Compose email to mbishop@evequefou.be" title="Compose email to mbishop@evequefou.be">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-httpbis-unencoded-digest"></div>
-    
-        
-            Publication Requested
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/mbishop@evequefou.be">Mike Bishop</a> <a href="mailto:mbishop%40evequefou.be" aria-label="Compose email to mbishop@evequefou.be" title="Compose email to mbishop@evequefou.be">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-httpbis-unencoded-digest/</guid>
       
     </item>
     
