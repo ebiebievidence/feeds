@@ -7,7 +7,581 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Thu, 05 Feb 2026 03:10:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 03:08:57 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[The "_for-sale" Underscored and Globally Scoped DNS Node Name]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-davids-forsalereg/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-davids-forsalereg"></div>
+    
+        
+            RFC Ed Queue
+        
+        
+            : <a href="https://www.rfc-editor.org/queue2.html#draft-davids-forsalereg">AUTH</a>
+        
+        
+        
+        
+            <br>
+            IESG telechat: 2026-02-05
+        
+        
+            
+        
+        
+            <br>
+            
+                IETF stream
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="ARTART Telechat review of draft-davids-forsalereg-19: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-19-artart-telechat-nemoto-2026-02-03/">
+                        artart
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR IETF Last Call review of draft-davids-forsalereg-18: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-opsdir-lc-xie-2025-12-30/">
+                        opsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-davids-forsalereg-18: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-secdir-lc-ladd-2025-12-15/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART IETF Last Call review of draft-davids-forsalereg-18: Almost Ready" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-artart-lc-nemoto-2025-12-28/">
+                        artart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-davids-forsalereg-18: Almost Ready" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-genart-lc-housley-2025-12-04/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="INTDIR IETF Last Call review of draft-davids-forsalereg-18: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-intdir-lc-wicinski-2025-12-28/">
+                        intdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR IETF Last Call review of draft-davids-forsalereg-18: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-dnsdir-lc-gannon-2025-12-15/">
+                        dnsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Early review of draft-davids-forsalereg-09: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-09-dnsdir-early-gannon-2025-06-17/">
+                        dnsdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-davids-forsalereg"></div>
+    
+        
+            RFC Ed Queue
+        
+        
+            : <a href="https://www.rfc-editor.org/queue2.html#draft-davids-forsalereg">AUTH</a>
+        
+        
+        
+        
+            <br>
+            IESG telechat: 2026-02-05
+        
+        
+            
+        
+        
+            <br>
+            
+                IETF stream
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="ARTART Telechat review of draft-davids-forsalereg-19: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-19-artart-telechat-nemoto-2026-02-03/">
+                        artart
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR IETF Last Call review of draft-davids-forsalereg-18: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-opsdir-lc-xie-2025-12-30/">
+                        opsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-davids-forsalereg-18: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-secdir-lc-ladd-2025-12-15/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART IETF Last Call review of draft-davids-forsalereg-18: Almost Ready" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-artart-lc-nemoto-2025-12-28/">
+                        artart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-davids-forsalereg-18: Almost Ready" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-genart-lc-housley-2025-12-04/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="INTDIR IETF Last Call review of draft-davids-forsalereg-18: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-intdir-lc-wicinski-2025-12-28/">
+                        intdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR IETF Last Call review of draft-davids-forsalereg-18: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-dnsdir-lc-gannon-2025-12-15/">
+                        dnsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR Early review of draft-davids-forsalereg-09: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-09-dnsdir-early-gannon-2025-06-17/">
+                        dnsdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-davids-forsalereg/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Subscription to Notifications in a Distributed Architecture]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-netconf-distributed-notif/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-netconf-distributed-notif"></div>
+    
+        
+            AD Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-danger" title="In state for 32 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 32</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="OPSDIR Early review of draft-ietf-netconf-distributed-notif-14: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-netconf-distributed-notif-14-opsdir-early-schoenwaelder-2025-06-16/">
+                        opsdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="YANGDOCTORS Early review of draft-ietf-netconf-distributed-notif-13: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-netconf-distributed-notif-13-yangdoctors-early-bjorklund-2025-03-30/">
+                        yangdoctors
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/mjethanandani@gmail.com">Mahesh Jethanandani</a> <a href="mailto:mjethanandani%40gmail.com" aria-label="Compose email to mjethanandani@gmail.com" title="Compose email to mjethanandani@gmail.com">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 32 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 32</span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-netconf-distributed-notif"></div>
+    
+        
+            AD Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-danger" title="In state for 32 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 32</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="OPSDIR Early review of draft-ietf-netconf-distributed-notif-14: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-netconf-distributed-notif-14-opsdir-early-schoenwaelder-2025-06-16/">
+                        opsdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="YANGDOCTORS Early review of draft-ietf-netconf-distributed-notif-13: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-netconf-distributed-notif-13-yangdoctors-early-bjorklund-2025-03-30/">
+                        yangdoctors
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/mjethanandani@gmail.com">Mahesh Jethanandani</a> <a href="mailto:mjethanandani%40gmail.com" aria-label="Compose email to mjethanandani@gmail.com" title="Compose email to mjethanandani@gmail.com">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 32 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 32</span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-netconf-distributed-notif/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[VPN Prefix Outbound Route Filter (VPN Prefix ORF) for BGP-4]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-idr-vpn-prefix-orf/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-vpn-prefix-orf"></div>
+    
+        
+            AD Evaluation::AD Followup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Experimental
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="OPSDIR Early review of draft-ietf-idr-vpn-prefix-orf-22: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-vpn-prefix-orf-22-opsdir-early-guo-2025-10-03/">
+                        opsdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Early review of draft-ietf-idr-vpn-prefix-orf-21: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-vpn-prefix-orf-21-rtgdir-early-vainshtein-2025-09-15/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Early review of draft-ietf-idr-vpn-prefix-orf-20: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-vpn-prefix-orf-20-secdir-early-kelly-2025-09-03/">
+                        secdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/ketant.ietf@gmail.com">Ketan Talaulikar</a> <a href="mailto:ketant.ietf%40gmail.com" aria-label="Compose email to ketant.ietf@gmail.com" title="Compose email to ketant.ietf@gmail.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-vpn-prefix-orf"></div>
+    
+        
+            AD Evaluation::AD Followup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Experimental
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="OPSDIR Early review of draft-ietf-idr-vpn-prefix-orf-22: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-vpn-prefix-orf-22-opsdir-early-guo-2025-10-03/">
+                        opsdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Early review of draft-ietf-idr-vpn-prefix-orf-21: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-vpn-prefix-orf-21-rtgdir-early-vainshtein-2025-09-15/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Early review of draft-ietf-idr-vpn-prefix-orf-20: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-vpn-prefix-orf-20-secdir-early-kelly-2025-09-03/">
+                        secdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/ketant.ietf@gmail.com">Ketan Talaulikar</a> <a href="mailto:ketant.ietf%40gmail.com" aria-label="Compose email to ketant.ietf@gmail.com" title="Compose email to ketant.ietf@gmail.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-idr-vpn-prefix-orf/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[Media Access Control (MAC) Addresses in X.509 Certificates]]></title>
@@ -182,10 +756,10 @@
             RFC Ed Queue
         
         
-            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-alto-oam-yang">AUTH</a>
+            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-alto-oam-yang">EDIT</a>
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 743 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 743</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 744 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 744</span>
         
         
             
@@ -313,10 +887,10 @@
             RFC Ed Queue
         
         
-            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-alto-oam-yang">AUTH</a>
+            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-alto-oam-yang">EDIT</a>
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 743 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 743</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 744 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 744</span>
         
         
             
@@ -447,10 +1021,10 @@
       
       <description><![CDATA[
     <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-rats-eat-measured-component">
-<a href="/doc/draft-ietf-rats-eat-measured-component/ballotpopup/1120401/?ballot_edit_return_point=/doc/recent/" data-bs-toggle="modal" data-bs-target="#modal-1120401" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<a href="/doc/draft-ietf-rats-eat-measured-component/ballotpopup/1120401/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1120401" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
 <tr>
 <td class="position-yes"></td>
-<td class="position-norecord"></td>
+<td class="position-noobj"></td>
 <td class="position-norecord"></td>
 <td class="position-norecord"></td>
 <td class="position-norecord"></td>
@@ -520,6 +1094,16 @@
                         secdir
                         
                             IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2026-02-17" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rats-eat-measured-component/reviewrequest/23619/">
+                        secdir
                         
                     </a>
                     </span>
@@ -552,10 +1136,10 @@
 ]]></description>
       <content:encoded><![CDATA[
     <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-rats-eat-measured-component">
-<a href="/doc/draft-ietf-rats-eat-measured-component/ballotpopup/1120401/?ballot_edit_return_point=/doc/recent/" data-bs-toggle="modal" data-bs-target="#modal-1120401" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<a href="/doc/draft-ietf-rats-eat-measured-component/ballotpopup/1120401/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1120401" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
 <tr>
 <td class="position-yes"></td>
-<td class="position-norecord"></td>
+<td class="position-noobj"></td>
 <td class="position-norecord"></td>
 <td class="position-norecord"></td>
 <td class="position-norecord"></td>
@@ -625,6 +1209,16 @@
                         secdir
                         
                             IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2026-02-17" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-rats-eat-measured-component/reviewrequest/23619/">
+                        secdir
                         
                     </a>
                     </span>
@@ -979,7 +1573,7 @@
             : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-netconf-http-client-server">AUTH</a>
         
         
-        <span class="badge rounded-pill text-bg-warning" title="In state for 83 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 83</span>
+        <span class="badge rounded-pill text-bg-warning" title="In state for 84 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 84</span>
         
         
             
@@ -1049,7 +1643,7 @@
             : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-netconf-http-client-server">AUTH</a>
         
         
-        <span class="badge rounded-pill text-bg-warning" title="In state for 83 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 83</span>
+        <span class="badge rounded-pill text-bg-warning" title="In state for 84 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 84</span>
         
         
             
@@ -1278,794 +1872,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-mpls-mldp-yang/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[MPLS Network Action (MNA) Sub-Stack Specification including In-Stack Network Actions and Data]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-mpls-mna-hdr/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-mpls-mna-hdr">
-<a href="/doc/draft-ietf-mpls-mna-hdr/ballotpopup/1117499/?ballot_edit_return_point=/doc/recent/" data-bs-toggle="modal" data-bs-target="#modal-1117499" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-abstain"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1117499" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-        
-            IESG Evaluation
-        
-        
-        
-        <span class="badge rounded-pill text-bg-warning" title="In state for 15 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 15</span>
-        
-            <br>
-            IESG telechat: 2026-02-05
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="TSVART Telechat review of draft-ietf-mpls-mna-hdr-18: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-mna-hdr-18-tsvart-telechat-trammell-2026-02-02/">
-                        tsvart
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-mpls-mna-hdr-17: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-mna-hdr-17-secdir-lc-piper-2025-12-18/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-mpls-mna-hdr-17: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-mna-hdr-17-opsdir-lc-clarke-2025-12-16/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR IETF Last Call review of draft-ietf-mpls-mna-hdr-17: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-mna-hdr-17-rtgdir-lc-bocci-2025-12-19/">
-                        rtgdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART IETF Last Call review of draft-ietf-mpls-mna-hdr-17: Not Ready" class="badge rounded-pill text-bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-mna-hdr-17-tsvart-lc-trammell-2025-12-17/">
-                        tsvart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-mpls-mna-hdr-17: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-mna-hdr-17-genart-lc-shirazipour-2025-12-10/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-mpls-mna-hdr-17: Not Ready" class="badge rounded-pill text-bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-mna-hdr-17-opsdir-lc-zhou-2025-12-08/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Early review of draft-ietf-mpls-mna-hdr-04: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-mna-hdr-04-rtgdir-early-lindem-2024-04-26/">
-                        rtgdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of mpls milestone: Publication request for MPLS Network Action (MNA) Sub-Stack Solution" class="milestone">Sep 2025</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/james.n.guichard@futurewei.com">Jim Guichard</a> <a href="mailto:james.n.guichard%40futurewei.com" aria-label="Compose email to james.n.guichard@futurewei.com" title="Compose email to james.n.guichard@futurewei.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-mpls-mna-hdr">
-<a href="/doc/draft-ietf-mpls-mna-hdr/ballotpopup/1117499/?ballot_edit_return_point=/doc/recent/" data-bs-toggle="modal" data-bs-target="#modal-1117499" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-abstain"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1117499" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-        
-            IESG Evaluation
-        
-        
-        
-        <span class="badge rounded-pill text-bg-warning" title="In state for 15 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 15</span>
-        
-            <br>
-            IESG telechat: 2026-02-05
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="TSVART Telechat review of draft-ietf-mpls-mna-hdr-18: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-mna-hdr-18-tsvart-telechat-trammell-2026-02-02/">
-                        tsvart
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-mpls-mna-hdr-17: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-mna-hdr-17-secdir-lc-piper-2025-12-18/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-mpls-mna-hdr-17: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-mna-hdr-17-opsdir-lc-clarke-2025-12-16/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR IETF Last Call review of draft-ietf-mpls-mna-hdr-17: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-mna-hdr-17-rtgdir-lc-bocci-2025-12-19/">
-                        rtgdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART IETF Last Call review of draft-ietf-mpls-mna-hdr-17: Not Ready" class="badge rounded-pill text-bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-mna-hdr-17-tsvart-lc-trammell-2025-12-17/">
-                        tsvart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-mpls-mna-hdr-17: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-mna-hdr-17-genart-lc-shirazipour-2025-12-10/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-mpls-mna-hdr-17: Not Ready" class="badge rounded-pill text-bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-mna-hdr-17-opsdir-lc-zhou-2025-12-08/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Early review of draft-ietf-mpls-mna-hdr-04: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-mna-hdr-04-rtgdir-early-lindem-2024-04-26/">
-                        rtgdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of mpls milestone: Publication request for MPLS Network Action (MNA) Sub-Stack Solution" class="milestone">Sep 2025</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/james.n.guichard@futurewei.com">Jim Guichard</a> <a href="mailto:james.n.guichard%40futurewei.com" aria-label="Compose email to james.n.guichard@futurewei.com" title="Compose email to james.n.guichard@futurewei.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-mpls-mna-hdr/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Performance Measurement with Asymmetrical Traffic Using Simple Two-Way Active Measurement Protocol (STAMP)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-ippm-asymmetrical-pkts/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ippm-asymmetrical-pkts"></div>
-    
-        
-            In Last Call (ends 2026-02-18)
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Review:
-            
-                
-                    <span title="TSVART Early review of draft-ietf-ippm-asymmetrical-pkts-07: On the Right Track" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-asymmetrical-pkts-07-tsvart-early-eggert-2025-06-03/">
-                        tsvart
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/mohamed.boucadair@orange.com">Mohamed Boucadair</a> <a href="mailto:mohamed.boucadair%40orange.com" aria-label="Compose email to mohamed.boucadair@orange.com" title="Compose email to mohamed.boucadair@orange.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ippm-asymmetrical-pkts"></div>
-    
-        
-            In Last Call (ends 2026-02-18)
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Review:
-            
-                
-                    <span title="TSVART Early review of draft-ietf-ippm-asymmetrical-pkts-07: On the Right Track" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-asymmetrical-pkts-07-tsvart-early-eggert-2025-06-03/">
-                        tsvart
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/mohamed.boucadair@orange.com">Mohamed Boucadair</a> <a href="mailto:mohamed.boucadair%40orange.com" aria-label="Compose email to mohamed.boucadair@orange.com" title="Compose email to mohamed.boucadair@orange.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-ippm-asymmetrical-pkts/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[The "_for-sale" Underscored and Globally Scoped DNS Node Name]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-davids-forsalereg/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-davids-forsalereg">
-<a href="/doc/draft-davids-forsalereg/ballotpopup/1117834/?ballot_edit_return_point=/doc/recent/" data-bs-toggle="modal" data-bs-target="#modal-1117834" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1117834" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-        
-            IESG Evaluation
-        
-        
-        
-        
-        
-            <br>
-            IESG telechat: 2026-02-05
-        
-        
-            
-        
-        
-            <br>
-            
-                IETF stream
-                
-                    :
-                
-            
-        
-        Informational
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="ARTART Telechat review of draft-davids-forsalereg-19: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-19-artart-telechat-nemoto-2026-02-03/">
-                        artart
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-davids-forsalereg-18: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-opsdir-lc-xie-2025-12-30/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-davids-forsalereg-18: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-secdir-lc-ladd-2025-12-15/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-davids-forsalereg-18: Almost Ready" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-artart-lc-nemoto-2025-12-28/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-davids-forsalereg-18: Almost Ready" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-genart-lc-housley-2025-12-04/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="INTDIR IETF Last Call review of draft-davids-forsalereg-18: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-intdir-lc-wicinski-2025-12-28/">
-                        intdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR IETF Last Call review of draft-davids-forsalereg-18: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-dnsdir-lc-gannon-2025-12-15/">
-                        dnsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Early review of draft-davids-forsalereg-09: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-09-dnsdir-early-gannon-2025-06-17/">
-                        dnsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/mohamed.boucadair@orange.com">Mohamed Boucadair</a> <a href="mailto:mohamed.boucadair%40orange.com" aria-label="Compose email to mohamed.boucadair@orange.com" title="Compose email to mohamed.boucadair@orange.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-davids-forsalereg">
-<a href="/doc/draft-davids-forsalereg/ballotpopup/1117834/?ballot_edit_return_point=/doc/recent/" data-bs-toggle="modal" data-bs-target="#modal-1117834" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1117834" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-        
-            IESG Evaluation
-        
-        
-        
-        
-        
-            <br>
-            IESG telechat: 2026-02-05
-        
-        
-            
-        
-        
-            <br>
-            
-                IETF stream
-                
-                    :
-                
-            
-        
-        Informational
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="ARTART Telechat review of draft-davids-forsalereg-19: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-19-artart-telechat-nemoto-2026-02-03/">
-                        artart
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-davids-forsalereg-18: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-opsdir-lc-xie-2025-12-30/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-davids-forsalereg-18: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-secdir-lc-ladd-2025-12-15/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-davids-forsalereg-18: Almost Ready" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-artart-lc-nemoto-2025-12-28/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-davids-forsalereg-18: Almost Ready" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-genart-lc-housley-2025-12-04/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="INTDIR IETF Last Call review of draft-davids-forsalereg-18: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-intdir-lc-wicinski-2025-12-28/">
-                        intdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR IETF Last Call review of draft-davids-forsalereg-18: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-18-dnsdir-lc-gannon-2025-12-15/">
-                        dnsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Early review of draft-davids-forsalereg-09: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-davids-forsalereg-09-dnsdir-early-gannon-2025-06-17/">
-                        dnsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/mohamed.boucadair@orange.com">Mohamed Boucadair</a> <a href="mailto:mohamed.boucadair%40orange.com" aria-label="Compose email to mohamed.boucadair@orange.com" title="Compose email to mohamed.boucadair@orange.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-davids-forsalereg/</guid>
       
     </item>
     
