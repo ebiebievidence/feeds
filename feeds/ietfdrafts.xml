@@ -7,7 +7,195 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Sun, 08 Feb 2026 03:33:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 03:20:25 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[Post-quantum hybrid ECDHE-MLKEM Key Agreement for TLSv1.3]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-tls-ecdhe-mlkem/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-tls-ecdhe-mlkem">
+<a href="/doc/draft-ietf-tls-ecdhe-mlkem/ballotpopup/1118980/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1118980" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1118980" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-tls-ecdhe-mlkem-03: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-tls-ecdhe-mlkem-03-genart-lc-worley-2026-01-13/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2026-01-20" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-tls-ecdhe-mlkem/reviewrequest/23468/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io" title="Compose email to paul.wouters@aiven.io">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-tls-ecdhe-mlkem">
+<a href="/doc/draft-ietf-tls-ecdhe-mlkem/ballotpopup/1118980/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1118980" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1118980" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-tls-ecdhe-mlkem-03: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-tls-ecdhe-mlkem-03-genart-lc-worley-2026-01-13/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2026-01-20" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-tls-ecdhe-mlkem/reviewrequest/23468/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io" title="Compose email to paul.wouters@aiven.io">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-tls-ecdhe-mlkem/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[Hash-based Signatures: State and Backup Management]]></title>
@@ -517,7 +705,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 142 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 142</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 143 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 143</span>
         
         
             
@@ -568,7 +756,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 142 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 142</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 143 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 143</span>
             
         
         
@@ -582,7 +770,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 142 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 142</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 143 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 143</span>
         
         
             
@@ -633,7 +821,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 142 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 142</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 143 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 143</span>
             
         
         
@@ -655,7 +843,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 142 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 142</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 143 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 143</span>
         
         
             
@@ -728,7 +916,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 110 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 110</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 111 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 111</span>
             
         
         
@@ -742,7 +930,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 142 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 142</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 143 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 143</span>
         
         
             
@@ -815,7 +1003,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 110 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 110</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 111 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 111</span>
             
         
         
@@ -837,7 +1025,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 142 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 142</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 143 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 143</span>
         
         
             
@@ -888,7 +1076,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 110 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 110</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 111 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 111</span>
             
         
         
@@ -902,7 +1090,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 142 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 142</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 143 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 143</span>
         
         
             
@@ -953,7 +1141,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 110 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 110</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 111 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 111</span>
             
         
         
@@ -1619,7 +1807,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 34 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 34</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 35 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 35</span>
         
         
             
@@ -1670,7 +1858,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/mjethanandani@gmail.com">Mahesh Jethanandani</a> <a href="mailto:mjethanandani%40gmail.com" aria-label="Compose email to mjethanandani@gmail.com" title="Compose email to mjethanandani@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 34 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 34</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 35 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 35</span>
             
         
         
@@ -1684,7 +1872,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 34 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 34</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 35 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 35</span>
         
         
             
@@ -1735,199 +1923,13 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/mjethanandani@gmail.com">Mahesh Jethanandani</a> <a href="mailto:mjethanandani%40gmail.com" aria-label="Compose email to mjethanandani@gmail.com" title="Compose email to mjethanandani@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 34 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 34</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 35 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 35</span>
             
         
         
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-netconf-distributed-notif/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[VPN Prefix Outbound Route Filter (VPN Prefix ORF) for BGP-4]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-idr-vpn-prefix-orf/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-vpn-prefix-orf"></div>
-    
-        
-            AD Evaluation::Revised I-D Needed
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Experimental
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="OPSDIR Early review of draft-ietf-idr-vpn-prefix-orf-22: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-vpn-prefix-orf-22-opsdir-early-guo-2025-10-03/">
-                        opsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Early review of draft-ietf-idr-vpn-prefix-orf-21: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-vpn-prefix-orf-21-rtgdir-early-vainshtein-2025-09-15/">
-                        rtgdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Early review of draft-ietf-idr-vpn-prefix-orf-20: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-vpn-prefix-orf-20-secdir-early-kelly-2025-09-03/">
-                        secdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holders:
-            
-                <span><a title="Author" href="/person/wangw36@chinatelecom.cn">Wei Wang</a> <a href="mailto:wangw36%40chinatelecom.cn" aria-label="Compose email to wangw36@chinatelecom.cn" title="Compose email to wangw36@chinatelecom.cn">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author" href="/person/wangaj3@chinatelecom.cn">Aijun Wang</a> <a href="mailto:wangaj3%40chinatelecom.cn" aria-label="Compose email to wangaj3@chinatelecom.cn" title="Compose email to wangaj3@chinatelecom.cn">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author" href="/person/rainsword.wang@huawei.com">Haibo Wang</a> <a href="mailto:rainsword.wang%40huawei.com" aria-label="Compose email to rainsword.wang@huawei.com" title="Compose email to rainsword.wang@huawei.com">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author" href="/person/hayabusagsm@gmail.com">Gyan Mishra</a> <a href="mailto:hayabusagsm%40gmail.com" aria-label="Compose email to hayabusagsm@gmail.com" title="Compose email to hayabusagsm@gmail.com">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author, Group Secretary" href="/person/jie.dong@huawei.com">Jie Dong</a> <a href="mailto:jie.dong%40huawei.com" aria-label="Compose email to jie.dong@huawei.com" title="Compose email to jie.dong@huawei.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-vpn-prefix-orf"></div>
-    
-        
-            AD Evaluation::Revised I-D Needed
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Experimental
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="OPSDIR Early review of draft-ietf-idr-vpn-prefix-orf-22: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-vpn-prefix-orf-22-opsdir-early-guo-2025-10-03/">
-                        opsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Early review of draft-ietf-idr-vpn-prefix-orf-21: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-vpn-prefix-orf-21-rtgdir-early-vainshtein-2025-09-15/">
-                        rtgdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Early review of draft-ietf-idr-vpn-prefix-orf-20: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-vpn-prefix-orf-20-secdir-early-kelly-2025-09-03/">
-                        secdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holders:
-            
-                <span><a title="Author" href="/person/wangw36@chinatelecom.cn">Wei Wang</a> <a href="mailto:wangw36%40chinatelecom.cn" aria-label="Compose email to wangw36@chinatelecom.cn" title="Compose email to wangw36@chinatelecom.cn">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author" href="/person/wangaj3@chinatelecom.cn">Aijun Wang</a> <a href="mailto:wangaj3%40chinatelecom.cn" aria-label="Compose email to wangaj3@chinatelecom.cn" title="Compose email to wangaj3@chinatelecom.cn">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author" href="/person/rainsword.wang@huawei.com">Haibo Wang</a> <a href="mailto:rainsword.wang%40huawei.com" aria-label="Compose email to rainsword.wang@huawei.com" title="Compose email to rainsword.wang@huawei.com">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author" href="/person/hayabusagsm@gmail.com">Gyan Mishra</a> <a href="mailto:hayabusagsm%40gmail.com" aria-label="Compose email to hayabusagsm@gmail.com" title="Compose email to hayabusagsm@gmail.com">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author, Group Secretary" href="/person/jie.dong@huawei.com">Jie Dong</a> <a href="mailto:jie.dong%40huawei.com" aria-label="Compose email to jie.dong@huawei.com" title="Compose email to jie.dong@huawei.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-idr-vpn-prefix-orf/</guid>
       
     </item>
     
