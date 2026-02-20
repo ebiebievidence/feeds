@@ -7,7 +7,651 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Thu, 19 Feb 2026 03:14:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 03:10:15 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[Advertising Unreachable Links in OSPF]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-lsr-ospf-ls-link-infinity/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lsr-ospf-ls-link-infinity">
+<a href="/doc/draft-ietf-lsr-ospf-ls-link-infinity/ballotpopup/1122606/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1122606" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1122606" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation
+        
+        
+        
+        
+        
+            <br>
+            IESG telechat: 2026-03-05
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-lsr-ospf-ls-link-infinity-17: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lsr-ospf-ls-link-infinity-17-secdir-lc-wallace-2026-02-12/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-lsr-ospf-ls-link-infinity-17: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lsr-ospf-ls-link-infinity-17-genart-lc-sarikaya-2026-02-12/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Early review of draft-ietf-lsr-ospf-ls-link-infinity-07: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lsr-ospf-ls-link-infinity-07-rtgdir-early-li-2025-09-11/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="YANGDOCTORS Early review of draft-ietf-lsr-ospf-ls-link-infinity-07: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lsr-ospf-ls-link-infinity-07-yangdoctors-early-lhotka-2025-09-08/">
+                        yangdoctors
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Early review of draft-ietf-lsr-ospf-ls-link-infinity-07: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lsr-ospf-ls-link-infinity-07-opsdir-early-dhody-2025-09-11/">
+                        opsdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/gunter@vandevelde.cc">Gunter Van de Velde</a> <a href="mailto:gunter%40vandevelde.cc" aria-label="Compose email to gunter@vandevelde.cc" title="Compose email to gunter@vandevelde.cc">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lsr-ospf-ls-link-infinity">
+<a href="/doc/draft-ietf-lsr-ospf-ls-link-infinity/ballotpopup/1122606/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1122606" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1122606" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation
+        
+        
+        
+        
+        
+            <br>
+            IESG telechat: 2026-03-05
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-lsr-ospf-ls-link-infinity-17: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lsr-ospf-ls-link-infinity-17-secdir-lc-wallace-2026-02-12/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-lsr-ospf-ls-link-infinity-17: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lsr-ospf-ls-link-infinity-17-genart-lc-sarikaya-2026-02-12/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Early review of draft-ietf-lsr-ospf-ls-link-infinity-07: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lsr-ospf-ls-link-infinity-07-rtgdir-early-li-2025-09-11/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="YANGDOCTORS Early review of draft-ietf-lsr-ospf-ls-link-infinity-07: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lsr-ospf-ls-link-infinity-07-yangdoctors-early-lhotka-2025-09-08/">
+                        yangdoctors
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR Early review of draft-ietf-lsr-ospf-ls-link-infinity-07: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lsr-ospf-ls-link-infinity-07-opsdir-early-dhody-2025-09-11/">
+                        opsdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/gunter@vandevelde.cc">Gunter Van de Velde</a> <a href="mailto:gunter%40vandevelde.cc" aria-label="Compose email to gunter@vandevelde.cc" title="Compose email to gunter@vandevelde.cc">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lsr-ospf-ls-link-infinity/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[JSCalendar 2.0: A JSON Representation of Calendar Data]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-calext-jscalendarbis/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-calext-jscalendarbis"></div>
+    
+        
+            AD Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-warning" title="In state for 19 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 19</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+        
+            <br>
+            <span title="Part of calext milestone: Submit JScalendarbis to IESG" class="milestone">Jul 2026</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/orie@or13.io">Orie Steele</a> <a href="mailto:orie%40or13.io" aria-label="Compose email to orie@or13.io" title="Compose email to orie@or13.io">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-calext-jscalendarbis"></div>
+    
+        
+            AD Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-warning" title="In state for 19 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 19</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+        
+            <br>
+            <span title="Part of calext milestone: Submit JScalendarbis to IESG" class="milestone">Jul 2026</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/orie@or13.io">Orie Steele</a> <a href="mailto:orie%40or13.io" aria-label="Compose email to orie@or13.io" title="Compose email to orie@or13.io">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-calext-jscalendarbis/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Quality of Outcome (QoO)]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-ippm-qoo/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ippm-qoo">
+<a href="/doc/draft-ietf-ippm-qoo/ballotpopup/1123145/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1123145" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1123145" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation
+        
+        
+        
+        
+        
+            <br>
+            IESG telechat: 2026-03-05
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="ARTART IETF Last Call review of draft-ietf-ippm-qoo-06: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-qoo-06-artart-lc-thomson-2026-02-02/">
+                        artart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-ippm-qoo-06: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-qoo-06-secdir-lc-vucinic-2026-02-17/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-ippm-qoo-06: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-qoo-06-genart-lc-kyzivat-2026-02-09/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="PERFMETRDIR Early review of draft-ietf-ippm-qoo-04: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-qoo-04-perfmetrdir-early-aitken-2025-11-29/">
+                        perfmetrdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2026-02-13" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-ippm-qoo/reviewrequest/23554/">
+                        opsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2026-02-13" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-ippm-qoo/reviewrequest/23555/">
+                        tsvart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/mohamed.boucadair@orange.com">Mohamed Boucadair</a> <a href="mailto:mohamed.boucadair%40orange.com" aria-label="Compose email to mohamed.boucadair@orange.com" title="Compose email to mohamed.boucadair@orange.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ippm-qoo">
+<a href="/doc/draft-ietf-ippm-qoo/ballotpopup/1123145/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1123145" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1123145" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation
+        
+        
+        
+        
+        
+            <br>
+            IESG telechat: 2026-03-05
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Informational
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="ARTART IETF Last Call review of draft-ietf-ippm-qoo-06: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-qoo-06-artart-lc-thomson-2026-02-02/">
+                        artart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-ippm-qoo-06: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-qoo-06-secdir-lc-vucinic-2026-02-17/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-ippm-qoo-06: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-qoo-06-genart-lc-kyzivat-2026-02-09/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="PERFMETRDIR Early review of draft-ietf-ippm-qoo-04: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-qoo-04-perfmetrdir-early-aitken-2025-11-29/">
+                        perfmetrdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2026-02-13" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-ippm-qoo/reviewrequest/23554/">
+                        opsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2026-02-13" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-ippm-qoo/reviewrequest/23555/">
+                        tsvart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/mohamed.boucadair@orange.com">Mohamed Boucadair</a> <a href="mailto:mohamed.boucadair%40orange.com" aria-label="Compose email to mohamed.boucadair@orange.com" title="Compose email to mohamed.boucadair@orange.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-ippm-qoo/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[Chunked Oblivious HTTP Messages]]></title>
@@ -536,7 +1180,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 41 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 41</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 42 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 42</span>
         
         
             
@@ -650,7 +1294,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/james.n.guichard@futurewei.com">Jim Guichard</a> <a href="mailto:james.n.guichard%40futurewei.com" aria-label="Compose email to james.n.guichard@futurewei.com" title="Compose email to james.n.guichard@futurewei.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 26 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 26</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 27 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 27</span>
             
         
         
@@ -689,7 +1333,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 41 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 41</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 42 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 42</span>
         
         
             
@@ -803,7 +1447,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/james.n.guichard@futurewei.com">Jim Guichard</a> <a href="mailto:james.n.guichard%40futurewei.com" aria-label="Compose email to james.n.guichard@futurewei.com" title="Compose email to james.n.guichard@futurewei.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 26 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 26</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 27 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 27</span>
             
         
         
@@ -821,9 +1465,9 @@
     <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lisp-geo">
 <a href="/doc/draft-ietf-lisp-geo/ballotpopup/1066899/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1066899" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
 <tr>
-<td class="position-discuss"></td>
-<td class="position-discuss"></td>
 <td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
 </tr>
@@ -831,7 +1475,7 @@
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
-<td class="position-noobj"></td>
+<td class="position-abstain"></td>
 <td class="position-norecord"></td>
 </tr>
 <tr>
@@ -850,7 +1494,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 258 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 258</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 259 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 259</span>
         
         
             
@@ -937,7 +1581,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/james.n.guichard@futurewei.com">Jim Guichard</a> <a href="mailto:james.n.guichard%40futurewei.com" aria-label="Compose email to james.n.guichard@futurewei.com" title="Compose email to james.n.guichard@futurewei.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 286 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 286</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 287 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 287</span>
             
         
         
@@ -947,9 +1591,9 @@
     <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lisp-geo">
 <a href="/doc/draft-ietf-lisp-geo/ballotpopup/1066899/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1066899" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
 <tr>
-<td class="position-discuss"></td>
-<td class="position-discuss"></td>
 <td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
 </tr>
@@ -957,7 +1601,7 @@
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
-<td class="position-noobj"></td>
+<td class="position-abstain"></td>
 <td class="position-norecord"></td>
 </tr>
 <tr>
@@ -976,7 +1620,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 258 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 258</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 259 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 259</span>
         
         
             
@@ -1063,7 +1707,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/james.n.guichard@futurewei.com">Jim Guichard</a> <a href="mailto:james.n.guichard%40futurewei.com" aria-label="Compose email to james.n.guichard@futurewei.com" title="Compose email to james.n.guichard@futurewei.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 286 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 286</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 287 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 287</span>
             
         
         
@@ -1136,7 +1780,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD, Shepherd" href="/person/orie@or13.io">Orie Steele</a> <a href="mailto:orie%40or13.io" aria-label="Compose email to orie@or13.io" title="Compose email to orie@or13.io">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 26 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 26</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 27 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 27</span>
             
         
         
@@ -1201,7 +1845,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD, Shepherd" href="/person/orie@or13.io">Orie Steele</a> <a href="mailto:orie%40or13.io" aria-label="Compose email to orie@or13.io" title="Compose email to orie@or13.io">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 26 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 26</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 27 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 27</span>
             
         
         
@@ -1244,11 +1888,11 @@
 </div>
     
         
-            IESG Evaluation
+            IESG Evaluation::Revised I-D Needed
         
         
         
-        <span class="badge rounded-pill text-bg-warning" title="In state for 19 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 19</span>
+        
         
             <br>
             IESG telechat: 2026-02-19
@@ -1345,9 +1989,15 @@
         
         
             <br>
-            Action Holder:
+            Action Holders:
             
-                <span><a title="Responsible AD" href="/person/mjethanandani@gmail.com">Mahesh Jethanandani</a> <a href="mailto:mjethanandani%40gmail.com" aria-label="Compose email to mjethanandani@gmail.com" title="Compose email to mjethanandani@gmail.com">
+                <span><a title="Author" href="/person/zhuoyao.lin1@huawei-partners.com">Zhuoyao Lin</a> <a href="mailto:zhuoyao.lin1%40huawei-partners.com" aria-label="Compose email to zhuoyao.lin1@huawei-partners.com" title="Compose email to zhuoyao.lin1@huawei-partners.com">
+                <i class="bi bi-envelope"></i></a></span>,
+            
+                <span><a title="Author" href="/person/benoit@everything-ops.net">Benoît Claise</a> <a href="mailto:benoit%40everything-ops.net" aria-label="Compose email to benoit@everything-ops.net" title="Compose email to benoit@everything-ops.net">
+                <i class="bi bi-envelope"></i></a></span>,
+            
+                <span><a title="Author" href="/person/ignacio.dominguezmartinez@telefonica.com">Ignacio Dominguez Martinez-Casanueva</a> <a href="mailto:ignacio.dominguezmartinez%40telefonica.com" aria-label="Compose email to ignacio.dominguezmartinez@telefonica.com" title="Compose email to ignacio.dominguezmartinez@telefonica.com">
                 <i class="bi bi-envelope"></i></a></span>
             
         
@@ -1383,11 +2033,11 @@
 </div>
     
         
-            IESG Evaluation
+            IESG Evaluation::Revised I-D Needed
         
         
         
-        <span class="badge rounded-pill text-bg-warning" title="In state for 19 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 19</span>
+        
         
             <br>
             IESG telechat: 2026-02-19
@@ -1484,9 +2134,15 @@
         
         
             <br>
-            Action Holder:
+            Action Holders:
             
-                <span><a title="Responsible AD" href="/person/mjethanandani@gmail.com">Mahesh Jethanandani</a> <a href="mailto:mjethanandani%40gmail.com" aria-label="Compose email to mjethanandani@gmail.com" title="Compose email to mjethanandani@gmail.com">
+                <span><a title="Author" href="/person/zhuoyao.lin1@huawei-partners.com">Zhuoyao Lin</a> <a href="mailto:zhuoyao.lin1%40huawei-partners.com" aria-label="Compose email to zhuoyao.lin1@huawei-partners.com" title="Compose email to zhuoyao.lin1@huawei-partners.com">
+                <i class="bi bi-envelope"></i></a></span>,
+            
+                <span><a title="Author" href="/person/benoit@everything-ops.net">Benoît Claise</a> <a href="mailto:benoit%40everything-ops.net" aria-label="Compose email to benoit@everything-ops.net" title="Compose email to benoit@everything-ops.net">
+                <i class="bi bi-envelope"></i></a></span>,
+            
+                <span><a title="Author" href="/person/ignacio.dominguezmartinez@telefonica.com">Ignacio Dominguez Martinez-Casanueva</a> <a href="mailto:ignacio.dominguezmartinez%40telefonica.com" aria-label="Compose email to ignacio.dominguezmartinez@telefonica.com" title="Compose email to ignacio.dominguezmartinez@telefonica.com">
                 <i class="bi bi-envelope"></i></a></span>
             
         
@@ -1494,468 +2150,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-netconf-yang-library-augmentedby/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Near Real Time Mirroring (NRTM) version 4]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-grow-nrtm-v4/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-grow-nrtm-v4"></div>
-    
-        
-            In Last Call (ends 2026-03-04)
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-        
-            <br>
-            <span title="Part of grow milestone: Submit Near Real Time Mirroring (NRTM) version 4 to the IESG" class="milestone">Feb 2026</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/mohamed.boucadair@orange.com">Mohamed Boucadair</a> <a href="mailto:mohamed.boucadair%40orange.com" aria-label="Compose email to mohamed.boucadair@orange.com" title="Compose email to mohamed.boucadair@orange.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-grow-nrtm-v4"></div>
-    
-        
-            In Last Call (ends 2026-03-04)
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-        
-            <br>
-            <span title="Part of grow milestone: Submit Near Real Time Mirroring (NRTM) version 4 to the IESG" class="milestone">Feb 2026</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/mohamed.boucadair@orange.com">Mohamed Boucadair</a> <a href="mailto:mohamed.boucadair%40orange.com" aria-label="Compose email to mohamed.boucadair@orange.com" title="Compose email to mohamed.boucadair@orange.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-grow-nrtm-v4/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Media Access Control (MAC) Addresses in X.509 Certificates]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-lamps-macaddress-on/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lamps-macaddress-on"></div>
-    
-        
-            Waiting for AD Go-Ahead
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-ietf-lamps-macaddress-on-05: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lamps-macaddress-on-05-artart-lc-kucherawy-2026-02-11/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-lamps-macaddress-on-05: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lamps-macaddress-on-05-genart-lc-gurbani-2026-02-11/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-lamps-macaddress-on-04: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lamps-macaddress-on-04-secdir-lc-turner-2026-02-03/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lamps-macaddress-on"></div>
-    
-        
-            Waiting for AD Go-Ahead
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-ietf-lamps-macaddress-on-05: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lamps-macaddress-on-05-artart-lc-kucherawy-2026-02-11/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-lamps-macaddress-on-05: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lamps-macaddress-on-05-genart-lc-gurbani-2026-02-11/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-lamps-macaddress-on-04: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-lamps-macaddress-on-04-secdir-lc-turner-2026-02-03/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lamps-macaddress-on/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Token Status List (TSL)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-oauth-status-list/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-oauth-status-list">
-<a href="/doc/draft-ietf-oauth-status-list/ballotpopup/1112025/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1112025" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-discuss"></td>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1112025" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-        
-            IESG Evaluation::AD Followup
-        
-        
-        
-        <span class="badge rounded-pill text-bg-danger" title="In state for 41 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 41</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-ietf-oauth-status-list-13: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-status-list-13-artart-lc-levine-2025-11-23/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-oauth-status-list-13: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-status-list-13-genart-lc-worley-2025-11-11/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2025-11-11" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-oauth-status-list/reviewrequest/23056/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 22 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 22</span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-oauth-status-list">
-<a href="/doc/draft-ietf-oauth-status-list/ballotpopup/1112025/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1112025" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-discuss"></td>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1112025" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-        
-            IESG Evaluation::AD Followup
-        
-        
-        
-        <span class="badge rounded-pill text-bg-danger" title="In state for 41 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 41</span>
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-ietf-oauth-status-list-13: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-status-list-13-artart-lc-levine-2025-11-23/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-oauth-status-list-13: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-status-list-13-genart-lc-worley-2025-11-11/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2025-11-11" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-oauth-status-list/reviewrequest/23056/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 22 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 22</span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-oauth-status-list/</guid>
       
     </item>
     
