@@ -7,7 +7,245 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Wed, 04 Mar 2026 02:49:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 03:08:01 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[GLobal Unique Enterprise (GLUE) Identifiers]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-spice-glue-id/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-spice-glue-id">
+<a href="/doc/draft-ietf-spice-glue-id/ballotpopup/1122694/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1122694" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-recuse"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1122694" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation
+        
+        
+        
+        <span class="badge rounded-pill text-bg-warning" title="In state for 15 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 15</span>
+        
+            <br>
+            IESG telechat: 2026-03-05
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR Telechat review of draft-ietf-spice-glue-id-05: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-spice-glue-id-05-secdir-telechat-yee-2026-02-27/">
+                        secdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-spice-glue-id-04: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-spice-glue-id-04-secdir-lc-yee-2026-02-15/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART IETF Last Call review of draft-ietf-spice-glue-id-04: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-spice-glue-id-04-artart-lc-faltstrom-2026-02-01/">
+                        artart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-spice-glue-id-04: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-spice-glue-id-04-genart-lc-hares-2026-02-12/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io" title="Compose email to paul.wouters@aiven.io">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-spice-glue-id">
+<a href="/doc/draft-ietf-spice-glue-id/ballotpopup/1122694/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1122694" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-recuse"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1122694" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation
+        
+        
+        
+        <span class="badge rounded-pill text-bg-warning" title="In state for 15 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 15</span>
+        
+            <br>
+            IESG telechat: 2026-03-05
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR Telechat review of draft-ietf-spice-glue-id-05: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-spice-glue-id-05-secdir-telechat-yee-2026-02-27/">
+                        secdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-spice-glue-id-04: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-spice-glue-id-04-secdir-lc-yee-2026-02-15/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART IETF Last Call review of draft-ietf-spice-glue-id-04: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-spice-glue-id-04-artart-lc-faltstrom-2026-02-01/">
+                        artart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-spice-glue-id-04: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-spice-glue-id-04-genart-lc-hares-2026-02-12/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io" title="Compose email to paul.wouters@aiven.io">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-spice-glue-id/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[Distribute SRv6 Locator by DHCP]]></title>
@@ -46,7 +284,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 40 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 40</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 41 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 41</span>
         
         
             
@@ -133,7 +371,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/james.n.guichard@futurewei.com">Jim Guichard</a> <a href="mailto:james.n.guichard%40futurewei.com" aria-label="Compose email to james.n.guichard@futurewei.com" title="Compose email to james.n.guichard@futurewei.com">
-                <i class="bi bi-envelope"></i></a></span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 21 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 21</span>
             
         
         
@@ -172,7 +410,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 40 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 40</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 41 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 41</span>
         
         
             
@@ -259,7 +497,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/james.n.guichard@futurewei.com">Jim Guichard</a> <a href="mailto:james.n.guichard%40futurewei.com" aria-label="Compose email to james.n.guichard@futurewei.com" title="Compose email to james.n.guichard@futurewei.com">
-                <i class="bi bi-envelope"></i></a></span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 21 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 21</span>
             
         
         
@@ -277,9 +515,9 @@
     <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-bess-evpn-unequal-lb">
 <a href="/doc/draft-ietf-bess-evpn-unequal-lb/ballotpopup/1122611/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1122611" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
 <tr>
+<td class="position-discuss"></td>
 <td class="position-yes"></td>
 <td class="position-yes"></td>
-<td class="position-noobj"></td>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
 </tr>
@@ -291,9 +529,9 @@
 <td class="position-noobj"></td>
 </tr>
 <tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
 <td class="position-norecord"></td>
 <td class="position-empty"></td>
 </tr>
@@ -306,7 +544,7 @@
         
         
         
-        
+        <span class="badge rounded-pill text-bg-warning" title="In state for 15 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 15</span>
         
             <br>
             IESG telechat: 2026-03-05
@@ -395,9 +633,9 @@
     <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-bess-evpn-unequal-lb">
 <a href="/doc/draft-ietf-bess-evpn-unequal-lb/ballotpopup/1122611/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1122611" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
 <tr>
+<td class="position-discuss"></td>
 <td class="position-yes"></td>
 <td class="position-yes"></td>
-<td class="position-noobj"></td>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
 </tr>
@@ -409,9 +647,9 @@
 <td class="position-noobj"></td>
 </tr>
 <tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
 <td class="position-norecord"></td>
 <td class="position-empty"></td>
 </tr>
@@ -424,7 +662,7 @@
         
         
         
-        
+        <span class="badge rounded-pill text-bg-warning" title="In state for 15 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 15</span>
         
             <br>
             IESG telechat: 2026-03-05
@@ -536,7 +774,7 @@
 </tr>
 <tr>
 <td class="position-noobj"></td>
-<td class="position-norecord"></td>
+<td class="position-noobj"></td>
 <td class="position-norecord"></td>
 <td class="position-norecord"></td>
 <td class="position-empty"></td>
@@ -665,7 +903,7 @@
 </tr>
 <tr>
 <td class="position-noobj"></td>
-<td class="position-norecord"></td>
+<td class="position-noobj"></td>
 <td class="position-norecord"></td>
 <td class="position-norecord"></td>
 <td class="position-empty"></td>
@@ -791,7 +1029,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-warning" title="In state for 20 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 20</span>
+        <span class="badge rounded-pill text-bg-warning" title="In state for 21 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 21</span>
         
         
             
@@ -883,7 +1121,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-warning" title="In state for 20 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 20</span>
+        <span class="badge rounded-pill text-bg-warning" title="In state for 21 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 21</span>
         
         
             
@@ -979,24 +1217,24 @@
     <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-pce-sr-bidir-path">
 <a href="/doc/draft-ietf-pce-sr-bidir-path/ballotpopup/1123496/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1123496" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
 <tr>
-<td class="position-discuss"></td>
 <td class="position-yes"></td>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
 </tr>
 <tr>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
 <td class="position-empty"></td>
 </tr>
 </tbody></table>
@@ -1096,24 +1334,24 @@
     <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-pce-sr-bidir-path">
 <a href="/doc/draft-ietf-pce-sr-bidir-path/ballotpopup/1123496/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1123496" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
 <tr>
-<td class="position-discuss"></td>
 <td class="position-yes"></td>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
 </tr>
 <tr>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
 <td class="position-empty"></td>
 </tr>
 </tbody></table>
@@ -1236,8 +1474,8 @@
 </tr>
 <tr>
 <td class="position-noobj"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
 <td class="position-norecord"></td>
 <td class="position-empty"></td>
 </tr>
@@ -1250,7 +1488,7 @@
         
         
         
-        
+        <span class="badge rounded-pill text-bg-warning" title="In state for 15 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 15</span>
         
             <br>
             IESG telechat: 2026-03-05
@@ -1334,6 +1572,9 @@
 
             
         
+        
+            <br>
+            <span title="Part of lsr milestone: SUBMITTED: Advertising Unreachable Links in OSPF" class="milestone">Mar 2026</span>
         
         
             <br>
@@ -1365,8 +1606,8 @@
 </tr>
 <tr>
 <td class="position-noobj"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
 <td class="position-norecord"></td>
 <td class="position-empty"></td>
 </tr>
@@ -1379,7 +1620,7 @@
         
         
         
-        
+        <span class="badge rounded-pill text-bg-warning" title="In state for 15 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 15</span>
         
             <br>
             IESG telechat: 2026-03-05
@@ -1463,6 +1704,9 @@
 
             
         
+        
+            <br>
+            <span title="Part of lsr milestone: SUBMITTED: Advertising Unreachable Links in OSPF" class="milestone">Mar 2026</span>
         
         
             <br>
@@ -1516,7 +1760,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 49 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 49</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 50 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 50</span>
         
         
             
@@ -1657,7 +1901,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 49 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 49</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 50 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 50</span>
         
         
             
@@ -1781,7 +2025,7 @@
         
         
         
-        
+        <span class="badge rounded-pill text-bg-warning" title="In state for 15 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 15</span>
         
         
             
@@ -1885,7 +2129,7 @@
         
         
         
-        
+        <span class="badge rounded-pill text-bg-warning" title="In state for 15 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 15</span>
         
         
             
@@ -1996,7 +2240,7 @@
             RFC Ed Queue
         
         
-            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-httpbis-incremental">AUTH</a>
+            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-httpbis-incremental">EDIT</a>
         
         
         
@@ -2080,7 +2324,7 @@
             RFC Ed Queue
         
         
-            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-httpbis-incremental">AUTH</a>
+            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-httpbis-incremental">EDIT</a>
         
         
         
@@ -2158,202 +2402,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-httpbis-incremental/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Cross-Device Flows: Security Best Current Practice]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-oauth-cross-device-security/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-oauth-cross-device-security"></div>
-    
-        
-            RFC Ed Queue
-        
-        
-            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-oauth-cross-device-security">AUTH</a>
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Best Current Practice
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="SECDIR Telechat review of draft-ietf-oauth-cross-device-security-14: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-cross-device-security-14-secdir-telechat-mandelberg-2026-01-14/">
-                        secdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-oauth-cross-device-security-13: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-cross-device-security-13-secdir-lc-mandelberg-2025-12-06/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-oauth-cross-device-security-13: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-cross-device-security-13-opsdir-lc-liu-2025-12-25/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-ietf-oauth-cross-device-security-13: Almost Ready" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-cross-device-security-13-artart-lc-fenton-2025-12-16/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-oauth-cross-device-security-13: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-cross-device-security-13-genart-lc-kyzivat-2025-12-12/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-oauth-cross-device-security"></div>
-    
-        
-            RFC Ed Queue
-        
-        
-            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-oauth-cross-device-security">AUTH</a>
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Best Current Practice
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="SECDIR Telechat review of draft-ietf-oauth-cross-device-security-14: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-cross-device-security-14-secdir-telechat-mandelberg-2026-01-14/">
-                        secdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-oauth-cross-device-security-13: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-cross-device-security-13-secdir-lc-mandelberg-2025-12-06/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-oauth-cross-device-security-13: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-cross-device-security-13-opsdir-lc-liu-2025-12-25/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-ietf-oauth-cross-device-security-13: Almost Ready" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-cross-device-security-13-artart-lc-fenton-2025-12-16/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-oauth-cross-device-security-13: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-cross-device-security-13-genart-lc-kyzivat-2025-12-12/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-oauth-cross-device-security/</guid>
       
     </item>
     
