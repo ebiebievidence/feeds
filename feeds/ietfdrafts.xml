@@ -7,7 +7,337 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Tue, 10 Mar 2026 02:49:10 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2026 02:48:44 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[Updates to Dynamic IPv6 Multicast Address Group IDs]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id"></div>
+    
+        
+            Approved-announcement to be sent
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="INTDIR Telechat review of draft-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id-10: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id-10-intdir-telechat-migault-2026-02-19/">
+                        intdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id-07: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id-07-secdir-lc-housley-2025-11-24/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id-07: Not Ready" class="badge rounded-pill text-bg-danger">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id-07-genart-lc-hares-2025-12-09/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR IETF Last Call review of draft-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id-07: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id-07-opsdir-lc-dhody-2025-11-19/">
+                        opsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/gunter@vandevelde.cc">Gunter Van de Velde</a> <a href="mailto:gunter%40vandevelde.cc" aria-label="Compose email to gunter@vandevelde.cc" title="Compose email to gunter@vandevelde.cc">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id"></div>
+    
+        
+            Approved-announcement to be sent
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="INTDIR Telechat review of draft-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id-10: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id-10-intdir-telechat-migault-2026-02-19/">
+                        intdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id-07: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id-07-secdir-lc-housley-2025-11-24/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id-07: Not Ready" class="badge rounded-pill text-bg-danger">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id-07-genart-lc-hares-2025-12-09/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR IETF Last Call review of draft-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id-07: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id-07-opsdir-lc-dhody-2025-11-19/">
+                        opsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/gunter@vandevelde.cc">Gunter Van de Velde</a> <a href="mailto:gunter%40vandevelde.cc" aria-label="Compose email to gunter@vandevelde.cc" title="Compose email to gunter@vandevelde.cc">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Interconnecting EVPN and IPVPN Domains]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-bess-evpn-ipvpn-interworking/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-bess-evpn-ipvpn-interworking"></div>
+    
+        
+            RFC Ed Queue
+        
+        
+            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-bess-evpn-ipvpn-interworking">EDIT</a>
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="RTGDIR Telechat review of draft-ietf-bess-evpn-ipvpn-interworking-15: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bess-evpn-ipvpn-interworking-15-rtgdir-telechat-white-2026-01-24/">
+                        rtgdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR IETF Last Call review of draft-ietf-bess-evpn-ipvpn-interworking-15: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bess-evpn-ipvpn-interworking-15-opsdir-lc-wu-2025-12-12/">
+                        opsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-bess-evpn-ipvpn-interworking-15: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bess-evpn-ipvpn-interworking-15-secdir-lc-navas-2025-12-18/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-bess-evpn-ipvpn-interworking"></div>
+    
+        
+            RFC Ed Queue
+        
+        
+            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-bess-evpn-ipvpn-interworking">EDIT</a>
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="RTGDIR Telechat review of draft-ietf-bess-evpn-ipvpn-interworking-15: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bess-evpn-ipvpn-interworking-15-rtgdir-telechat-white-2026-01-24/">
+                        rtgdir
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="OPSDIR IETF Last Call review of draft-ietf-bess-evpn-ipvpn-interworking-15: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bess-evpn-ipvpn-interworking-15-opsdir-lc-wu-2025-12-12/">
+                        opsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-bess-evpn-ipvpn-interworking-15: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bess-evpn-ipvpn-interworking-15-secdir-lc-navas-2025-12-18/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-bess-evpn-ipvpn-interworking/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[Path Computation Element Communication Protocol (PCEP) extensions for Circuit Style Policies]]></title>
@@ -291,18 +621,6 @@
                     </span>
 
             
-                
-                        <span title="Incomplete, due 2026-02-20" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-pce-sr-bidir-path/reviewrequest/23652/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
@@ -375,18 +693,6 @@
                     </span>
 
             
-                
-                        <span title="Incomplete, due 2026-02-20" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-pce-sr-bidir-path/reviewrequest/23652/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
         
         
         
@@ -408,7 +714,7 @@
             RFC Ed Queue
         
         
-            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-spring-dhc-distribute-srv6-locator-dhcp">AUTH</a>
+            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-spring-dhc-distribute-srv6-locator-dhcp">EDIT</a>
         
         
         
@@ -472,18 +778,6 @@
                     
                     <a class="text-reset text-decoration-none" href="/doc/review-ietf-spring-dhc-distribute-srv6-locator-dhcp-11-genart-lc-dunbar-2025-11-18/">
                         genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2026-02-28" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-spring-dhc-distribute-srv6-locator-dhcp/reviewrequest/23106/">
-                        secdir
                         
                             IETF Last Call
                         
@@ -504,7 +798,7 @@
             RFC Ed Queue
         
         
-            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-spring-dhc-distribute-srv6-locator-dhcp">AUTH</a>
+            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-spring-dhc-distribute-srv6-locator-dhcp">EDIT</a>
         
         
         
@@ -568,18 +862,6 @@
                     
                     <a class="text-reset text-decoration-none" href="/doc/review-ietf-spring-dhc-distribute-srv6-locator-dhcp-11-genart-lc-dunbar-2025-11-18/">
                         genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2026-02-28" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-spring-dhc-distribute-srv6-locator-dhcp/reviewrequest/23106/">
-                        secdir
                         
                             IETF Last Call
                         
@@ -824,154 +1106,6 @@
     </item>
     
     <item>
-      <title><![CDATA[Interconnecting EVPN and IPVPN Domains]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-bess-evpn-ipvpn-interworking/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-bess-evpn-ipvpn-interworking"></div>
-    
-        
-            RFC Ed Queue
-        
-        
-            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-bess-evpn-ipvpn-interworking">MISSREF</a>
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="RTGDIR Telechat review of draft-ietf-bess-evpn-ipvpn-interworking-15: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bess-evpn-ipvpn-interworking-15-rtgdir-telechat-white-2026-01-24/">
-                        rtgdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-bess-evpn-ipvpn-interworking-15: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bess-evpn-ipvpn-interworking-15-opsdir-lc-wu-2025-12-12/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-bess-evpn-ipvpn-interworking-15: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bess-evpn-ipvpn-interworking-15-secdir-lc-navas-2025-12-18/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-bess-evpn-ipvpn-interworking"></div>
-    
-        
-            RFC Ed Queue
-        
-        
-            : <a href="https://www.rfc-editor.org/queue2.html#draft-ietf-bess-evpn-ipvpn-interworking">MISSREF</a>
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="RTGDIR Telechat review of draft-ietf-bess-evpn-ipvpn-interworking-15: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bess-evpn-ipvpn-interworking-15-rtgdir-telechat-white-2026-01-24/">
-                        rtgdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-bess-evpn-ipvpn-interworking-15: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bess-evpn-ipvpn-interworking-15-opsdir-lc-wu-2025-12-12/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-bess-evpn-ipvpn-interworking-15: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-bess-evpn-ipvpn-interworking-15-secdir-lc-navas-2025-12-18/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-bess-evpn-ipvpn-interworking/</guid>
-      
-    </item>
-    
-    <item>
       <title><![CDATA[GLobal Unique Enterprise (GLUE) Identifiers]]></title>
       <link>https://datatracker.ietf.org/doc/draft-ietf-spice-glue-id/</link>
       
@@ -1081,7 +1215,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io" title="Compose email to paul.wouters@aiven.io">
-                <i class="bi bi-envelope"></i></a></span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 21 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 21</span>
             
         
         
@@ -1193,7 +1327,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io" title="Compose email to paul.wouters@aiven.io">
-                <i class="bi bi-envelope"></i></a></span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 21 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 21</span>
             
         
         
