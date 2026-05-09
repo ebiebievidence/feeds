@@ -7,7 +7,217 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Fri, 08 May 2026 03:52:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 03:54:24 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[A YANG Data Model for In Situ Operations, Administration, and Maintenance (IOAM) Integrity-Protected Options]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-ippm-ioam-integrity-yang/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ippm-ioam-integrity-yang"></div>
+    
+        
+            Approved-announcement to be sent::AD Followup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-ippm-ioam-integrity-yang-06: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-ioam-integrity-yang-06-secdir-lc-bonnell-2026-04-21/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="INTDIR IETF Last Call review of draft-ietf-ippm-ioam-integrity-yang-06: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-ioam-integrity-yang-06-intdir-lc-matsushima-2026-04-21/">
+                        intdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="YANGDOCTORS IETF Last Call review of draft-ietf-ippm-ioam-integrity-yang-06: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-ioam-integrity-yang-06-yangdoctors-lc-ma-2026-04-17/">
+                        yangdoctors
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-ippm-ioam-integrity-yang-05: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-ioam-integrity-yang-05-genart-lc-even-2026-04-14/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="YANGDOCTORS Early review of draft-ietf-ippm-ioam-integrity-yang-04: On the Right Track" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-ioam-integrity-yang-04-yangdoctors-early-ma-2026-01-05/">
+                        yangdoctors
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/mohamed.boucadair@orange.com">Mohamed Boucadair</a> <a href="mailto:mohamed.boucadair%40orange.com" aria-label="Compose email to mohamed.boucadair@orange.com" title="Compose email to mohamed.boucadair@orange.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ippm-ioam-integrity-yang"></div>
+    
+        
+            Approved-announcement to be sent::AD Followup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-ippm-ioam-integrity-yang-06: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-ioam-integrity-yang-06-secdir-lc-bonnell-2026-04-21/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="INTDIR IETF Last Call review of draft-ietf-ippm-ioam-integrity-yang-06: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-ioam-integrity-yang-06-intdir-lc-matsushima-2026-04-21/">
+                        intdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="YANGDOCTORS IETF Last Call review of draft-ietf-ippm-ioam-integrity-yang-06: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-ioam-integrity-yang-06-yangdoctors-lc-ma-2026-04-17/">
+                        yangdoctors
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-ippm-ioam-integrity-yang-05: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-ioam-integrity-yang-05-genart-lc-even-2026-04-14/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="YANGDOCTORS Early review of draft-ietf-ippm-ioam-integrity-yang-04: On the Right Track" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ippm-ioam-integrity-yang-04-yangdoctors-early-ma-2026-01-05/">
+                        yangdoctors
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/mohamed.boucadair@orange.com">Mohamed Boucadair</a> <a href="mailto:mohamed.boucadair%40orange.com" aria-label="Compose email to mohamed.boucadair@orange.com" title="Compose email to mohamed.boucadair@orange.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-ippm-ioam-integrity-yang/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[Framework for Multi-domain IPv6-only Underlay Network and IPv4-as-a-Service]]></title>
@@ -109,7 +319,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 64 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 64</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 65 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 65</span>
         
         
             
@@ -208,7 +418,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/mjethanandani@gmail.com">Mahesh Jethanandani</a> <a href="mailto:mjethanandani%40gmail.com" aria-label="Compose email to mjethanandani@gmail.com" title="Compose email to mjethanandani@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 24 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 24</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 25 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 25</span>
             
         
         
@@ -222,7 +432,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 64 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 64</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 65 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 65</span>
         
         
             
@@ -321,7 +531,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/mjethanandani@gmail.com">Mahesh Jethanandani</a> <a href="mailto:mjethanandani%40gmail.com" aria-label="Compose email to mjethanandani@gmail.com" title="Compose email to mjethanandani@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 24 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 24</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 25 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 25</span>
             
         
         
@@ -343,7 +553,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 84 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 84</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 85 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 85</span>
         
         
             
@@ -420,7 +630,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 84 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 84</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 85 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 85</span>
         
         
             
@@ -811,7 +1021,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/ketant.ietf@gmail.com">Ketan Talaulikar</a> <a href="mailto:ketant.ietf%40gmail.com" aria-label="Compose email to ketant.ietf@gmail.com" title="Compose email to ketant.ietf@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 24 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 24</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 25 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 25</span>
             
         
         
@@ -935,7 +1145,7 @@
             Action Holder:
             
                 <span><a title="Responsible AD" href="/person/ketant.ietf@gmail.com">Ketan Talaulikar</a> <a href="mailto:ketant.ietf%40gmail.com" aria-label="Compose email to ketant.ietf@gmail.com" title="Compose email to ketant.ietf@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 24 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 24</span>
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 25 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 25</span>
             
         
         
@@ -1430,7 +1640,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 63 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 63</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 64 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 64</span>
         
         
             
@@ -1581,7 +1791,7 @@
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 63 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 63</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 64 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 64</span>
         
         
             
@@ -1700,126 +1910,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-radext-radiusdtls-bis/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Export of GTP-U Information in IP Flow Information Export (IPFIX)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-opsawg-ipfix-gtpu/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-opsawg-ipfix-gtpu"></div>
-    
-        
-            Expert Review
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Review:
-            
-                
-                        <span title="Incomplete, due 2026-05-22" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-opsawg-ipfix-gtpu/reviewrequest/24085/">
-                        opsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of opsawg milestone: Submit GTP-U in IPFIX as Proposed Standard" class="milestone">Sep 2025</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/mjethanandani@gmail.com">Mahesh Jethanandani</a> <a href="mailto:mjethanandani%40gmail.com" aria-label="Compose email to mjethanandani@gmail.com" title="Compose email to mjethanandani@gmail.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-opsawg-ipfix-gtpu"></div>
-    
-        
-            Expert Review
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Review:
-            
-                
-                        <span title="Incomplete, due 2026-05-22" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-opsawg-ipfix-gtpu/reviewrequest/24085/">
-                        opsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of opsawg milestone: Submit GTP-U in IPFIX as Proposed Standard" class="milestone">Sep 2025</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/mjethanandani@gmail.com">Mahesh Jethanandani</a> <a href="mailto:mjethanandani%40gmail.com" aria-label="Compose email to mjethanandani@gmail.com" title="Compose email to mjethanandani@gmail.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-opsawg-ipfix-gtpu/</guid>
       
     </item>
     
