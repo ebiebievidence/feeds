@@ -7,21 +7,49 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Sat, 27 Jun 2026 04:15:07 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 04:48:38 +0000</lastBuildDate>
     
     <item>
-      <title><![CDATA[TLS Client Authentication via DANE TLSA records]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-dance-client-auth/</link>
+      <title><![CDATA[Post-quantum Key Exchange with ML-KEM in the Internet Key Exchange Protocol Version 2 (IKEv2)]]></title>
+      <link>https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-ipsecme-ikev2-mlkem/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-dance-client-auth"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ipsecme-ikev2-mlkem">
+<a href="/doc/draft-ietf-ipsecme-ikev2-mlkem/ballotpopup/1199830/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1199830" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1199830" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
     
         
-            Waiting for AD Go-Ahead::AD Followup
+            IESG Evaluation
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 163 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 163</span>
+        
+        
+            <br>
+            IESG telechat: 2026-07-02
         
         
             
@@ -42,10 +70,10 @@
             Reviews:
             
                 
-                    <span title="ARTART IETF Last Call review of draft-ietf-dance-client-auth-09: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    <span title="TSVART IETF Last Call review of draft-ietf-ipsecme-ikev2-mlkem-05: Ready with Nits" class="badge rounded-pill text-bg-success">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dance-client-auth-09-artart-lc-gulbrandsen-2026-01-12/">
-                        artart
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ipsecme-ikev2-mlkem-05-tsvart-lc-rose-2026-06-08/">
+                        tsvart
                         
                             IETF Last Call
                         
@@ -54,21 +82,9 @@
 
             
                 
-                    <span title="SECDIR IETF Last Call review of draft-ietf-dance-client-auth-09: Serious Issues" class="badge rounded-pill text-bg-info">
+                    <span title="GENART IETF Last Call review of draft-ietf-ipsecme-ikev2-mlkem-05: Ready" class="badge rounded-pill text-bg-success">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dance-client-auth-09-secdir-lc-ounsworth-2025-12-16/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-dance-client-auth-09: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dance-client-auth-09-genart-lc-hares-2026-01-03/">
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ipsecme-ikev2-mlkem-05-genart-lc-kyzivat-2026-06-11/">
                         genart
                         
                             IETF Last Call
@@ -78,10 +94,10 @@
 
             
                 
-                    <span title="DNSDIR IETF Last Call review of draft-ietf-dance-client-auth-09: Not Ready" class="badge rounded-pill text-bg-danger">
+                        <span title="Incomplete, due 2026-06-15" class="badge rounded-pill text-bg-secondary">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dance-client-auth-09-dnsdir-lc-brown-2025-12-22/">
-                        dnsdir
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-ipsecme-ikev2-mlkem/reviewrequest/24298/">
+                        secdir
                         
                             IETF Last Call
                         
@@ -95,22 +111,50 @@
             <br>
             Action Holder:
             
-                <span><a title="Action Holder" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io" title="Compose email to paul.wouters@aiven.io">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 116 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 116</span>
+                <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
+                <i class="bi bi-envelope"></i></a></span>
             
         
         
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-dance-client-auth"></div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ipsecme-ikev2-mlkem">
+<a href="/doc/draft-ietf-ipsecme-ikev2-mlkem/ballotpopup/1199830/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1199830" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+</tr>
+<tr>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1199830" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
     
         
-            Waiting for AD Go-Ahead::AD Followup
+            IESG Evaluation
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 163 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 163</span>
+        
+        
+            <br>
+            IESG telechat: 2026-07-02
         
         
             
@@ -131,10 +175,10 @@
             Reviews:
             
                 
-                    <span title="ARTART IETF Last Call review of draft-ietf-dance-client-auth-09: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    <span title="TSVART IETF Last Call review of draft-ietf-ipsecme-ikev2-mlkem-05: Ready with Nits" class="badge rounded-pill text-bg-success">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dance-client-auth-09-artart-lc-gulbrandsen-2026-01-12/">
-                        artart
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ipsecme-ikev2-mlkem-05-tsvart-lc-rose-2026-06-08/">
+                        tsvart
                         
                             IETF Last Call
                         
@@ -143,21 +187,9 @@
 
             
                 
-                    <span title="SECDIR IETF Last Call review of draft-ietf-dance-client-auth-09: Serious Issues" class="badge rounded-pill text-bg-info">
+                    <span title="GENART IETF Last Call review of draft-ietf-ipsecme-ikev2-mlkem-05: Ready" class="badge rounded-pill text-bg-success">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dance-client-auth-09-secdir-lc-ounsworth-2025-12-16/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-dance-client-auth-09: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dance-client-auth-09-genart-lc-hares-2026-01-03/">
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ipsecme-ikev2-mlkem-05-genart-lc-kyzivat-2026-06-11/">
                         genart
                         
                             IETF Last Call
@@ -167,10 +199,10 @@
 
             
                 
-                    <span title="DNSDIR IETF Last Call review of draft-ietf-dance-client-auth-09: Not Ready" class="badge rounded-pill text-bg-danger">
+                        <span title="Incomplete, due 2026-06-15" class="badge rounded-pill text-bg-secondary">
                     
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dance-client-auth-09-dnsdir-lc-brown-2025-12-22/">
-                        dnsdir
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-ipsecme-ikev2-mlkem/reviewrequest/24298/">
+                        secdir
                         
                             IETF Last Call
                         
@@ -184,20 +216,208 @@
             <br>
             Action Holder:
             
-                <span><a title="Action Holder" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io" title="Compose email to paul.wouters@aiven.io">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 116 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 116</span>
+                <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
+                <i class="bi bi-envelope"></i></a></span>
             
         
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-dance-client-auth/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-ipsecme-ikev2-mlkem/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Extension Registry for the Extensible Provisioning Protocol]]></title>
+      <link>https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-regext-ext-registry-epp/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-regext-ext-registry-epp">
+<a href="/doc/draft-ietf-regext-ext-registry-epp/ballotpopup/1194441/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1194441" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-recuse"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1194441" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-warning" title="In state for 23 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 23</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Best Current Practice
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-regext-ext-registry-epp-07: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-regext-ext-registry-epp-07-secdir-lc-kivinen-2026-05-28/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART IETF Last Call review of draft-ietf-regext-ext-registry-epp-07: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-regext-ext-registry-epp-07-artart-lc-peng-2026-05-21/">
+                        artart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/mohamed.boucadair@orange.com">Mohamed Boucadair</a> <a href="mailto:mohamed.boucadair%40orange.com" aria-label="Compose email to mohamed.boucadair@orange.com" title="Compose email to mohamed.boucadair@orange.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-regext-ext-registry-epp">
+<a href="/doc/draft-ietf-regext-ext-registry-epp/ballotpopup/1194441/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1194441" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-recuse"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1194441" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-warning" title="In state for 23 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 23</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Best Current Practice
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-regext-ext-registry-epp-07: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-regext-ext-registry-epp-07-secdir-lc-kivinen-2026-05-28/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="ARTART IETF Last Call review of draft-ietf-regext-ext-registry-epp-07: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-regext-ext-registry-epp-07-artart-lc-peng-2026-05-21/">
+                        artart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/mohamed.boucadair@orange.com">Mohamed Boucadair</a> <a href="mailto:mohamed.boucadair%40orange.com" aria-label="Compose email to mohamed.boucadair@orange.com" title="Compose email to mohamed.boucadair@orange.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-regext-ext-registry-epp/</guid>
       
     </item>
     
     <item>
       <title><![CDATA[A YANG Data Model for IS-IS Application-Specific Link Attributes and Flexible Algorithm]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-lsr-isis-flex-algo-yang/</link>
+      <link>https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-lsr-isis-flex-algo-yang/</link>
       
       <description><![CDATA[
     <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-lsr-isis-flex-algo-yang">
@@ -457,13 +677,199 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-lsr-isis-flex-algo-yang/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-lsr-isis-flex-algo-yang/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[TLS Client Authentication via DANE TLSA records]]></title>
+      <link>https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-dance-client-auth/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-dance-client-auth"></div>
+    
+        
+            Waiting for AD Go-Ahead::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-danger" title="In state for 164 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 164</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="ARTART IETF Last Call review of draft-ietf-dance-client-auth-09: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dance-client-auth-09-artart-lc-gulbrandsen-2026-01-12/">
+                        artart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-dance-client-auth-09: Serious Issues" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dance-client-auth-09-secdir-lc-ounsworth-2025-12-16/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-dance-client-auth-09: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dance-client-auth-09-genart-lc-hares-2026-01-03/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR IETF Last Call review of draft-ietf-dance-client-auth-09: Not Ready" class="badge rounded-pill text-bg-danger">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dance-client-auth-09-dnsdir-lc-brown-2025-12-22/">
+                        dnsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Action Holder" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io" title="Compose email to paul.wouters@aiven.io">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 117 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 117</span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-dance-client-auth"></div>
+    
+        
+            Waiting for AD Go-Ahead::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-danger" title="In state for 164 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 164</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="ARTART IETF Last Call review of draft-ietf-dance-client-auth-09: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dance-client-auth-09-artart-lc-gulbrandsen-2026-01-12/">
+                        artart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-dance-client-auth-09: Serious Issues" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dance-client-auth-09-secdir-lc-ounsworth-2025-12-16/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-dance-client-auth-09: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dance-client-auth-09-genart-lc-hares-2026-01-03/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="DNSDIR IETF Last Call review of draft-ietf-dance-client-auth-09: Not Ready" class="badge rounded-pill text-bg-danger">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dance-client-auth-09-dnsdir-lc-brown-2025-12-22/">
+                        dnsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Action Holder" href="/person/paul.wouters@aiven.io">Paul Wouters</a> <a href="mailto:paul.wouters%40aiven.io" aria-label="Compose email to paul.wouters@aiven.io" title="Compose email to paul.wouters@aiven.io">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 117 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 117</span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-dance-client-auth/</guid>
       
     </item>
     
     <item>
       <title><![CDATA[Group Address Allocation Protocol (GAAP)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-pim-gaap/</link>
+      <link>https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-pim-gaap/</link>
       
       <description><![CDATA[
     <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-pim-gaap"></div>
@@ -597,48 +1003,23 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-pim-gaap/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-pim-gaap/</guid>
       
     </item>
     
     <item>
       <title><![CDATA[Supply Chain Integrity, Transparency, and Trust (SCITT) Reference APIs]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-scitt-scrapi/</link>
+      <link>https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-scitt-scrapi/</link>
       
       <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-scitt-scrapi">
-<a href="/doc/draft-ietf-scitt-scrapi/ballotpopup/1140159/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1140159" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-discuss"></td>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-recuse"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1140159" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-scitt-scrapi"></div>
     
         
-            IESG Evaluation::AD Followup
+            Approved-announcement to be sent
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 36 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 36</span>
+        
         
         
             
@@ -752,51 +1133,19 @@
             
         
         
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
         
         
     
 ]]></description>
       <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-scitt-scrapi">
-<a href="/doc/draft-ietf-scitt-scrapi/ballotpopup/1140159/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1140159" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-discuss"></td>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-recuse"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1140159" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-scitt-scrapi"></div>
     
         
-            IESG Evaluation::AD Followup
+            Approved-announcement to be sent
         
         
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 36 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 36</span>
+        
         
         
             
@@ -911,23 +1260,16 @@
         
         
         
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-scitt-scrapi/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-scitt-scrapi/</guid>
       
     </item>
     
     <item>
       <title><![CDATA[OAuth Identity and Authorization Chaining Across Domains]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-chaining/</link>
+      <link>https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-oauth-identity-chaining/</link>
       
       <description><![CDATA[
     <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-oauth-identity-chaining"></div>
@@ -1097,13 +1439,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-oauth-identity-chaining/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-oauth-identity-chaining/</guid>
       
     </item>
     
     <item>
       <title><![CDATA[A YANG Data Model for Network Tester Management]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-bmwg-network-tester-cfg/</link>
+      <link>https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-bmwg-network-tester-cfg/</link>
       
       <description><![CDATA[
     <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-bmwg-network-tester-cfg">
@@ -1113,7 +1455,7 @@
 <td class="position-yes"></td>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
-<td class="position-norecord"></td>
+<td class="position-noobj"></td>
 </tr>
 <tr>
 <td class="position-norecord"></td>
@@ -1257,7 +1599,7 @@
 <td class="position-yes"></td>
 <td class="position-noobj"></td>
 <td class="position-noobj"></td>
-<td class="position-norecord"></td>
+<td class="position-noobj"></td>
 </tr>
 <tr>
 <td class="position-norecord"></td>
@@ -1393,231 +1735,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-bmwg-network-tester-cfg/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Post-quantum Key Exchange with ML-KEM in the Internet Key Exchange Protocol Version 2 (IKEv2)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-mlkem/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ipsecme-ikev2-mlkem">
-<a href="/doc/draft-ietf-ipsecme-ikev2-mlkem/ballotpopup/1199830/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1199830" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-discuss"></td>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1199830" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-        
-            IESG Evaluation
-        
-        
-        
-        
-        
-            <br>
-            IESG telechat: 2026-07-02
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="TSVART IETF Last Call review of draft-ietf-ipsecme-ikev2-mlkem-05: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ipsecme-ikev2-mlkem-05-tsvart-lc-rose-2026-06-08/">
-                        tsvart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-ipsecme-ikev2-mlkem-05: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ipsecme-ikev2-mlkem-05-genart-lc-kyzivat-2026-06-11/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2026-06-15" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-ipsecme-ikev2-mlkem/reviewrequest/24298/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ipsecme-ikev2-mlkem">
-<a href="/doc/draft-ietf-ipsecme-ikev2-mlkem/ballotpopup/1199830/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1199830" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-discuss"></td>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1199830" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-        
-            IESG Evaluation
-        
-        
-        
-        
-        
-            <br>
-            IESG telechat: 2026-07-02
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="TSVART IETF Last Call review of draft-ietf-ipsecme-ikev2-mlkem-05: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ipsecme-ikev2-mlkem-05-tsvart-lc-rose-2026-06-08/">
-                        tsvart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-ipsecme-ikev2-mlkem-05: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ipsecme-ikev2-mlkem-05-genart-lc-kyzivat-2026-06-11/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2026-06-15" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-ipsecme-ikev2-mlkem/reviewrequest/24298/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-mlkem/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-bmwg-network-tester-cfg/</guid>
       
     </item>
     
     <item>
       <title><![CDATA[Increase of the Congestion Window when the Sender Is Rate-Limited]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-ccwg-ratelimited-increase/</link>
+      <link>https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-ccwg-ratelimited-increase/</link>
       
       <description><![CDATA[
     <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ccwg-ratelimited-increase"></div>
@@ -1731,13 +1855,13 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-ccwg-ratelimited-increase/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-ccwg-ratelimited-increase/</guid>
       
     </item>
     
     <item>
       <title><![CDATA[Segment Routing BGP Egress Peer Engineering over Layer 2 Bundle Members]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-sr-epe-over-l2bundle/</link>
+      <link>https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-idr-bgp-ls-sr-epe-over-l2bundle/</link>
       
       <description><![CDATA[
     <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-bgp-ls-sr-epe-over-l2bundle"></div>
@@ -1869,399 +1993,7 @@
         
     
 ]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-idr-bgp-ls-sr-epe-over-l2bundle/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Structured Error Data for Filtered DNS]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-dnsop-structured-dns-error">
-<a href="/doc/draft-ietf-dnsop-structured-dns-error/ballotpopup/1200852/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1200852" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-recuse"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1200852" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-        
-            IESG Evaluation
-        
-        
-        
-        
-        
-            <br>
-            IESG telechat: 2026-07-09
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-ietf-dnsop-structured-dns-error-22: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-22-artart-lc-kyzivat-2026-06-19/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Early review of draft-ietf-dnsop-structured-dns-error-17: On the Right Track" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-17-dnsdir-early-spacek-2026-02-27/">
-                        dnsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-dnsop-structured-dns-error-15: Not Ready" class="badge rounded-pill text-bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-15-opsdir-lc-chown-2025-05-28/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-dnsop-structured-dns-error-15: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-15-genart-lc-bryant-2025-05-12/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR IETF Last Call review of draft-ietf-dnsop-structured-dns-error-13: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-13-dnsdir-lc-ma-2025-04-24/">
-                        dnsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-ietf-dnsop-structured-dns-error-12: On the Right Track" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-12-artart-lc-kyzivat-2025-04-20/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR IETF Last Call review of draft-ietf-dnsop-structured-dns-error-12: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-12-dnsdir-lc-brown-2025-04-16/">
-                        dnsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Early review of draft-ietf-dnsop-structured-dns-error-03: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-03-secdir-early-salowey-2023-06-30/">
-                        secdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Early review of draft-ietf-dnsop-structured-dns-error-03: Almost Ready" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-03-dnsdir-early-brown-2023-06-29/">
-                        dnsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Early review of draft-ietf-dnsop-structured-dns-error-03: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-03-dnsdir-early-ma-2023-06-25/">
-                        dnsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of dnsop milestone: Submit Structured Error Data for Filtered DNS to the IESG for Publication as Proposed Standard" class="milestone">Dec 2025</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/evyncke@cisco.com">Éric Vyncke</a> <a href="mailto:evyncke%40cisco.com" aria-label="Compose email to evyncke@cisco.com" title="Compose email to evyncke@cisco.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-dnsop-structured-dns-error">
-<a href="/doc/draft-ietf-dnsop-structured-dns-error/ballotpopup/1200852/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1200852" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-recuse"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1200852" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-        
-            IESG Evaluation
-        
-        
-        
-        
-        
-            <br>
-            IESG telechat: 2026-07-09
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-ietf-dnsop-structured-dns-error-22: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-22-artart-lc-kyzivat-2026-06-19/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Early review of draft-ietf-dnsop-structured-dns-error-17: On the Right Track" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-17-dnsdir-early-spacek-2026-02-27/">
-                        dnsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-dnsop-structured-dns-error-15: Not Ready" class="badge rounded-pill text-bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-15-opsdir-lc-chown-2025-05-28/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-dnsop-structured-dns-error-15: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-15-genart-lc-bryant-2025-05-12/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR IETF Last Call review of draft-ietf-dnsop-structured-dns-error-13: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-13-dnsdir-lc-ma-2025-04-24/">
-                        dnsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-ietf-dnsop-structured-dns-error-12: On the Right Track" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-12-artart-lc-kyzivat-2025-04-20/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR IETF Last Call review of draft-ietf-dnsop-structured-dns-error-12: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-12-dnsdir-lc-brown-2025-04-16/">
-                        dnsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Early review of draft-ietf-dnsop-structured-dns-error-03: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-03-secdir-early-salowey-2023-06-30/">
-                        secdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Early review of draft-ietf-dnsop-structured-dns-error-03: Almost Ready" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-03-dnsdir-early-brown-2023-06-29/">
-                        dnsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Early review of draft-ietf-dnsop-structured-dns-error-03: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-dnsop-structured-dns-error-03-dnsdir-early-ma-2023-06-25/">
-                        dnsdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of dnsop milestone: Submit Structured Error Data for Filtered DNS to the IESG for Publication as Proposed Standard" class="milestone">Dec 2025</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/evyncke@cisco.com">Éric Vyncke</a> <a href="mailto:evyncke%40cisco.com" aria-label="Compose email to evyncke@cisco.com" title="Compose email to evyncke@cisco.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-dnsop-structured-dns-error/</guid>
+      <guid isPermaLink="true">https://datatracker.ietf.org/community/personal/mauieasyriders@gmail.com/untrackdocument/draft-ietf-idr-bgp-ls-sr-epe-over-l2bundle/</guid>
       
     </item>
     
