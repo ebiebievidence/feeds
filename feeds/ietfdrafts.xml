@@ -7,7 +7,753 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Thu, 13 Aug 2026 02:45:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 02:44:28 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[RTP Control Protocol (RTCP) Messages for Temporal-Spatial Resolution]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-avtcore-rtcp-green-metadata/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-avtcore-rtcp-green-metadata">
+<a href="/doc/draft-ietf-avtcore-rtcp-green-metadata/ballotpopup/1200215/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1200215" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1200215" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-danger" title="In state for 35 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 35</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="GENART Telechat review of draft-ietf-avtcore-rtcp-green-metadata-10: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-avtcore-rtcp-green-metadata-10-genart-telechat-kyzivat-2026-06-25/">
+                        genart
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-avtcore-rtcp-green-metadata-09: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-avtcore-rtcp-green-metadata-09-genart-lc-kyzivat-2026-06-23/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-avtcore-rtcp-green-metadata-08: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-avtcore-rtcp-green-metadata-08-secdir-lc-roca-2026-06-17/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of avtcore milestone: Submit Proposed Standard for RTCP Messages for Temporal-Spatial Resolution" class="milestone">Apr 2026</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/gorry@erg.abdn.ac.uk">Gorry Fairhurst</a> <a href="mailto:gorry%40erg.abdn.ac.uk" aria-label="Compose email to gorry@erg.abdn.ac.uk" title="Compose email to gorry@erg.abdn.ac.uk">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-avtcore-rtcp-green-metadata">
+<a href="/doc/draft-ietf-avtcore-rtcp-green-metadata/ballotpopup/1200215/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1200215" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-discuss"></td>
+<td class="position-discuss"></td>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1200215" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-danger" title="In state for 35 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 35</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="GENART Telechat review of draft-ietf-avtcore-rtcp-green-metadata-10: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-avtcore-rtcp-green-metadata-10-genart-telechat-kyzivat-2026-06-25/">
+                        genart
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-avtcore-rtcp-green-metadata-09: Ready with Issues" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-avtcore-rtcp-green-metadata-09-genart-lc-kyzivat-2026-06-23/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-avtcore-rtcp-green-metadata-08: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-avtcore-rtcp-green-metadata-08-secdir-lc-roca-2026-06-17/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of avtcore milestone: Submit Proposed Standard for RTCP Messages for Temporal-Spatial Resolution" class="milestone">Apr 2026</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/gorry@erg.abdn.ac.uk">Gorry Fairhurst</a> <a href="mailto:gorry%40erg.abdn.ac.uk" aria-label="Compose email to gorry@erg.abdn.ac.uk" title="Compose email to gorry@erg.abdn.ac.uk">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-avtcore-rtcp-green-metadata/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Secure Asset Transfer Protocol (SATP) Core]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-satp-core/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-satp-core"></div>
+    
+        
+            AD Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-danger" title="In state for 65 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 65</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                In WG Last Call
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Review:
+            
+                
+                    <span title="HTTPDIR Early review of draft-ietf-satp-core-00: Not Ready" class="badge rounded-pill text-bg-danger">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-satp-core-00-httpdir-early-pardue-2023-04-28/">
+                        httpdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of satp milestone: ATP Asset Transfer Protocol document approved by IETF for publication" class="milestone">Nov 2026</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/andy@hxr.us">Andy Newton</a> <a href="mailto:andy%40hxr.us" aria-label="Compose email to andy@hxr.us" title="Compose email to andy@hxr.us">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 25 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 25</span>
+            
+        
+        
+            <br>
+            <span class="badge rounded-pill text-bg-warning">Unexpected WG state</span>
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-satp-core"></div>
+    
+        
+            AD Evaluation::AD Followup
+        
+        
+        
+        <span class="badge rounded-pill text-bg-danger" title="In state for 65 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 65</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                In WG Last Call
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Review:
+            
+                
+                    <span title="HTTPDIR Early review of draft-ietf-satp-core-00: Not Ready" class="badge rounded-pill text-bg-danger">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-satp-core-00-httpdir-early-pardue-2023-04-28/">
+                        httpdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of satp milestone: ATP Asset Transfer Protocol document approved by IETF for publication" class="milestone">Nov 2026</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/andy@hxr.us">Andy Newton</a> <a href="mailto:andy%40hxr.us" aria-label="Compose email to andy@hxr.us" title="Compose email to andy@hxr.us">
+                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 25 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 25</span>
+            
+        
+        
+            <br>
+            <span class="badge rounded-pill text-bg-warning">Unexpected WG state</span>
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-satp-core/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Increase of the Congestion Window when the Sender Is Rate-Limited]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-ccwg-ratelimited-increase/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ccwg-ratelimited-increase">
+<a href="/doc/draft-ietf-ccwg-ratelimited-increase/ballotpopup/1215749/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1215749" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-recuse"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1215749" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="ARTART IETF Last Call review of draft-ietf-ccwg-ratelimited-increase-04: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ccwg-ratelimited-increase-04-artart-lc-blanchet-2026-07-15/">
+                        artart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-ccwg-ratelimited-increase-04: Almost Ready" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ccwg-ratelimited-increase-04-genart-lc-dunbar-2026-07-06/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="TSVART Early review of draft-ietf-ccwg-ratelimited-increase-03: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ccwg-ratelimited-increase-03-tsvart-early-eggert-2026-06-15/">
+                        tsvart
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2026-07-10" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-ccwg-ratelimited-increase/reviewrequest/24479/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of ccwg milestone: Submit Rate-Limited Increase of the Congestion Window for publication as a PS" class="milestone"></span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/mbishop@evequefou.be">Mike Bishop</a> <a href="mailto:mbishop%40evequefou.be" aria-label="Compose email to mbishop@evequefou.be" title="Compose email to mbishop@evequefou.be">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-ccwg-ratelimited-increase">
+<a href="/doc/draft-ietf-ccwg-ratelimited-increase/ballotpopup/1215749/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1215749" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
+<tr>
+<td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
+</tr>
+<tr>
+<td class="position-noobj"></td>
+<td class="position-recuse"></td>
+<td class="position-norecord"></td>
+<td class="position-norecord"></td>
+<td class="position-empty"></td>
+</tr>
+</tbody></table>
+<div id="modal-1215749" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
+</div>
+    
+        
+            IESG Evaluation::AD Followup
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="ARTART IETF Last Call review of draft-ietf-ccwg-ratelimited-increase-04: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ccwg-ratelimited-increase-04-artart-lc-blanchet-2026-07-15/">
+                        artart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-ccwg-ratelimited-increase-04: Almost Ready" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ccwg-ratelimited-increase-04-genart-lc-dunbar-2026-07-06/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="TSVART Early review of draft-ietf-ccwg-ratelimited-increase-03: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-ccwg-ratelimited-increase-03-tsvart-early-eggert-2026-06-15/">
+                        tsvart
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2026-07-10" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-ccwg-ratelimited-increase/reviewrequest/24479/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of ccwg milestone: Submit Rate-Limited Increase of the Congestion Window for publication as a PS" class="milestone"></span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/mbishop@evequefou.be">Mike Bishop</a> <a href="mailto:mbishop%40evequefou.be" aria-label="Compose email to mbishop@evequefou.be" title="Compose email to mbishop@evequefou.be">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-ccwg-ratelimited-increase/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[JSON Meta Application Protocol (JMAP) for Calendars]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-jmap-calendars/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-jmap-calendars"></div>
+    
+        
+            RFC Ed Queue
+        
+        
+            : <a href="https://queue.rfc-editor.org/#draft-ietf-jmap-calendars">Blocked</a>
+        
+        
+        <span class="badge rounded-pill text-bg-danger" title="In state for 637 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 637</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                In WG Last Call
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="ARTART IETF Last Call review of draft-ietf-jmap-calendars-19: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-jmap-calendars-19-artart-lc-mahoney-2024-06-26/">
+                        artart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-jmap-calendars-18: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-jmap-calendars-18-secdir-lc-nir-2024-06-20/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-jmap-calendars-18: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-jmap-calendars-18-genart-lc-even-2024-06-20/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of jmap milestone: Submit JMAP Calendars document to the IESG" class="milestone">Apr 2024</span>
+        
+        
+        
+            <br>
+            <span class="badge rounded-pill text-bg-warning">Unexpected WG state</span>
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-jmap-calendars"></div>
+    
+        
+            RFC Ed Queue
+        
+        
+            : <a href="https://queue.rfc-editor.org/#draft-ietf-jmap-calendars">Blocked</a>
+        
+        
+        <span class="badge rounded-pill text-bg-danger" title="In state for 637 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 637</span>
+        
+        
+            
+        
+        
+            <br>
+            
+                In WG Last Call
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="ARTART IETF Last Call review of draft-ietf-jmap-calendars-19: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-jmap-calendars-19-artart-lc-mahoney-2024-06-26/">
+                        artart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR IETF Last Call review of draft-ietf-jmap-calendars-18: Has Nits" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-jmap-calendars-18-secdir-lc-nir-2024-06-20/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART IETF Last Call review of draft-ietf-jmap-calendars-18: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-jmap-calendars-18-genart-lc-even-2024-06-20/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of jmap milestone: Submit JMAP Calendars document to the IESG" class="milestone">Apr 2024</span>
+        
+        
+        
+            <br>
+            <span class="badge rounded-pill text-bg-warning">Unexpected WG state</span>
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-jmap-calendars/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[BGP-LS Extension for Inter-AS Topology Retrieval]]></title>
@@ -42,11 +788,11 @@
 </div>
     
         
-            Waiting for AD Go-Ahead::AD Followup
+            Waiting for AD Go-Ahead::Revised I-D Needed
         
         
         
-        <span class="badge rounded-pill text-bg-warning" title="In state for 24 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 24</span>
+        
         
         
             
@@ -145,9 +891,21 @@
         
         
             <br>
-            Action Holder:
+            Action Holders:
             
-                <span><a title="Responsible AD" href="/person/gunter@vandevelde.cc">Gunter Van de Velde</a> <a href="mailto:gunter%40vandevelde.cc" aria-label="Compose email to gunter@vandevelde.cc" title="Compose email to gunter@vandevelde.cc">
+                <span><a title="Author" href="/person/wangaj3@chinatelecom.cn">Aijun Wang</a> <a href="mailto:wangaj3%40chinatelecom.cn" aria-label="Compose email to wangaj3@chinatelecom.cn" title="Compose email to wangaj3@chinatelecom.cn">
+                <i class="bi bi-envelope"></i></a></span>,
+            
+                <span><a title="Author" href="/person/huaimo.chen@futurewei.com">Huaimo Chen</a> <a href="mailto:huaimo.chen%40futurewei.com" aria-label="Compose email to huaimo.chen@futurewei.com" title="Compose email to huaimo.chen@futurewei.com">
+                <i class="bi bi-envelope"></i></a></span>,
+            
+                <span><a title="Author" href="/person/ketant.ietf@gmail.com">Ketan Talaulikar</a> <a href="mailto:ketant.ietf%40gmail.com" aria-label="Compose email to ketant.ietf@gmail.com" title="Compose email to ketant.ietf@gmail.com">
+                <i class="bi bi-envelope"></i></a></span>,
+            
+                <span><a title="Author" href="/person/zhuangshunwan@huawei.com">Shunwan Zhuang</a> <a href="mailto:zhuangshunwan%40huawei.com" aria-label="Compose email to zhuangshunwan@huawei.com" title="Compose email to zhuangshunwan@huawei.com">
+                <i class="bi bi-envelope"></i></a></span>,
+            
+                <span><a title="Author" href="/person/linchangwang.04414@h3c.com">Changwang Lin</a> <a href="mailto:linchangwang.04414%40h3c.com" aria-label="Compose email to linchangwang.04414@h3c.com" title="Compose email to linchangwang.04414@h3c.com">
                 <i class="bi bi-envelope"></i></a></span>
             
         
@@ -183,11 +941,11 @@
 </div>
     
         
-            Waiting for AD Go-Ahead::AD Followup
+            Waiting for AD Go-Ahead::Revised I-D Needed
         
         
         
-        <span class="badge rounded-pill text-bg-warning" title="In state for 24 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 24</span>
+        
         
         
             
@@ -286,9 +1044,21 @@
         
         
             <br>
-            Action Holder:
+            Action Holders:
             
-                <span><a title="Responsible AD" href="/person/gunter@vandevelde.cc">Gunter Van de Velde</a> <a href="mailto:gunter%40vandevelde.cc" aria-label="Compose email to gunter@vandevelde.cc" title="Compose email to gunter@vandevelde.cc">
+                <span><a title="Author" href="/person/wangaj3@chinatelecom.cn">Aijun Wang</a> <a href="mailto:wangaj3%40chinatelecom.cn" aria-label="Compose email to wangaj3@chinatelecom.cn" title="Compose email to wangaj3@chinatelecom.cn">
+                <i class="bi bi-envelope"></i></a></span>,
+            
+                <span><a title="Author" href="/person/huaimo.chen@futurewei.com">Huaimo Chen</a> <a href="mailto:huaimo.chen%40futurewei.com" aria-label="Compose email to huaimo.chen@futurewei.com" title="Compose email to huaimo.chen@futurewei.com">
+                <i class="bi bi-envelope"></i></a></span>,
+            
+                <span><a title="Author" href="/person/ketant.ietf@gmail.com">Ketan Talaulikar</a> <a href="mailto:ketant.ietf%40gmail.com" aria-label="Compose email to ketant.ietf@gmail.com" title="Compose email to ketant.ietf@gmail.com">
+                <i class="bi bi-envelope"></i></a></span>,
+            
+                <span><a title="Author" href="/person/zhuangshunwan@huawei.com">Shunwan Zhuang</a> <a href="mailto:zhuangshunwan%40huawei.com" aria-label="Compose email to zhuangshunwan@huawei.com" title="Compose email to zhuangshunwan@huawei.com">
+                <i class="bi bi-envelope"></i></a></span>,
+            
+                <span><a title="Author" href="/person/linchangwang.04414@h3c.com">Changwang Lin</a> <a href="mailto:linchangwang.04414%40h3c.com" aria-label="Compose email to linchangwang.04414@h3c.com" title="Compose email to linchangwang.04414@h3c.com">
                 <i class="bi bi-envelope"></i></a></span>
             
         
@@ -296,6 +1066,120 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-idr-bgpls-inter-as-topology-ext/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[YANG Data Model for IPv6 Neighbor Discovery]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-6man-ipv6-neighbor-discovery-yang/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-6man-ipv6-neighbor-discovery-yang"></div>
+    
+        
+            Publication Requested
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Review:
+            
+                
+                    <span title="YANGDOCTORS Early review of draft-ietf-6man-ipv6-neighbor-discovery-yang-02: Almost Ready" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-6man-ipv6-neighbor-discovery-yang-02-yangdoctors-early-aries-2026-02-22/">
+                        yangdoctors
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/evyncke@cisco.com">Éric Vyncke</a> <a href="mailto:evyncke%40cisco.com" aria-label="Compose email to evyncke@cisco.com" title="Compose email to evyncke@cisco.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-6man-ipv6-neighbor-discovery-yang"></div>
+    
+        
+            Publication Requested
+        
+        
+        
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Review:
+            
+                
+                    <span title="YANGDOCTORS Early review of draft-ietf-6man-ipv6-neighbor-discovery-yang-02: Almost Ready" class="badge rounded-pill text-bg-info">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-6man-ipv6-neighbor-discovery-yang-02-yangdoctors-early-aries-2026-02-22/">
+                        yangdoctors
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/evyncke@cisco.com">Éric Vyncke</a> <a href="mailto:evyncke%40cisco.com" aria-label="Compose email to evyncke@cisco.com" title="Compose email to evyncke@cisco.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-6man-ipv6-neighbor-discovery-yang/</guid>
       
     </item>
     
@@ -597,9 +1481,9 @@
 <tr>
 <td class="position-discuss"></td>
 <td class="position-discuss"></td>
-<td class="position-discuss"></td>
-<td class="position-discuss"></td>
 <td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
 </tr>
 <tr>
 <td class="position-noobj"></td>
@@ -735,9 +1619,9 @@
 <tr>
 <td class="position-discuss"></td>
 <td class="position-discuss"></td>
-<td class="position-discuss"></td>
-<td class="position-discuss"></td>
 <td class="position-yes"></td>
+<td class="position-noobj"></td>
+<td class="position-noobj"></td>
 </tr>
 <tr>
 <td class="position-noobj"></td>
@@ -881,7 +1765,7 @@
 <tr>
 <td class="position-yes"></td>
 <td class="position-noobj"></td>
-<td class="position-norecord"></td>
+<td class="position-noobj"></td>
 <td class="position-norecord"></td>
 <td class="position-norecord"></td>
 </tr>
@@ -1042,7 +1926,7 @@
 <tr>
 <td class="position-yes"></td>
 <td class="position-noobj"></td>
-<td class="position-norecord"></td>
+<td class="position-noobj"></td>
 <td class="position-norecord"></td>
 <td class="position-norecord"></td>
 </tr>
@@ -1436,992 +2320,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-httpbis-no-vary-search/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[JSON Web Token Best Current Practices]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-oauth-rfc8725bis/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-oauth-rfc8725bis">
-<a href="/doc/draft-ietf-oauth-rfc8725bis/ballotpopup/1213060/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1213060" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1213060" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-        
-            IESG Evaluation
-        
-        
-        
-        <span class="badge rounded-pill text-bg-warning" title="In state for 21 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 21</span>
-        
-            <br>
-            IESG telechat: 2026-08-20
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Best Current Practice
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="ARTART Telechat review of draft-ietf-oauth-rfc8725bis-07: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-rfc8725bis-07-artart-telechat-smyslov-2026-07-27/">
-                        artart
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-oauth-rfc8725bis-07: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-rfc8725bis-07-secdir-lc-turner-2026-07-30/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-ietf-oauth-rfc8725bis-06: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-rfc8725bis-06-artart-lc-smyslov-2026-07-10/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2026-07-06" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-oauth-rfc8725bis/reviewrequest/24426/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 21 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 21</span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-oauth-rfc8725bis">
-<a href="/doc/draft-ietf-oauth-rfc8725bis/ballotpopup/1213060/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1213060" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-</tr>
-<tr>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-norecord"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1213060" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-        
-            IESG Evaluation
-        
-        
-        
-        <span class="badge rounded-pill text-bg-warning" title="In state for 21 days; goal is &lt;14 days."><i class="bi bi-clock-fill"></i> 21</span>
-        
-            <br>
-            IESG telechat: 2026-08-20
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Best Current Practice
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="ARTART Telechat review of draft-ietf-oauth-rfc8725bis-07: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-rfc8725bis-07-artart-telechat-smyslov-2026-07-27/">
-                        artart
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-oauth-rfc8725bis-07: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-rfc8725bis-07-secdir-lc-turner-2026-07-30/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-ietf-oauth-rfc8725bis-06: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-oauth-rfc8725bis-06-artart-lc-smyslov-2026-07-10/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2026-07-06" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-oauth-rfc8725bis/reviewrequest/24426/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/debcooley1@gmail.com">Deb Cooley</a> <a href="mailto:debcooley1%40gmail.com" aria-label="Compose email to debcooley1@gmail.com" title="Compose email to debcooley1@gmail.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 21 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 21</span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-oauth-rfc8725bis/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[An Application Layer Interface for Non-Internet-connected Physical Components (NIPC)]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-asdf-nipc/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-asdf-nipc"></div>
-    
-        
-            Publication Requested
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/eckelcu@cisco.com">Charles Eckel</a> <a href="mailto:eckelcu%40cisco.com" aria-label="Compose email to eckelcu@cisco.com" title="Compose email to eckelcu@cisco.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-asdf-nipc"></div>
-    
-        
-            Publication Requested
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/eckelcu@cisco.com">Charles Eckel</a> <a href="mailto:eckelcu%40cisco.com" aria-label="Compose email to eckelcu@cisco.com" title="Compose email to eckelcu@cisco.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-asdf-nipc/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Workload Identity Practices]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-wimse-workload-identity-practices/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-wimse-workload-identity-practices"></div>
-    
-        
-            AD Evaluation::AD Followup
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Informational
-        
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/eckelcu@cisco.com">Charles Eckel</a> <a href="mailto:eckelcu%40cisco.com" aria-label="Compose email to eckelcu@cisco.com" title="Compose email to eckelcu@cisco.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-wimse-workload-identity-practices"></div>
-    
-        
-            AD Evaluation::AD Followup
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Informational
-        
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/eckelcu@cisco.com">Charles Eckel</a> <a href="mailto:eckelcu%40cisco.com" aria-label="Compose email to eckelcu@cisco.com" title="Compose email to eckelcu@cisco.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-wimse-workload-identity-practices/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Encapsulation of Simple Two-Way Active Measurement Protocol for LSPs and Pseudowires in MPLS Networks]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-mpls-stamp-pw/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-mpls-stamp-pw"></div>
-    
-        
-            Waiting for AD Go-Ahead
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-mpls-stamp-pw-06: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-stamp-pw-06-secdir-lc-sheffer-2026-08-11/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-mpls-stamp-pw-06: Almost Ready" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-stamp-pw-06-genart-lc-housley-2026-08-05/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-mpls-stamp-pw-06: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-stamp-pw-06-opsdir-lc-fioccola-2026-08-04/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Early review of draft-ietf-mpls-stamp-pw-05: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-stamp-pw-05-rtgdir-early-white-2026-06-19/">
-                        rtgdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Early review of draft-ietf-mpls-stamp-pw-04: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-stamp-pw-04-secdir-early-sheffer-2026-06-10/">
-                        secdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="PERFMETRDIR Early review of draft-ietf-mpls-stamp-pw-04: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-stamp-pw-04-perfmetrdir-early-pignataro-2026-06-07/">
-                        perfmetrdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2026-08-18" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-mpls-stamp-pw/reviewrequest/24635/">
-                        rtgdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of mpls milestone: Publication request for Encapsulation of Simple Two-Way Active Measurement Protocol for Pseudowires and LSPs in MPLS Networks" class="milestone">Jun 2026</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/james.n.guichard@futurewei.com">Jim Guichard</a> <a href="mailto:james.n.guichard%40futurewei.com" aria-label="Compose email to james.n.guichard@futurewei.com" title="Compose email to james.n.guichard@futurewei.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-mpls-stamp-pw"></div>
-    
-        
-            Waiting for AD Go-Ahead
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="SECDIR IETF Last Call review of draft-ietf-mpls-stamp-pw-06: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-stamp-pw-06-secdir-lc-sheffer-2026-08-11/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="GENART IETF Last Call review of draft-ietf-mpls-stamp-pw-06: Almost Ready" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-stamp-pw-06-genart-lc-housley-2026-08-05/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-mpls-stamp-pw-06: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-stamp-pw-06-opsdir-lc-fioccola-2026-08-04/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Early review of draft-ietf-mpls-stamp-pw-05: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-stamp-pw-05-rtgdir-early-white-2026-06-19/">
-                        rtgdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Early review of draft-ietf-mpls-stamp-pw-04: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-stamp-pw-04-secdir-early-sheffer-2026-06-10/">
-                        secdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="PERFMETRDIR Early review of draft-ietf-mpls-stamp-pw-04: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-mpls-stamp-pw-04-perfmetrdir-early-pignataro-2026-06-07/">
-                        perfmetrdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2026-08-18" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-mpls-stamp-pw/reviewrequest/24635/">
-                        rtgdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of mpls milestone: Publication request for Encapsulation of Simple Two-Way Active Measurement Protocol for Pseudowires and LSPs in MPLS Networks" class="milestone">Jun 2026</span>
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/james.n.guichard@futurewei.com">Jim Guichard</a> <a href="mailto:james.n.guichard%40futurewei.com" aria-label="Compose email to james.n.guichard@futurewei.com" title="Compose email to james.n.guichard@futurewei.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-mpls-stamp-pw/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Stateful NAT64: Network Address and Protocol Translation from IPv6 Clients to IPv4 Servers]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-v6ops-rfc6146-bis/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-v6ops-rfc6146-bis">
-<a href="/doc/draft-ietf-v6ops-rfc6146-bis/ballotpopup/1203321/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1203321" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1203321" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-        
-            IESG Evaluation::AD Followup
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Internet Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="SECDIR Telechat review of draft-ietf-v6ops-rfc6146-bis-11: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-v6ops-rfc6146-bis-11-secdir-telechat-yee-2026-08-05/">
-                        secdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART Telechat review of draft-ietf-v6ops-rfc6146-bis-10: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-v6ops-rfc6146-bis-10-artart-telechat-levine-2026-07-08/">
-                        artart
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Telechat review of draft-ietf-v6ops-rfc6146-bis-10: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-v6ops-rfc6146-bis-10-dnsdir-telechat-reid-2026-07-06/">
-                        dnsdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-ietf-v6ops-rfc6146-bis-07: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-v6ops-rfc6146-bis-07-artart-lc-levine-2026-06-28/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="INTDIR IETF Last Call review of draft-ietf-v6ops-rfc6146-bis-07: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-v6ops-rfc6146-bis-07-intdir-lc-matsushima-2026-06-30/">
-                        intdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-v6ops-rfc6146-bis-07: Not Ready" class="badge rounded-pill text-bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-v6ops-rfc6146-bis-07-opsdir-lc-li-2026-06-26/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART IETF Last Call review of draft-ietf-v6ops-rfc6146-bis-07: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-v6ops-rfc6146-bis-07-tsvart-lc-ott-2026-06-29/">
-                        tsvart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR IETF Last Call review of draft-ietf-v6ops-rfc6146-bis-07: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-v6ops-rfc6146-bis-07-dnsdir-lc-reid-2026-06-28/">
-                        dnsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/mohamed.boucadair@orange.com">Mohamed Boucadair</a> <a href="mailto:mohamed.boucadair%40orange.com" aria-label="Compose email to mohamed.boucadair@orange.com" title="Compose email to mohamed.boucadair@orange.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 42 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 42</span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-v6ops-rfc6146-bis">
-<a href="/doc/draft-ietf-v6ops-rfc6146-bis/ballotpopup/1203321/?ballot_edit_return_point=/doc/recent" data-bs-toggle="modal" data-bs-target="#modal-1203321" aria-label="IESG positions" title="IESG positions (click to show more)" class="ballot-icon"></a><table><tbody>
-<tr>
-<td class="position-yes"></td>
-<td class="position-yes"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-</tr>
-<tr>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-noobj"></td>
-<td class="position-empty"></td>
-</tr>
-</tbody></table>
-<div id="modal-1203321" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable modal-xl modal-fullscreen-lg-down"><div class="modal-content"></div></div></div>
-</div>
-    
-        
-            IESG Evaluation::AD Followup
-        
-        
-        
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Internet Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="SECDIR Telechat review of draft-ietf-v6ops-rfc6146-bis-11: Has Nits" class="badge rounded-pill text-bg-info">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-v6ops-rfc6146-bis-11-secdir-telechat-yee-2026-08-05/">
-                        secdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART Telechat review of draft-ietf-v6ops-rfc6146-bis-10: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-v6ops-rfc6146-bis-10-artart-telechat-levine-2026-07-08/">
-                        artart
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR Telechat review of draft-ietf-v6ops-rfc6146-bis-10: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-v6ops-rfc6146-bis-10-dnsdir-telechat-reid-2026-07-06/">
-                        dnsdir
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="ARTART IETF Last Call review of draft-ietf-v6ops-rfc6146-bis-07: Ready with Issues" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-v6ops-rfc6146-bis-07-artart-lc-levine-2026-06-28/">
-                        artart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="INTDIR IETF Last Call review of draft-ietf-v6ops-rfc6146-bis-07: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-v6ops-rfc6146-bis-07-intdir-lc-matsushima-2026-06-30/">
-                        intdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-v6ops-rfc6146-bis-07: Not Ready" class="badge rounded-pill text-bg-danger">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-v6ops-rfc6146-bis-07-opsdir-lc-li-2026-06-26/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="TSVART IETF Last Call review of draft-ietf-v6ops-rfc6146-bis-07: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-v6ops-rfc6146-bis-07-tsvart-lc-ott-2026-06-29/">
-                        tsvart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="DNSDIR IETF Last Call review of draft-ietf-v6ops-rfc6146-bis-07: Ready with Nits" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-v6ops-rfc6146-bis-07-dnsdir-lc-reid-2026-06-28/">
-                        dnsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-        
-            <br>
-            Action Holder:
-            
-                <span><a title="Responsible AD" href="/person/mohamed.boucadair@orange.com">Mohamed Boucadair</a> <a href="mailto:mohamed.boucadair%40orange.com" aria-label="Compose email to mohamed.boucadair@orange.com" title="Compose email to mohamed.boucadair@orange.com">
-                <i class="bi bi-envelope"></i></a></span> <span class="badge rounded-pill text-bg-danger" title="In state for 42 days; goal is &lt;20 days."><i class="bi bi-clock-fill"></i> 42</span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-v6ops-rfc6146-bis/</guid>
       
     </item>
     
