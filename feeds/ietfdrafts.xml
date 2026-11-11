@@ -7,7 +7,419 @@
     <link>https://datatracker.ietf.org/doc/recent</link>
     <atom:link href="https://ebiebievidence.github.io/feeds/feeds/ietfdrafts.xml" rel="self"/>
     <description><![CDATA[IETF Internet Drafts]]></description>
-    <lastBuildDate>Tue, 10 Nov 2026 07:15:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 06:12:57 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[A Profile for Autonomous System Provider Authorization]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-sidrops-aspa-profile/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-sidrops-aspa-profile"></div>
+    
+        In Last Call (ends 2026-12-01)
+        
+        
+        
+        
+            
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="ARTART Early review of draft-ietf-sidrops-aspa-profile-27: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-aspa-profile-27-artart-early-brown-2026-07-15/">
+                        artart
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Early review of draft-ietf-sidrops-aspa-profile-27: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-aspa-profile-27-genart-early-yee-2026-07-19/">
+                        genart
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="BGPDIR Early review of draft-ietf-sidrops-aspa-profile-27: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-aspa-profile-27-bgpdir-early-sangli-2026-07-14/">
+                        bgpdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Early review of draft-ietf-sidrops-aspa-profile-26: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-aspa-profile-26-secdir-early-salz-2026-06-08/">
+                        secdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of sidrops milestone: Submit draft-ietf-sidrops-aspa-profile to the IESG for publication" class="milestone">Mar 2026</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/mohamed.boucadair@orange.com">Mohamed Boucadair</a> <a href="mailto:mohamed.boucadair%40orange.com" aria-label="Compose email to mohamed.boucadair@orange.com" title="Compose email to mohamed.boucadair@orange.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-sidrops-aspa-profile"></div>
+    
+        In Last Call (ends 2026-12-01)
+        
+        
+        
+        
+            
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="ARTART Early review of draft-ietf-sidrops-aspa-profile-27: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-aspa-profile-27-artart-early-brown-2026-07-15/">
+                        artart
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="GENART Early review of draft-ietf-sidrops-aspa-profile-27: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-aspa-profile-27-genart-early-yee-2026-07-19/">
+                        genart
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="BGPDIR Early review of draft-ietf-sidrops-aspa-profile-27: Ready with Nits" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-aspa-profile-27-bgpdir-early-sangli-2026-07-14/">
+                        bgpdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Early review of draft-ietf-sidrops-aspa-profile-26: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-sidrops-aspa-profile-26-secdir-early-salz-2026-06-08/">
+                        secdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of sidrops milestone: Submit draft-ietf-sidrops-aspa-profile to the IESG for publication" class="milestone">Mar 2026</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/mohamed.boucadair@orange.com">Mohamed Boucadair</a> <a href="mailto:mohamed.boucadair%40orange.com" aria-label="Compose email to mohamed.boucadair@orange.com" title="Compose email to mohamed.boucadair@orange.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-sidrops-aspa-profile/</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[Traffic Steering using BGP FlowSpec with SR Policy]]></title>
+      <link>https://datatracker.ietf.org/doc/draft-ietf-idr-ts-flowspec-srv6-policy/</link>
+      
+      <description><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-ts-flowspec-srv6-policy"></div>
+    
+        Approved-announcement to be sent::AD Followup
+        
+        
+        
+        
+            
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="OPSDIR IETF Last Call review of draft-ietf-idr-ts-flowspec-srv6-policy-21: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-ts-flowspec-srv6-policy-21-opsdir-lc-chen-2026-11-05/">
+                        opsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Early review of draft-ietf-idr-ts-flowspec-srv6-policy-03: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-ts-flowspec-srv6-policy-03-secdir-early-smith-2023-10-09/">
+                        secdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Early review of draft-ietf-idr-ts-flowspec-srv6-policy-03: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-ts-flowspec-srv6-policy-03-rtgdir-early-smith-2023-11-16/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2026-10-28" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-idr-ts-flowspec-srv6-policy/reviewrequest/25157/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2026-10-28" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-idr-ts-flowspec-srv6-policy/reviewrequest/25148/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of idr milestone: Complete WGLC for BGP FlowSpec Extensions for SRv6 Policy as a Proposed Standard" class="milestone">Nov 2026</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/ketant.ietf@gmail.com">Ketan Talaulikar</a> <a href="mailto:ketant.ietf%40gmail.com" aria-label="Compose email to ketant.ietf@gmail.com" title="Compose email to ketant.ietf@gmail.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></description>
+      <content:encoded><![CDATA[
+    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-ts-flowspec-srv6-policy"></div>
+    
+        Approved-announcement to be sent::AD Followup
+        
+        
+        
+        
+            
+        
+        
+        
+            
+        
+        
+            <br>
+            
+                Submitted to IESG for Publication
+                
+                    :
+                
+            
+        
+        Proposed Standard
+        
+        
+            <br>
+            Reviews:
+            
+                
+                    <span title="OPSDIR IETF Last Call review of draft-ietf-idr-ts-flowspec-srv6-policy-21: Has Issues" class="badge rounded-pill text-bg-warning">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-ts-flowspec-srv6-policy-21-opsdir-lc-chen-2026-11-05/">
+                        opsdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="SECDIR Early review of draft-ietf-idr-ts-flowspec-srv6-policy-03: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-ts-flowspec-srv6-policy-03-secdir-early-smith-2023-10-09/">
+                        secdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                    <span title="RTGDIR Early review of draft-ietf-idr-ts-flowspec-srv6-policy-03: Ready" class="badge rounded-pill text-bg-success">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-ts-flowspec-srv6-policy-03-rtgdir-early-smith-2023-11-16/">
+                        rtgdir
+                        
+                            Early
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2026-10-28" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-idr-ts-flowspec-srv6-policy/reviewrequest/25157/">
+                        genart
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+                
+                        <span title="Incomplete, due 2026-10-28" class="badge rounded-pill text-bg-secondary">
+                    
+                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-idr-ts-flowspec-srv6-policy/reviewrequest/25148/">
+                        secdir
+                        
+                            IETF Last Call
+                        
+                    </a>
+                    </span>
+
+            
+        
+        
+            <br>
+            <span title="Part of idr milestone: Complete WGLC for BGP FlowSpec Extensions for SRv6 Policy as a Proposed Standard" class="milestone">Nov 2026</span>
+        
+        
+            <br>
+            Action Holder:
+            
+                <span><a title="Responsible AD" href="/person/ketant.ietf@gmail.com">Ketan Talaulikar</a> <a href="mailto:ketant.ietf%40gmail.com" aria-label="Compose email to ketant.ietf@gmail.com" title="Compose email to ketant.ietf@gmail.com">
+                <i class="bi bi-envelope"></i></a></span>
+            
+        
+        
+    
+]]></content:encoded>
+      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-idr-ts-flowspec-srv6-policy/</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[Applicability Statement for IETF Core Email Protocols]]></title>
@@ -1380,7 +1792,7 @@
     
         IESG: RFC Ed Queue
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 621 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 621</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 622 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 622</span>
         
         
             
@@ -1443,7 +1855,7 @@
     
         IESG: RFC Ed Queue
         
-        <span class="badge rounded-pill text-bg-danger" title="In state for 621 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 621</span>
+        <span class="badge rounded-pill text-bg-danger" title="In state for 622 days; goal is &lt;60 days."><i class="bi bi-clock-fill"></i> 622</span>
         
         
             
@@ -1710,248 +2122,6 @@
     
 ]]></content:encoded>
       <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-rats-network-device-subscription/</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[Traffic Steering using BGP FlowSpec with SR Policy]]></title>
-      <link>https://datatracker.ietf.org/doc/draft-ietf-idr-ts-flowspec-srv6-policy/</link>
-      
-      <description><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-ts-flowspec-srv6-policy"></div>
-    
-        Approved-announcement to be sent::Revised I-D Needed
-        
-        
-        
-        
-            
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-idr-ts-flowspec-srv6-policy-21: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-ts-flowspec-srv6-policy-21-opsdir-lc-chen-2026-11-05/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Early review of draft-ietf-idr-ts-flowspec-srv6-policy-03: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-ts-flowspec-srv6-policy-03-secdir-early-smith-2023-10-09/">
-                        secdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Early review of draft-ietf-idr-ts-flowspec-srv6-policy-03: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-ts-flowspec-srv6-policy-03-rtgdir-early-smith-2023-11-16/">
-                        rtgdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2026-10-28" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-idr-ts-flowspec-srv6-policy/reviewrequest/25157/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2026-10-28" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-idr-ts-flowspec-srv6-policy/reviewrequest/25148/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of idr milestone: Complete WGLC for BGP FlowSpec Extensions for SRv6 Policy as a Proposed Standard" class="milestone">Nov 2026</span>
-        
-        
-            <br>
-            Action Holders:
-            
-                <span><a title="Author" href="/person/jiangwenying@chinamobile.com">Jiang Wenying</a> <a href="mailto:jiangwenying%40chinamobile.com" aria-label="Compose email to jiangwenying@chinamobile.com" title="Compose email to jiangwenying@chinamobile.com">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author" href="/person/liuyisong@chinamobile.com">Yisong Liu</a> <a href="mailto:liuyisong%40chinamobile.com" aria-label="Compose email to liuyisong@chinamobile.com" title="Compose email to liuyisong@chinamobile.com">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author" href="/person/zhuangshunwan@huawei.com">Shunwan Zhuang</a> <a href="mailto:zhuangshunwan%40huawei.com" aria-label="Compose email to zhuangshunwan@huawei.com" title="Compose email to zhuangshunwan@huawei.com">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author" href="/person/hayabusagsm@gmail.com">Gyan Mishra</a> <a href="mailto:hayabusagsm%40gmail.com" aria-label="Compose email to hayabusagsm@gmail.com" title="Compose email to hayabusagsm@gmail.com">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author" href="/person/chenshuanglong@huawei.com">Shuanglong Chen</a> <a href="mailto:chenshuanglong%40huawei.com" aria-label="Compose email to chenshuanglong@huawei.com" title="Compose email to chenshuanglong@huawei.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></description>
-      <content:encoded><![CDATA[
-    <div class="float-end ms-1 mb-1" id="ballot-icon-draft-ietf-idr-ts-flowspec-srv6-policy"></div>
-    
-        Approved-announcement to be sent::Revised I-D Needed
-        
-        
-        
-        
-            
-        
-        
-        
-            
-        
-        
-            <br>
-            
-                Submitted to IESG for Publication
-                
-                    :
-                
-            
-        
-        Proposed Standard
-        
-        
-            <br>
-            Reviews:
-            
-                
-                    <span title="OPSDIR IETF Last Call review of draft-ietf-idr-ts-flowspec-srv6-policy-21: Has Issues" class="badge rounded-pill text-bg-warning">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-ts-flowspec-srv6-policy-21-opsdir-lc-chen-2026-11-05/">
-                        opsdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="SECDIR Early review of draft-ietf-idr-ts-flowspec-srv6-policy-03: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-ts-flowspec-srv6-policy-03-secdir-early-smith-2023-10-09/">
-                        secdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                    <span title="RTGDIR Early review of draft-ietf-idr-ts-flowspec-srv6-policy-03: Ready" class="badge rounded-pill text-bg-success">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/review-ietf-idr-ts-flowspec-srv6-policy-03-rtgdir-early-smith-2023-11-16/">
-                        rtgdir
-                        
-                            Early
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2026-10-28" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-idr-ts-flowspec-srv6-policy/reviewrequest/25157/">
-                        genart
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-                
-                        <span title="Incomplete, due 2026-10-28" class="badge rounded-pill text-bg-secondary">
-                    
-                    <a class="text-reset text-decoration-none" href="/doc/draft-ietf-idr-ts-flowspec-srv6-policy/reviewrequest/25148/">
-                        secdir
-                        
-                            IETF Last Call
-                        
-                    </a>
-                    </span>
-
-            
-        
-        
-            <br>
-            <span title="Part of idr milestone: Complete WGLC for BGP FlowSpec Extensions for SRv6 Policy as a Proposed Standard" class="milestone">Nov 2026</span>
-        
-        
-            <br>
-            Action Holders:
-            
-                <span><a title="Author" href="/person/jiangwenying@chinamobile.com">Jiang Wenying</a> <a href="mailto:jiangwenying%40chinamobile.com" aria-label="Compose email to jiangwenying@chinamobile.com" title="Compose email to jiangwenying@chinamobile.com">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author" href="/person/liuyisong@chinamobile.com">Yisong Liu</a> <a href="mailto:liuyisong%40chinamobile.com" aria-label="Compose email to liuyisong@chinamobile.com" title="Compose email to liuyisong@chinamobile.com">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author" href="/person/zhuangshunwan@huawei.com">Shunwan Zhuang</a> <a href="mailto:zhuangshunwan%40huawei.com" aria-label="Compose email to zhuangshunwan@huawei.com" title="Compose email to zhuangshunwan@huawei.com">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author" href="/person/hayabusagsm@gmail.com">Gyan Mishra</a> <a href="mailto:hayabusagsm%40gmail.com" aria-label="Compose email to hayabusagsm@gmail.com" title="Compose email to hayabusagsm@gmail.com">
-                <i class="bi bi-envelope"></i></a></span>,
-            
-                <span><a title="Author" href="/person/chenshuanglong@huawei.com">Shuanglong Chen</a> <a href="mailto:chenshuanglong%40huawei.com" aria-label="Compose email to chenshuanglong@huawei.com" title="Compose email to chenshuanglong@huawei.com">
-                <i class="bi bi-envelope"></i></a></span>
-            
-        
-        
-    
-]]></content:encoded>
-      <guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-idr-ts-flowspec-srv6-policy/</guid>
       
     </item>
     
